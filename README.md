@@ -1,5 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 Ethical Gearz
 
 Ethical Gearz is a full ecommerce site that specializes in selling top-of-the-line hacking gear to customers around the world. The site is built using Django, Python, HTML, CSS, and JavaScript, and utilizes Stripe as its payment processor.
@@ -8,7 +6,7 @@ Ethical Gearz is a full ecommerce site that specializes in selling top-of-the-li
 
 ## Strategy Plane
 
-### Project Goals
+### Site Goals
 
 Ethical Gearz is a Business to Consumer (B2C) e-commerce site that sells ethical hacking software, tools and equipment.
 
@@ -88,3 +86,12 @@ Defensive Application programming techniques were utilized in the development of
 
 ### Change Password Success Page
 
+# Technology
+
+# Deployment
+
+# Testing
+
+# Credits
+
+# Acknowledgements
