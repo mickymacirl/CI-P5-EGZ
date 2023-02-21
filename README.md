@@ -30,6 +30,8 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ## Surface Plane
 
+### Wireframes
+
 # Features
 
 ## Features of the website
