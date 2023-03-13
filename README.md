@@ -220,7 +220,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ## Brand Recognition vs Brand Awareness
 
-* Used *[Fabrik Brands](https://fabrikbrands.com/brand-recognition-or-brand-awareness/)* for using the different types of Brand Marketing.
+* Used *[Fabrik Brands](https://fabrikbrands.com/brand-recognition-or-brand-awareness/)* for reference to the different types of Brand Marketing.
 
 ## GDPR Policy
 
