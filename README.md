@@ -240,7 +240,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ## Balsamiq
 
-* The wireframes were created using Balsamiq
+* The wireframes were created using Balsamiq.
 
 ## TinyPNG
 
