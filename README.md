@@ -100,6 +100,8 @@ Defensive Application programming techniques were utilized in the development of
 
 ### 500 Error Page
 
+### GDPR Policy Page
+
 ### Terms and Conditions Page
 
 ### Privacy Policy Page
