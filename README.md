@@ -232,7 +232,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ## Hak5.org
 
-* Used *[Hak5.org Web Store](https://www.privacypolicygenerator.info/)* for product ideas and help understanding ethical marketing and marketing strategy.
+* Used *[Hak5.org Web Store](https://www.privacypolicygenerator.info/)* for product ideas and help in understanding ethical marketing and marketing strategy.
 
 ## Ethical Behavior Policy
 
