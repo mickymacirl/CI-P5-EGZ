@@ -252,6 +252,16 @@ Defensive Application programming techniques were utilized in the development of
 
 # Credits
 
+## Design Website
+
+* Used *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
+
+* Used *[Color Hunt](https://colorhunt.co/)* to help with color design.
+
+* Used *[Name that color](https://chir.ag/projects/name-that-color/)* for name colors.
+
+* Used *[Color Wheel](https://www.canva.com/colors/color-wheel/)* for color compatibility.
+
 ## Brand Recognition vs Brand Awareness
 
 * Used *[Fabrik Brands](https://fabrikbrands.com/brand-recognition-or-brand-awareness/)* for reference to the different types of Brand Marketing.
