@@ -1,6 +1,6 @@
 Ethical Gearz
 
-Ethical Gearz is a full ecommerce site that specializes in selling top-of-the-line hacking gear to customers around the world. The site is built using Django, Python, HTML, CSS, and JavaScript, and utilizes Stripe as its payment processor.
+[Ethical Gearz](https://www.ethicalgearz.com/) is a full ecommerce site that specializes in selling top-of-the-line hacking gear to customers around the world. The site is built using Django, Python, HTML, CSS, and JavaScript, and utilizes Stripe as its payment processor.
 
 This was my fifth project for the Code Institute's [Full Stack Software Development Diploma](https://codeinstitute.net/ie/full-stack-software-development-diploma/).
 
@@ -12,7 +12,7 @@ This was my fifth project for the Code Institute's [Full Stack Software Developm
 
 Ethical Gearz is a Business to Consumer (B2C) e-commerce site that sells ethical hacking software, tools and equipment.
 
-As a 20-year security veteran, currently working in an information security capacity for the Irish government, I am excited to introduce Ethical Gearz - an ecommerce store catering to individuals and organizations interested in cybersecurity and ethical hacking. Our primary goal is to provide a range of ethical hacking products suitable for hackers of all levels, at different price points, all in one place. Our aim is to create a platform for people interested in ethical hacking, which aligns with the principles of responsible hacking and contributes to the development of the cybersecurity community. With a strong focus on responsible and ethical hacking, we strive to provide a safe and reliable space for our customers to purchase the necessary tools and equipment for their ethical hacking projects.
+We are excited to introduce Ethical Gearz - an ecommerce store catering to individuals and organizations interested in cybersecurity and ethical hacking. Our primary goal is to provide a range of ethical hacking products suitable for hackers of all levels, at different price points, all in one place. Our aim is to create a platform for people interested in ethical hacking, which aligns with the principles of responsible hacking and contributes to the development of the cybersecurity community. With a strong focus on responsible and ethical hacking, we strive to provide a safe and reliable space for our customers to purchase the necessary tools and equipment for their ethical hacking projects.
 
 As cybersecurity threats continue to increase, and more businesses are becoming targets, the need for ethical hacking has become more important than ever. Ethical Gearz seeks to provide a platform that promotes the ethical use of hacking tools and equipment, raises awareness about cybersecurity issues, and educates customers on how to stay safe and secure online.
 
