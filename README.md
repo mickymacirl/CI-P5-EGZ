@@ -262,6 +262,14 @@ Defensive Application programming techniques were utilized in the development of
 
 * Used *[Color Wheel](https://www.canva.com/colors/color-wheel/)* for color compatibility.
 
+## Facebook Mockup Template
+
+* Used *[Design Bolts](https://www.designbolts.com/2018/07/19/new-free-facebook-business-profile-page-mockup-psd-2018/)* to design Facebook Business Profile Page mockup.
+
+## LinkedIn Mockup Template
+
+* Used *[Design Bolts](https://www.designbolts.com/2018/07/19/new-free-facebook-business-profile-page-mockup-psd-2018/)* to design LinkedIn Business Profile Page mockup.
+
 ## Brand Recognition vs Brand Awareness
 
 * Used *[Fabrik Brands](https://fabrikbrands.com/brand-recognition-or-brand-awareness/)* for reference to the different types of Brand Marketing.
