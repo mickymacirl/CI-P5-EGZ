@@ -268,7 +268,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ## LinkedIn Mockup Template
 
-* Used *[Design Bolts](https://www.designbolts.com/2018/07/19/new-free-facebook-business-profile-page-mockup-psd-2018/)* to design LinkedIn Business Profile Page mockup.
+* Used *[Freebie SUI](https://freebiesui.com/free-psd/psd-mockups/free-linkedin-mockups/)* to design LinkedIn Business Profile Page mockup.
 
 ## Brand Recognition vs Brand Awareness
 
