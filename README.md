@@ -98,15 +98,41 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ## Surface Plane
 
-### Design
+## Design
 
-#### Logo
+### Logo
 
 Logo designed using Smashing Logos with references to cyber security topics.
 
-![Logo](./docs/readme/rm_logo.jpg)
+![Logo](./docs/readme/logo.jpg)
 
-#### Wireframes
+### Color Scheme
+
+The website's primary color scheme is white on white. To match the color of the logo,  were added to borders, button text, and hover effects.
+
+![Colors](./docs/readme/colors.jpg)
+
+### Typography
+
+Throughout the website, the *[Font 1](https://fonts.google.com/specimen/)* font was used. This font was imported into the style sheet from Google Fonts.
+
+Logo fonts are:
+
+### Font 1
+
+![Font 1](./docs/readme/1.jpg)
+
+### Font 2
+
+![Font 2](./docs/readme/2.jpg)
+
+### Imagery
+
+Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
+
+Used Abode Photoshop to edit the main hero image with the logo in the circles from *[Circle Tech](https://test/)*. and the main banner image with logo text and icon.
+
+### Wireframes
 
 # Features
 
@@ -178,7 +204,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ## HTML
 
-* The main structure of the blog was developed using HTML as the main language.
+* The main structure of the website was developed using HTML as the main language.
 
 ## CSS
 
