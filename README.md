@@ -104,4 +104,8 @@ Defensive Application programming techniques were utilized in the development of
 
 # Credits
 
+## Privacy Policy
+
+* Used *[Privacy Policy Generator](https://www.privacypolicygenerator.info/)* to generate a privacy policy.
+
 # Acknowledgements
