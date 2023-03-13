@@ -174,7 +174,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ## CSS
 
-* The blog was styled using bootstrap and custom css.
+* The webpage was styled using bootstrap and custom css.
 
 ## Python
 
@@ -186,7 +186,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ## Adobe Dreamweaver
 
-* The blog tested and designed using *[Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)*.
+* The website tested and designed using *[Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)*.
 
 ## PyCharm
 
