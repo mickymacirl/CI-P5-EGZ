@@ -44,6 +44,44 @@ To promote responsible and ethical hacking, we will implement a marketing strate
 This includes SEO to increase the visibility and reach of our website, content marketing to provide useful information and resources to our target audience, social media marketing to engage with our followers and promote our brand, and email marketing with Mailchimp to keep our subscribers up to date on our latest products and promotions.
 We hope to establish Ethical Gearz as a reliable source of ethical hacking tools and resources, as well as to contribute to the growth of the cybersecurity community, by utilizing these marketing channels.
 
+#### Brand Awareness
+
+Brand awareness is a key component of our marketing strategy at Ethical Gearz. We aim to establish a strong brand identity by using consistent branding elements such as a professional logo and slogan, and a brand-named domain name. By utilizing these elements across all marketing channels, we hope to increase brand recognition and establish Ethical Gearz as a trusted and reliable source for ethical hacking tools and resources. We will also prioritize customer satisfaction, as positive reviews and word-of-mouth recommendations are essential for building and maintaining a strong brand reputation.
+
+#### Brand Recognition
+
+For our marketing strategy, we will focus on building brand recognition by using a professional logo and slogan and a branded domain name, ethicalgearz.com. This will help to establish our brand identity and make it easier for customers to remember us. We will also ensure that our branding is consistent across all marketing channels to increase recognition and make our brand more memorable.
+
+Pic of Logo
+domain name
+
+#### Search Engine Optimization
+
+A key strategy for improving the visibility of Ethical Gearz in search engine results pages is search engine optimization (SEO). One important step in this process was creating a dedicated domain for the website, which is ethicalgearz.com, to improve indexing by search engines. By using ethicalgearz.com as our domain, we will increase the chances of our site appearing higher in search results when users search for keywords related to ethical hacking and cybersecurity. This will help us reach a wider audience and ultimately drive more traffic to the site.
+
+Picture of SEO
+
+#### Content Marketing
+
+Content marketing for Ethical Gearz involves creating and sharing informative and engaging content related to ethical hacking and cybersecurity. This content could take the form of blog posts and infographics. The goal of content marketing is to attract and retain a clearly defined audience, and ultimately, to drive profitable customer action. By providing valuable and educational content on the site, Ethical Gearz can establish itself as a trusted resource for ethical hackers of all levels, and build a loyal following over time.
+
+Picture of Content Marketing
+
+#### Social Media Marketing
+
+Ethical Gearz will utilize Facebook and LinkedIn as social media marketing platforms to promote our brand and products. We will engage with our audience by sharing informative and educational content related to ethical hacking and cybersecurity, highlighting our products, and encouraging discussion and feedback. Through these platforms, we aim to build a strong community of individuals and organizations interested in ethical hacking and cybersecurity.
+
+Picture of Facebook Page
+
+Picture of LinkedIn Page
+
+#### Email Marketing
+
+Ethical Gearz will utilize Mailchimp as our email marketing platform to reach our audience with relevant content, promotions, and updates. With Mailchimp's robust features, we will be able to target specific segments of our audience, personalize our messages, and track the success of our campaigns. This will allow us to build strong relationships with our customers and keep them engaged with our brand.
+
+Picture of Mailchimp
+Link to Newsletter Signup
+
 ### Agile Planning
 
 The project was developed using agile practices, with small features delivered in incremental sprints over a 5 week period. Issues were organized into milestones and prioritized using labels such as "must have," "should have," "could have," and "nice to have."
@@ -135,6 +173,10 @@ Defensive Application programming techniques were utilized in the development of
 # Testing
 
 # Credits
+
+## Brand Recognition vs Brand Awareness
+
+* Used *[Fabrik Brands](https://fabrikbrands.com/brand-recognition-or-brand-awareness/)* for using the different types of Brand Marketing.
 
 ## GDPR Policy
 
