@@ -194,11 +194,11 @@ Defensive Application programming techniques were utilized in the development of
 
 ## GitHub
 
-* Source code is on GitHub
+* Source code is on GitHub.
 
 ## Git
 
-* Used to commit and push code during the development of the blog
+* Used to commit and push code during the development of the website.
 
 ## Font Awesome
 
