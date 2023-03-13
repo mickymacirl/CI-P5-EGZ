@@ -168,6 +168,50 @@ Defensive Application programming techniques were utilized in the development of
 
 # Technology
 
+## HTML
+
+* The main structure of the blog was developed using HTML as the main language.
+
+## CSS
+
+* The blog was styled using bootstrap and custom css.
+
+## Python
+
+* Python was used with the Django framework.
+
+## Adobe Photoshop
+
+* Used *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)* for image preperation including facebook and linkedin mockups.
+
+## Adobe Dreamweaver
+
+* The blog tested and designed using *[Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)*.
+
+## PyCharm
+
+* The website was developed using *[PyCharm](https://www.jetbrains.com/pycharm/)*.
+
+## GitHub
+
+* Source code is on GitHub
+
+## Git
+
+* Used to commit and push code during the development of the blog
+
+## Font Awesome
+
+* Used for icons and fonts.
+
+## Balsamiq
+
+* The wireframes were created using Balsamiq
+
+## TinyPNG
+
+* TinyPNG is was used to reduce image sizes to improve lighthouse scores.
+
 # Deployment
 
 # Testing
