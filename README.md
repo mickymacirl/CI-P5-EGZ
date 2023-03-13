@@ -2,7 +2,9 @@
 
 [Ethical Gearz](https://www.ethicalgearz.com/) is a full ecommerce site that specializes in selling top-of-the-line hacking gear to customers around the world. The site is built using Django, Python, HTML, CSS, and JavaScript, and utilizes Stripe as its payment processor.
 
-![Logo](/docs/readme/logo.png)
+<p align="center" width="100%">
+    <img src="./docs/readme/logo.png">
+</p>
 
 This was my fifth project for the Code Institute's [Full Stack Software Development Diploma](https://codeinstitute.net/ie/full-stack-software-development-diploma/).
 
