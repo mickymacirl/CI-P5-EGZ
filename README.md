@@ -22,7 +22,7 @@ As cybersecurity threats continue to increase, and more businesses are becoming 
 
 ### Marketing Strategies
 
-"Ethical Gearz advocates for responsible and ethical hacking practices."
+"Ethical Gearz advocates for responsible and ethical hacking practices. Empowering Ethical Hackers Everywhere."
 
 As a result, our marketing strategy is focused on creating a community of like-minded individuals and organizations who share this belief.
 
