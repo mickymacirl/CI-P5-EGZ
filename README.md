@@ -106,9 +106,13 @@ Defensive Application programming techniques were utilized in the development of
 
 # Credits
 
+## GDPR Policy
+
+* Used *[GDPR Policy Generator](https://www.gdprprivacynotice.com/)* to generate a base GDPR policy temple.
+
 ## Privacy Policy
 
-* Used *[Privacy Policy Generator](https://www.privacypolicygenerator.info/)* to generate a privacy policy.
+* Used *[Privacy Policy Generator](https://www.privacypolicygenerator.info/)* to generate a base privacy policy template.
 
 ## Hak5.org
 
