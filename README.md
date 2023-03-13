@@ -42,7 +42,7 @@ To accomplish this, we will employ a combination of digital marketing tactics an
 
 To promote responsible and ethical hacking, we will implement a marketing strategy that will make use of various digital marketing channels.
 This includes SEO to increase the visibility and reach of our website, content marketing to provide useful information and resources to our target audience, social media marketing to engage with our followers and promote our brand, and email marketing with Mailchimp to keep our subscribers up to date on our latest products and promotions.
-We hope to establish Ethical Gearz as a reliable source of ethical hacking tools and resources, as well as to contribute to the growth of the cybersecurity community, by utilizing these marketing channels. 
+We hope to establish Ethical Gearz as a reliable source of ethical hacking tools and resources, as well as to contribute to the growth of the cybersecurity community, by utilizing these marketing channels.
 
 ### Agile Planning
 
