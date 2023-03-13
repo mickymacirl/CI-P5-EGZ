@@ -88,7 +88,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ### Check Out Payment Overlay
 
-### Chec Out Success Page
+### Check Out Success Page
 
 ### User Profile Page
 
