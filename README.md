@@ -1,4 +1,4 @@
-Ethical Gearz
+**Ethical Gearz - Empowering Ethical Hackers Everywhere
 
 [Ethical Gearz](https://www.ethicalgearz.com/) is a full ecommerce site that specializes in selling top-of-the-line hacking gear to customers around the world. The site is built using Django, Python, HTML, CSS, and JavaScript, and utilizes Stripe as its payment processor.
 
