@@ -22,7 +22,7 @@ As cybersecurity threats continue to increase, and more businesses are becoming 
 
 ### Marketing Strategies
 
-**Ethical Gearz advocates for responsible and ethical hacking practices. Empowering Ethical Hackers Everywhere.**
+**Ethical Gearz advocates for responsible and ethical hacking practices.**
 
 As a result, our marketing strategy is focused on creating a community of like-minded individuals and organizations who share this belief.
 
@@ -45,7 +45,7 @@ To accomplish this, we will employ a combination of digital marketing tactics an
 **Customer reviews:** Encourage customers to leave reviews on the website and other review platforms to build social proof and credibility in the industry.
 
 To promote responsible and ethical hacking, we will implement a marketing strategy that will make use of various digital marketing channels.
-This includes SEO to increase the visibility and reach of our website, content marketing to provide useful information and resources to our target audience, social media marketing to engage with our followers and promote our brand, and email marketing with Mailchimp to keep our subscribers up to date on our latest products and promotions.
+This includes SEO to increase the visibility and reach of our website, brand awareness and recognition, content marketing to provide useful information and resources to our target audience, social media marketing to engage with our followers and promote our brand, and email marketing with Mailchimp to keep our subscribers up to date on our latest products and promotions.
 We hope to establish Ethical Gearz as a reliable source of ethical hacking tools and resources, as well as to contribute to the growth of the cybersecurity community, by utilizing these marketing channels.
 
 #### Brand Awareness
