@@ -12,7 +12,7 @@ This was my fifth project for the Code Institute's [Full Stack Software Developm
 
 ### Site Goals
 
-Ethical Gearz is a Business to Consumer (B2C) e-commerce site that sells ethical hacking software, tools and equipment.
+Ethical Gearz website is a Business to Consumer (B2C) e-commerce site that sells ethical hacking software, tools and equipment.
 
 We are excited to introduce Ethical Gearz - an ecommerce store catering to individuals and organizations interested in cybersecurity and ethical hacking. Our primary goal is to provide a range of ethical hacking products suitable for hackers of all levels, at different price points, all in one place. Our aim is to create a platform for people interested in ethical hacking, which aligns with the principles of responsible hacking and contributes to the development of the cybersecurity community. With a strong focus on responsible and ethical hacking, we strive to provide a safe and reliable space for our customers to purchase the necessary tools and equipment for their ethical hacking projects.
 
