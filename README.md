@@ -2,6 +2,8 @@ Ethical Gearz
 
 Ethical Gearz is a full ecommerce site that specializes in selling top-of-the-line hacking gear to customers around the world. The site is built using Django, Python, HTML, CSS, and JavaScript, and utilizes Stripe as its payment processor.
 
+This was my fifth project for the Code Institute's [Full Stack Software Development Diploma](https://codeinstitute.net/ie/full-stack-software-development-diploma/).
+
 # User Experience
 
 ## Strategy Plane
@@ -107,5 +109,13 @@ Defensive Application programming techniques were utilized in the development of
 ## Privacy Policy
 
 * Used *[Privacy Policy Generator](https://www.privacypolicygenerator.info/)* to generate a privacy policy.
+
+## Hak5.org
+
+* Used *[Hak5.org Web Store](https://www.privacypolicygenerator.info/)* for product ideas and help understanding ethical marketing and marketing stragey.
+
+## Shopify Marketing Blog
+
+* Used *[Shopify Marketing Blog](https://www.shopify.com/ie/blog/ecommerce-marketing)* as reference for ecommerce marketing.
 
 # Acknowledgements
