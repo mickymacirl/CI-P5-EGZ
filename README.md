@@ -390,4 +390,4 @@ Defensive Application programming techniques were utilized in the development of
 
 * Mentor support from *[Daisy McGirr](https://github.com/Daisy-McG)*.
 
-* Daisy's brilliant YouTube Channel at *[Dee Mc](https://www.youtube.com/channel/UCS9urT8R0LAgqrhzeG9qI0Q)* used for reference and project planning.
+* Daisy's brilliant YouTube Channel at *[Dee Mc Youtube Channel](https://www.youtube.com/channel/UCS9urT8R0LAgqrhzeG9qI0Q)* used for reference and project planning.
