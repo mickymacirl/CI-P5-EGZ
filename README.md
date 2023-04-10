@@ -192,7 +192,7 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 Logo designed using Smashing Logos with references to cyber security topics.
 
-![Logo](./docs/readme/logo.jpg)
+![Logo](./docs/readme/logo.png)
 
 ### Color Scheme
 
