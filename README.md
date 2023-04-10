@@ -124,10 +124,14 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ### 404 Error Page
 
+![404](./docs/wireframes/404wf.jpg)
+
 ### 403 Error Page
 
+![403](./docs/wireframes/403wf.jpg)
 ### 500 Error Page
 
+![500](./docs/wireframes/500wf.jpg)
 ### GDPR Policy Page
 
 ### Terms and Conditions Page
