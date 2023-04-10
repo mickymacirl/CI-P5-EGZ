@@ -120,7 +120,11 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ### Contact Us Page
 
+![ContactUs](./docs/wireframes/contactuswf.jpg)
+
 ### Confirm Page
+
+![Confirm](./docs/wireframes/confirmwf.jpg)
 
 ### 404 Error Page
 
