@@ -102,6 +102,60 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ## Skeleton Plane
 
+### Home Page
+
+### Products Page
+
+### Product Detail Page
+
+### Shopping Basket Page
+
+### Check Out Page
+
+### Check Out Payment Overlay
+
+### Check Out Success Page
+
+### User Profile Page
+
+### Contact Us Page
+
+### Confirm Page
+
+### 404 Error Page
+
+### 403 Error Page
+
+### 500 Error Page
+
+### GDPR Policy Page
+
+### Terms and Conditions Page
+
+### Privacy Policy Page
+
+### Delivery Policy Page
+
+### Ethical Behavior Policy Page
+
+### Administor Website Management Page
+
+### Administor Product Admin Page
+
+### Register Page
+
+### Login Page
+
+### Verify Email Page
+
+### Logout Page
+
+### Forgot Password Page
+
+### Change Password Page
+
+### Change Password Success Page
+
 ## Surface Plane
 
 ## Design
