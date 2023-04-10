@@ -118,47 +118,25 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ### User Profile Page
 
-![Profile](./docs/wireframes/profilewf.jpg)
-
 ### Contact Us Page
-
-![ContactUs](./docs/wireframes/contactuswf.jpg)
 
 ### Confirm Page
 
-![Confirm](./docs/wireframes/confirmwf.jpg)
-
 ### 404 Error Page
-
-![404](./docs/wireframes/404wf.jpg)
 
 ### 403 Error Page
 
-![403](./docs/wireframes/403wf.jpg)
-
 ### 500 Error Page
-
-![500](./docs/wireframes/500wf.jpg)
 
 ### GDPR Policy Page
 
-![GDPR](./docs/wireframes/gdprwf.jpg)
-
 ### Terms and Conditions Page
-
-![TAC](./docs/wireframes/tacwf.jpg)
 
 ### Privacy Policy Page
 
-![Privacy](./docs/wireframes/ppwf.jpg)
-
 ### Delivery Policy Page
 
-![Delivery](./docs/wireframes/dpwf.jpg)
-
 ### Ethical Behavior Policy Page
-
-![Ethical](./docs/wireframes/ebpwf.jpg)
 
 ### Administor Website Management Page
 
@@ -166,17 +144,11 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ### Register Page
 
-![Register](./docs/wireframes/regwf.jpg)
-
 ### Login Page
-
-![Login](./docs/wireframes/logwf.jpg)
 
 ### Verify Email Page
 
 ### Logout Page
-
-![Logout](./docs/wireframes/logoutwf.jpg)
 
 ### Forgot Password Page
 
@@ -221,6 +193,88 @@ Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, i
 Used Abode Photoshop to edit the main hero image with the logo in the circles from *[Circle Tech](https://test/)*. and the main banner image with logo text and icon.
 
 ### Wireframes
+
+#### Home Page Wireframe
+
+#### Products Page Wireframe
+
+#### Product Detail Page Wireframe
+
+#### Shopping Basket Page Wireframe
+
+#### Check Out Page Wireframe
+
+#### Check Out Payment Overlay Wireframe
+
+#### Check Out Success Page Wireframe
+
+#### User Profile Page Wireframe
+
+![Profile](./docs/wireframes/profilewf.jpg)
+
+#### Contact Us Page Wireframe
+
+![ContactUs](./docs/wireframes/contactuswf.jpg)
+
+#### Confirm Page Wireframe
+
+![Confirm](./docs/wireframes/confirmwf.jpg)
+
+#### 404 Error Page Wireframe
+
+![404](./docs/wireframes/404wf.jpg)
+
+#### 403 Error Page Wireframe
+
+![403](./docs/wireframes/403wf.jpg)
+
+#### 500 Error Page Wireframe
+
+![500](./docs/wireframes/500wf.jpg)
+
+#### GDPR Policy Page Wireframe
+
+![GDPR](./docs/wireframes/gdprwf.jpg)
+
+#### Terms and Conditions Page Wireframe
+
+![TAC](./docs/wireframes/tacwf.jpg)
+
+#### Privacy Policy Page Wireframe
+
+![Privacy](./docs/wireframes/ppwf.jpg)
+
+#### Delivery Policy Page Wireframe
+
+![Delivery](./docs/wireframes/dpwf.jpg)
+
+#### Ethical Behavior Policy Page Wireframe
+
+![Ethical](./docs/wireframes/ebpwf.jpg)
+
+#### Administor Website Management Page Wireframe
+
+#### Administor Product Admin Page Wireframe
+
+#### Register Page Wireframe
+
+![Register](./docs/wireframes/regwf.jpg)
+
+#### Login Page Wireframe
+
+![Login](./docs/wireframes/logwf.jpg)
+
+#### Verify Email Page Wireframe
+
+#### Logout Page Wireframe
+
+![Logout](./docs/wireframes/logoutwf.jpg)
+
+#### Forgot Password Page Wireframe
+
+#### Change Password Page Wireframe
+
+#### Change Password Success Page Wireframe
 
 # Features
 
