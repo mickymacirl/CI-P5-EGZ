@@ -305,3 +305,7 @@ Defensive Application programming techniques were utilized in the development of
 * Used *[Shopify Marketing Blog](https://www.shopify.com/ie/blog/ecommerce-marketing)* as reference for ecommerce marketing strategy.
 
 # Acknowledgements
+
+* Mentor support from *[Daisy McGirr](https://github.com/Daisy-McG)*.
+
+* Daisy's brilliant YouTube Channel *[Dee Mc](https://www.youtube.com/channel/UCS9urT8R0LAgqrhzeG9qI0Q)* using for reference and project planning.
