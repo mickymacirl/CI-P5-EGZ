@@ -158,7 +158,7 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ### Ethical Behavior Policy Page
 
-![Ethical](./docs/wireframes/ebwf.jpg)
+![Ethical](./docs/wireframes/ebpwf.jpg)
 
 ### Administor Website Management Page
 
