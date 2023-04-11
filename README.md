@@ -488,7 +488,9 @@ Logo fonts are:
 
 Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
 
-Used Abode Photoshop to edit the main hero image with the logo in the circles from *[Circle Tech](https://test/)*. and the main banner image with logo text and icon.
+Used Abode Photoshop to create the main hero image with the logo.
+
+![Index Page Logo](./docs/readme/logomainrm.jpg)
 
 # Technology
 
