@@ -92,9 +92,11 @@ Link to Newsletter Signup
 
 The project was developed using agile practices, with small features delivered in incremental sprints over a 5 week period. Issues were organized into milestones and prioritized using labels such as "must have," "should have," "could have," and "nice to have."
 
-These milestones were divided into sprints based on six milestones, with "must have" stories being completed first, followed by "should have" stories, and finally "could have" and "nice to have" stories. This prioritization ensured that all essential requirements were completed first, providing a solid foundation for the application and allowing for the addition of must-have features.
+These milestones were divided into sprints based on six milestones, with "must have" stories being completed first, followed by "should have" stories, and finally "nice to have" stories. This prioritization ensured that all essential requirements were completed first, providing a solid foundation for the application and allowing for the addition of must-have features.
 
 GitHub Projects was used to create a Kanban board, which can be found [here](https://github.com/users/mickymacirl/projects/3/views/1). Each story, such as the documentation milestones, is an issue. Each story contains a description of the relevant acceptance criteria that must be fulfilled. There is a "won't do" option for any features that are not implemented.
+
+![Kanban](./docs/readme/kanbanboardrm.jpg)
 
 ### Milestones
 
