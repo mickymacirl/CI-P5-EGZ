@@ -196,6 +196,8 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 #### Home Page Wireframe
 
+![Home](./docs/wireframes/homewf.jpg)
+
 #### Products Page Wireframe
 
 ![Products](./docs/wireframes/productswf.jpg)
