@@ -540,6 +540,8 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 # Testing
 
+Testing Readme found here: *[Testing Readme](/TESTING.md)*.
+
 # Credits
 
 ## Design Website
