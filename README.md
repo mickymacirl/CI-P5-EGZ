@@ -262,9 +262,9 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 ![Ethical](./docs/wireframes/ebpwf.jpg)
 
-#### Administor Website Management Page Wireframe
-
 #### Administor Product Admin Page Wireframe
+
+![Product Admin](./docs/wireframes/pawf.jpg)
 
 #### Register Page Wireframe
 
