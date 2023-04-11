@@ -212,7 +212,7 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 #### Check Out Page Wireframe
 
-#### Check Out Payment Overlay Wireframe
+![Check Out](./docs/wireframes/cowf.jpg)
 
 #### Check Out Success Page Wireframe
 
