@@ -460,7 +460,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ### Logo
 
-Logo designed using Smashing Logos with references to cyber security topics.
+Logo designed using Smashing Logos with an ethical message on empowering ethical hackers.
 
 ![Logo](./docs/readme/logo.png)
 
