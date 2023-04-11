@@ -88,7 +88,7 @@ Ethical Gearz will utilize Mailchimp as our email marketing platform to reach ou
 Picture of Mailchimp
 Link to Newsletter Signup
 
-### Agile Planning
+## Agile Planning
 
 The project was developed using agile practices, with small features delivered in incremental sprints over a 5 week period. Issues were organized into milestones and prioritized using labels such as "must have," "should have," "could have," and "nice to have."
 
@@ -123,6 +123,46 @@ This project has 6 main Milestones:
 6. Documentation
 
     >This milestone includes all document-related stories and tasks required to document the software development process for the application. It aspires to provide high-quality documentation that aids in the understanding of all stages of development in addition to the information required for running, deploying, and operating the application.
+
+### User Stories
+
+During the four sprints, the following user stories were completed (in order of milestone).
+
+#### Milestone 1 - Basic Setup
+
+1.1 As a developer, I must set up the project so that it can implement the core features
+
+Issue 2 GitHub Project for information.
+
+1.2 As a developer, I must set up static files and folders so that the project images, CSS and javascript work on the website
+
+Issue 12 GitHub Project for information.
+
+1.3 As a developer, I must create the basic base.html page and project structure so the layout is uniform
+
+Issue 13 GitHub Project for information.
+
+1.4 As a developer, I must create a footer with social media links and contact information
+
+Issue 3 GitHub Project for information.
+
+1.5 As a developer, I need to create the main website header with logo and web page links
+
+Issue 4 GitHub Project for information.
+
+1.6 As a developer, I must create a navigation bar that works on any device
+
+Issue 8 GitHub Project for information.
+
+#### Milestone 2 - Stand Alone Pages Setup
+
+#### Milestone 3 - Aithentication Setup
+
+#### Milestone 4 - Admin Setup
+
+#### Milestone 5 - Stripe
+
+#### Milestone 6 - Documentation
 
 ## Scope Plane
 
