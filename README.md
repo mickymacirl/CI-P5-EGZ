@@ -184,7 +184,7 @@ Issue 23 GitHub Project for information.
 
 3.1 As a developer, I must set up AllAuth so that website users can sign up and access the features.
 
-Issue 6 GitHub Project for information.
+*[Issue 8 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/8)* for information.
 
 3.2 As a user I want to be able to register to Ethical Gearz so that I can access exclusive products and tools.
 
