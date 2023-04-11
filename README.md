@@ -536,6 +536,16 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 * TinyPNG is was used to reduce image sizes to improve lighthouse scores.
 
+## Python Libraries
+
+### Python Modules
+
+* Django Class based views
+
+### External Python Modules
+
+* asgiref==3.6.0
+
 # Deployment
 
 # Testing
