@@ -280,6 +280,8 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 #### Forgot Password Page Wireframe
 
+![Forgot Password](./docs/wireframes/fpwf.jpg)
+
 #### Change Password Page Wireframe
 
 #### Change Password Success Page Wireframe
