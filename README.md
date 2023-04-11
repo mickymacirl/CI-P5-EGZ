@@ -180,6 +180,28 @@ During the four sprints, the following user stories were completed (in order of 
 
 *[Issue 14 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/14)*  for information.
 
+2.6 As a user, I want to be able to find out information Ethical Gearz Policy documents.
+
+GDPR
+
+*[Issue 17 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/17)*  for information.
+
+Privacy
+
+*[Issue 20 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/20)*  for information.
+
+Terms and Conditions
+
+*[Issue 18 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/18)*  for information.
+
+Ethical Behaviour
+
+*[Issue 19 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/19)*  for information.
+
+Delivery
+
+*[Issue 21 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/21)*  for information.
+
 #### Milestone 3 - Aithentication Setup
 
 3.1 As a developer, I must set up AllAuth so that website users can sign up and access the features.
@@ -244,7 +266,9 @@ Issue 37 GitHub Project for information.
 
 7.1 Complete all testing and documentation for the Ethical Gearz website
 
-Issue 38 GitHub Project for information.
+*[Issue 16 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/16)* for information.
+
+*[Issue 15 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/15)* for information.
 
 ## Scope Plane
 
