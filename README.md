@@ -138,139 +138,139 @@ During the four sprints, the following user stories were completed (in order of 
 
 1.1 As a developer, I must set up the project so that it can implement the core features.
 
-*[Issue 1 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/1)* GitHub Project for information.
+>*[Issue 1 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/1)* GitHub Project for information.
 
 1.2 As a developer, I must set up static files and folders so that the project images, CSS and javascript work on the website.
 
-*[Issue 7 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/7)* for information.
+>*[Issue 7 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/7)* for information.
 
 1.3 As a developer, I must create the basic base.html page and project structure so the layout is uniform.
 
-*[Issue 6 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/6)* for information.
+>*[Issue 6 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/6)* for information.
 
 1.4 As a developer, I must create a footer with social media links and contact information.
 
-*[Issue 2 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/2)* for information.
+>*[Issue 2 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/2)* for information.
 
 1.5 As a developer, I need to create the main website header with logo and web page links.
 
-*[Issue 3 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/3)*  for information.
+>*[Issue 3 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/3)*  for information.
 
 1.6 As a developer, I must create a navigation bar that works on any device.
 
-*[Issue 4 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/4)*  for information.
+>*[Issue 4 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/4)*  for information.
 
 #### Milestone 2 - Stand Alone Pages Setup
 
 2.1 As a developer, I must implement a 404-error page to alert users when they try to access a page that doesn't exist.
 
-*[Issue 11 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/11)*  for information.
+>*[Issue 11 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/11)*  for information.
 
 2.2 As a developer, I need to create a 500-error page to alert website users when the application generates an internal server error.
 
-*[Issue 10 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/10)*  for information.
+>*[Issue 10 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/10)*  for information.
 
 2.3 As a developer, I must implement a 403-error page to alert users when they do not have the right to access this page.
 
-*[Issue 12 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/12)*  for information.
+>*[Issue 12 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/12)*  for information.
 
 2.4 As a user, I want to be able to contact Ethical Gearz so that I can express my opinion on a product or tool.
 
-*[Issue 13 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/13)*  for information.
+>*[Issue 13 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/13)*  for information.
 
 2.5 As a user, I want to be able to find out information about the site owners of Ethical Gearz so that I am kept informed.
 
-*[Issue 14 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/14)*  for information.
+>*[Issue 14 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/14)*  for information.
 
 2.6 As a user, I want to be able to find out information Ethical Gearz Policy documents.
 
 GDPR
 
-*[Issue 17 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/17)*  for information.
+>*[Issue 17 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/17)*  for information.
 
 Privacy
 
-*[Issue 20 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/20)*  for information.
+>*[Issue 20 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/20)*  for information.
 
 Terms and Conditions
 
-*[Issue 18 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/18)*  for information.
+>*[Issue 18 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/18)*  for information.
 
 Ethical Behaviour
 
-*[Issue 19 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/19)*  for information.
+>*[Issue 19 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/19)*  for information.
 
 Delivery
 
-*[Issue 21 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/21)*  for information.
+>*[Issue 21 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/21)*  for information.
 
 #### Milestone 3 - Aithentication Setup
 
 3.1 As a developer, I must set up AllAuth so that website users can sign up and access the features.
 
-*[Issue 8 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/8)* for information.
+>*[Issue 8 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/8)* for information.
 
 3.2 As a user, I want to be able to register to Ethical Gearz so that I can access exclusive products and tools.
 
-*[Issue 8 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/8)* for information.
+>*[Issue 8 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/8)* for information.
 
 #### Milestone 4 - Admin Setup
 
 4.1 As an admin, I need to be able to administer Products.
 
-*[Issue 22 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/22)* for information.
+>*[Issue 22 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/22)* for information.
 
 4.2 As an admin, I need to be able to administer users.
 
-*[Issue 23 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/23)* for information.
+>*[Issue 23 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/23)* for information.
 
 4.3 As an admin, I need to be able to administer categories.
 
-*[Issue 24 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/24)* for information.
+>*[Issue 24 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/24)* for information.
 
 4.4 As an admin, I need to create robots.txt and sitemap files for the site.
 
-*[Issue 25 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/25)* for information.
+>*[Issue 25 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/25)* for information.
 
 #### Milestone 5 - Stripe
 
 5.1 As a user, I want to be able to add items to my shopping cart so that I can easily purchase multiple items at once.
 
-*[Issue 26 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/26)* for information.
+>*[Issue 26 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/26)* for information.
 
 5.2 As a user, I want to be able to securely enter my payment information so that I can complete my purchase.
 
-*[Issue 27 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/27)* for information.
+>*[Issue 27 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/27)* for information.
 
 5.3 As a user, I want to be able to view my order history and receipts so that I can keep track of my purchases.
 
-*[Issue 28 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/28)* for information.
+>*[Issue 28 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/28)* for information.
 
 5.4 As an administrator, I want to be able to view and manage orders placed by user so that I can ensure orders are fulfilled correctly.
 
-*[Issue 29 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/29)* for information.
+>*[Issue 29 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/29)* for information.
 
 #### Milestone 6 - Additional Features
 
 6.1 As a user, I want to be able to create a wishlist of products for future purchases.
 
-*[Issue 30 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/25)* for information.
+>*[Issue 30 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/25)* for information.
 
 6.2 As a user, I want to be able to leave product reviews and ratings.
 
-*[Issue 31 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/31)* for information.
+>*[Issue 31 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/31)* for information.
 
 6.3 As a user, I want to be able to view recommended products based on my browsing and purchasing history.
 
-*[Issue 32 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/32)* for information.
+>*[Issue 32 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/32)* for information.
 
 #### Milestone 7 - Documentation
 
 7.1 Complete all testing and documentation for the Ethical Gearz website
 
-*[Issue 16 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/16)* for information.
+>*[Issue 16 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/16)* for information.
 
-*[Issue 15 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/15)* for information.
+>*[Issue 15 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/15)* for information.
 
 ## Scope Plane
 
