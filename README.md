@@ -216,6 +216,8 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 #### Check Out Success Page Wireframe
 
+![Check Out Success](./docs/wireframes/coswf.jpg)
+
 #### User Profile Page Wireframe
 
 ![Profile](./docs/wireframes/profilewf.jpg)
