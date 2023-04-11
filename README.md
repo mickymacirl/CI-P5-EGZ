@@ -287,6 +287,72 @@ Delivery
 
 ## Structure Plane
 
+# Features
+
+## Features of the website
+
+### Navbar
+
+### Footer
+
+### Favicon
+
+### Defensive Application
+
+Defensive Application programming techniques were utilized in the development of this website to ensure that only authorized administrators were given access to sensitive features. This was done to prevent unauthorized access and ensure the integrity of user data. Appropriate authentication and authorization mechanisms were put in place as part of these techniques. By doing so, the website was made more secure and less vulnerable to potential security breaches.
+
+### Home Page
+
+### Products Page
+
+### Product Detail Page
+
+### Shopping Basket Page
+
+### Check Out Page
+
+### Check Out Payment Overlay
+
+### Check Out Success Page
+
+### User Profile Page
+
+### Contact Us Page
+
+### 404 Error Page
+
+### 403 Error Page
+
+### 500 Error Page
+
+### GDPR Policy Page
+
+### Terms and Conditions Page
+
+### Privacy Policy Page
+
+### Delivery Policy Page
+
+### Ethical Behavior Policy Page
+
+### Administor Website Management Page
+
+### Administor Product Admin Page
+
+### Register Page
+
+### Login Page
+
+### Verify Email Page
+
+### Logout Page
+
+### Forgot Password Page
+
+### Change Password Page
+
+### Change Password Success Page
+
 ## Skeleton Plane
 
 ### Wireframes
@@ -426,72 +492,6 @@ Logo fonts are:
 Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
 
 Used Abode Photoshop to edit the main hero image with the logo in the circles from *[Circle Tech](https://test/)*. and the main banner image with logo text and icon.
-
-# Features
-
-## Features of the website
-
-### Navbar
-
-### Footer
-
-### Favicon
-
-### Defensive Application
-
-Defensive Application programming techniques were utilized in the development of this website to ensure that only authorized administrators were given access to sensitive features. This was done to prevent unauthorized access and ensure the integrity of user data. Appropriate authentication and authorization mechanisms were put in place as part of these techniques. By doing so, the website was made more secure and less vulnerable to potential security breaches.
-
-### Home Page
-
-### Products Page
-
-### Product Detail Page
-
-### Shopping Basket Page
-
-### Check Out Page
-
-### Check Out Payment Overlay
-
-### Check Out Success Page
-
-### User Profile Page
-
-### Contact Us Page
-
-### 404 Error Page
-
-### 403 Error Page
-
-### 500 Error Page
-
-### GDPR Policy Page
-
-### Terms and Conditions Page
-
-### Privacy Policy Page
-
-### Delivery Policy Page
-
-### Ethical Behavior Policy Page
-
-### Administor Website Management Page
-
-### Administor Product Admin Page
-
-### Register Page
-
-### Login Page
-
-### Verify Email Page
-
-### Logout Page
-
-### Forgot Password Page
-
-### Change Password Page
-
-### Change Password Success Page
 
 # Technology
 
