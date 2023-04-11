@@ -98,6 +98,17 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ## Scope Plane
 
+* Responsive e-commerce website design with an intuitive user interface
+* Shopping cart and checkout system for customers to purchase products
+* User registration and login functionality to manage accounts and orders
+* Product catalog with categories and search functionality
+* Detailed product pages with descriptions, images, and pricing information
+* Secure payment gateway integration for online transactions
+* Admin section for website owner to manage products, orders, and customers
+* Multi-layered security measures to ensure the integrity of customer and business data
+* GDPR and privacy policy pages to ensure compliance with data protection laws
+* Ethical behavior policy page to promote responsible hacking practices and discourage unethical behavior.
+
 ## Structure Plane
 
 ## Skeleton Plane
