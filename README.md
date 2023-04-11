@@ -90,7 +90,7 @@ Link to Newsletter Signup
 
 ## Agile Planning
 
-The project was developed using agile practices, with small features delivered in incremental sprints over a 5 week period. Issues were organized into milestones and prioritized using labels such as "must have," "should have," "could have," and "nice to have."
+The project was developed using agile practices, with small features delivered in incremental sprints over a 5 week period. Issues were organized into milestones and prioritized using labels such as "must have," "should have," and "nice to have."
 
 These milestones were divided into sprints based on six milestones, with "must have" stories being completed first, followed by "should have" stories, and finally "nice to have" stories. This prioritization ensured that all essential requirements were completed first, providing a solid foundation for the application and allowing for the addition of must-have features.
 
@@ -269,7 +269,6 @@ Delivery
 7.1 Complete all testing and documentation for the Ethical Gearz website
 
 >*[Issue 16 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/16)* for information.
-
 >*[Issue 15 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/15)* for information.
 
 ## Scope Plane
