@@ -564,6 +564,23 @@ The following commands were used to push code to the remote repository:
 
 3. *git push* was used to push all local changes to the remote repository on **GitHub**.
 
+## Forking the Repository
+
+Forking creates a copy of the repository to view and/or make changes without affecting the original.
+
+Below are the steps required:
+
+1. In **GitHub**, access the specific **GitHub** Repository - *[CI-P5-EGZ](https://github.com/mickymacirl/CI-P5-EGZ)*
+2. You will find and click the **"Fork"** button on the top right of the repository page underneath the user icon.
+3. You will have successfully created a copy of the original repository within the logged-in **GitHub** account.
+
+## Clone the 'CI-P5-EGZ' GitHub Code Repository locally
+
+1. Go to the page of the repository that you want to clone, the **CI-P5-EGZ** site: *[here](https://github.com/mickymacirl/CI-P5-EGZ)*
+2. Click on the **“Code”** menu and copy the URL.
+3. Use the git clone command along with the copied URL.
+4. git clone [https://github.com/USERNAME/REPOSITORY](https://github.com/USERNAME/REPOSITORY)
+
 # Testing
 
 Testing Readme found here: *[Testing Readme](/TESTING.md)*.
