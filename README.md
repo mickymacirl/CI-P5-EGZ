@@ -188,7 +188,7 @@ Issue 23 GitHub Project for information.
 
 3.2 As a user, I want to be able to register to Ethical Gearz so that I can access exclusive products and tools.
 
-Issue 14 GitHub Project for information.
+*[Issue 8 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/8)* for information.
 
 #### Milestone 4 - Admin Setup
 
