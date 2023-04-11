@@ -140,23 +140,23 @@ During the four sprints, the following user stories were completed (in order of 
 
 1.2 As a developer, I must set up static files and folders so that the project images, CSS and javascript work on the website.
 
-Issue 12 GitHub Project for information.
+*[Issue 7 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/7)* for information.
 
 1.3 As a developer, I must create the basic base.html page and project structure so the layout is uniform.
 
-Issue 13 GitHub Project for information.
+*[Issue 6 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/6)* for information.
 
 1.4 As a developer, I must create a footer with social media links and contact information.
 
-Issue 3 GitHub Project for information.
+*[Issue 2 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/2)* for information.
 
 1.5 As a developer, I need to create the main website header with logo and web page links.
 
-Issue 4 GitHub Project for information.
+*[Issue 3 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/3)*  for information.
 
 1.6 As a developer, I must create a navigation bar that works on any device.
 
-Issue 8 GitHub Project for information.
+*[Issue 4 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/4)*  for information.
 
 #### Milestone 2 - Stand Alone Pages Setup
 
