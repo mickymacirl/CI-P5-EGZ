@@ -162,23 +162,23 @@ During the four sprints, the following user stories were completed (in order of 
 
 2.1 As a developer, I must implement a 404-error page to alert users when they try to access a page that doesn't exist.
 
-Issue 5 GitHub Project for information.
+*[Issue 11 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/11)*  for information.
 
 2.2 As a developer, I need to create a 500-error page to alert website users when the application generates an internal server error.
 
- Issue 7 GitHub Project for information.
+*[Issue 10 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/10)*  for information.
 
 2.3 As a developer, I must implement a 403-error page to alert users when they do not have the right to access this page.
 
-Issue 24 GitHub Project for information.
+*[Issue 12 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/12)*  for information.
 
 2.4 As a user, I want to be able to contact Ethical Gearz so that I can express my opinion on a product or tool.
 
-Issue 22 GitHub Project for information.
+*[Issue 13 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/13)*  for information.
 
 2.5 As a user, I want to be able to find out information about the site owners of Ethical Gearz so that I am kept informed.
 
-Issue 23 GitHub Project for information.
+*[Issue 14 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/14)*  for information.
 
 #### Milestone 3 - Aithentication Setup
 
