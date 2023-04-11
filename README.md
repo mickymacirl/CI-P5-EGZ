@@ -120,7 +120,11 @@ This project has 6 main Milestones:
 
     >The milestone stripe feature allows an ecommerce site user to purchase a product. This milestone is critical and essential for a user in order to create a shopping page, and purchase a product.
 
-6. Documentation
+6. Additional Features
+
+    >The milestone additional features allows an ecommerce site creator to add certain feature. This milestone is important but not essential for a user to use the site.
+
+7. Documentation
 
     >This milestone includes all document-related stories and tasks required to document the software development process for the application. It aspires to provide high-quality documentation that aids in the understanding of all stages of development in addition to the information required for running, deploying, and operating the application.
 
@@ -130,39 +134,117 @@ During the four sprints, the following user stories were completed (in order of 
 
 #### Milestone 1 - Basic Setup
 
-1.1 As a developer, I must set up the project so that it can implement the core features
+1.1 As a developer, I must set up the project so that it can implement the core features.
 
 Issue 2 GitHub Project for information.
 
-1.2 As a developer, I must set up static files and folders so that the project images, CSS and javascript work on the website
+1.2 As a developer, I must set up static files and folders so that the project images, CSS and javascript work on the website.
 
 Issue 12 GitHub Project for information.
 
-1.3 As a developer, I must create the basic base.html page and project structure so the layout is uniform
+1.3 As a developer, I must create the basic base.html page and project structure so the layout is uniform.
 
 Issue 13 GitHub Project for information.
 
-1.4 As a developer, I must create a footer with social media links and contact information
+1.4 As a developer, I must create a footer with social media links and contact information.
 
 Issue 3 GitHub Project for information.
 
-1.5 As a developer, I need to create the main website header with logo and web page links
+1.5 As a developer, I need to create the main website header with logo and web page links.
 
 Issue 4 GitHub Project for information.
 
-1.6 As a developer, I must create a navigation bar that works on any device
+1.6 As a developer, I must create a navigation bar that works on any device.
 
 Issue 8 GitHub Project for information.
 
 #### Milestone 2 - Stand Alone Pages Setup
 
+2.1 As a developer, I must implement a 404-error page to alert users when they try to access a page that doesn't exist.
+
+Issue 5 GitHub Project for information.
+
+2.2 As a developer, I need to create a 500-error page to alert website users when the application generates an internal server error.
+
+ Issue 7 GitHub Project for information.
+
+2.3 As a developer, I must implement a 403-error page to alert users when they do not have the right to access this page.
+
+Issue 24 GitHub Project for information.
+
+2.4 As a user, I want to be able to contact Ethical Gearz so that I can express my opinion on a product or tool.
+
+Issue 22 GitHub Project for information.
+
+2.5 As a user, I want to be able to find out information about the site owners of Ethical Gearz so that I am kept informed.
+
+Issue 23 GitHub Project for information.
+
 #### Milestone 3 - Aithentication Setup
+
+3.1 As a developer, I must set up AllAuth so that website users can sign up and access the features.
+
+Issue 6 GitHub Project for information.
+
+3.2 As a user I want to be able to register to Ethical Gearz so that I can access exclusive products and tools.
+
+Issue 14 GitHub Project for information.
 
 #### Milestone 4 - Admin Setup
 
+4.1 As an admin, I need to be able to administer Products.
+
+Issue 17 GitHub Project for information.
+
+4.2 As an admin, I need to be able to administer users.
+
+Issue 18 GitHub Project for information.
+
+4.3 As an admin, I need to be able to administer categories.
+
+Issue 19 GitHub Project for information.
+
+4.4 As an admin, I need to create robots.txt and sitemap files for the site.
+
+Issue 19 GitHub Project for information.
+
 #### Milestone 5 - Stripe
 
-#### Milestone 6 - Documentation
+5.1 As a user, I want to be able to add items to my shopping cart so that I can easily purchase multiple items at once.
+
+Issue 25 GitHub Project for information.
+
+5.2 As a user, I want to be able to securely enter my payment information so that I can complete my purchase.
+
+Issue 26 GitHub Project for information.
+
+5.3 As a user, I want to be able to view my order history and receipts so that I can keep track of my purchases.
+
+Issue 27 GitHub Project for information.
+
+5.4 As an administrator, I want to be able to view and manage orders placed by user so that I can ensure orders are fulfilled correctly.
+
+Issue 28 GitHub Project for information.
+
+#### Milestone 6 - Additional Features
+
+6.1 As a user, I want to be able to create a wishlist of products for future purchase.
+
+Issue 35 GitHub Project for information.
+
+6.2 As a user, I want to be able to leave product reviews and ratings.
+
+Issue 36 GitHub Project for information.
+
+6.3 As a user, I want to be able to view recommended products based on my browsing and purchasing history.
+
+Issue 37 GitHub Project for information.
+
+#### Milestone 7 - Documentation
+
+7.1 Complete all testing and documentation for the Ethical Gearz website
+
+Issue 38 GitHub Project for information.
 
 ## Scope Plane
 
