@@ -208,6 +208,8 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 #### Shopping Basket Page Wireframe
 
+![Shopping Basket](./docs/wireframes/sbwf.jpg)
+
 #### Check Out Page Wireframe
 
 #### Check Out Payment Overlay Wireframe
