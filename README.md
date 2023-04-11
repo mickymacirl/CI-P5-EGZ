@@ -468,7 +468,7 @@ Logo designed using Smashing Logos with references to cyber security topics.
 
 The website's primary color scheme is white on white. To match the color of the logo,  were added to borders, button text, and hover effects.
 
-![Colors](./docs/readme/colors.jpg)
+![Colors](./docs/readme/colorsrm.jpg)
 
 ### Typography
 
