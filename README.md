@@ -204,7 +204,7 @@ Delivery
 
 >*[Issue 21 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/21)*  for information.
 
-#### Milestone 3 - Aithentication Setup
+#### Milestone 3 - Authentication Setup
 
 3.1 As a developer, I must set up AllAuth so that website users can sign up and access the features.
 
