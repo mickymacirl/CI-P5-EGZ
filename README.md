@@ -102,96 +102,6 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ## Skeleton Plane
 
-### Home Page
-
-### Products Page
-
-### Product Detail Page
-
-### Shopping Basket Page
-
-### Check Out Page
-
-### Check Out Payment Overlay
-
-### Check Out Success Page
-
-### User Profile Page
-
-### Contact Us Page
-
-### Confirm Page
-
-### 404 Error Page
-
-### 403 Error Page
-
-### 500 Error Page
-
-### GDPR Policy Page
-
-### Terms and Conditions Page
-
-### Privacy Policy Page
-
-### Delivery Policy Page
-
-### Ethical Behavior Policy Page
-
-### Administor Website Management Page
-
-### Administor Product Admin Page
-
-### Register Page
-
-### Login Page
-
-### Verify Email Page
-
-### Logout Page
-
-### Forgot Password Page
-
-### Change Password Page
-
-### Change Password Success Page
-
-## Surface Plane
-
-## Design
-
-### Logo
-
-Logo designed using Smashing Logos with references to cyber security topics.
-
-![Logo](./docs/readme/logo.png)
-
-### Color Scheme
-
-The website's primary color scheme is white on white. To match the color of the logo,  were added to borders, button text, and hover effects.
-
-![Colors](./docs/readme/colors.jpg)
-
-### Typography
-
-Throughout the website, the *[Font 1](https://fonts.google.com/specimen/)* font was used. This font was imported into the style sheet from Google Fonts.
-
-Logo fonts are:
-
-### Font 1
-
-![Font 1](./docs/readme/1.jpg)
-
-### Font 2
-
-![Font 2](./docs/readme/2.jpg)
-
-### Imagery
-
-Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
-
-Used Abode Photoshop to edit the main hero image with the logo in the circles from *[Circle Tech](https://test/)*. and the main banner image with logo text and icon.
-
 ### Wireframes
 
 #### Home Page Wireframe
@@ -293,6 +203,42 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 #### Change Password Success Page Wireframe
 
 ![Password Success](./docs/wireframes/pswf.jpg)
+
+## Surface Plane
+
+## Design
+
+### Logo
+
+Logo designed using Smashing Logos with references to cyber security topics.
+
+![Logo](./docs/readme/logo.png)
+
+### Color Scheme
+
+The website's primary color scheme is white on white. To match the color of the logo,  were added to borders, button text, and hover effects.
+
+![Colors](./docs/readme/colors.jpg)
+
+### Typography
+
+Throughout the website, the *[Font 1](https://fonts.google.com/specimen/)* font was used. This font was imported into the style sheet from Google Fonts.
+
+Logo fonts are:
+
+### Font 1
+
+![Font 1](./docs/readme/1.jpg)
+
+### Font 2
+
+![Font 2](./docs/readme/2.jpg)
+
+### Imagery
+
+Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
+
+Used Abode Photoshop to edit the main hero image with the logo in the circles from *[Circle Tech](https://test/)*. and the main banner image with logo text and icon.
 
 # Features
 
