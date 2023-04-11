@@ -101,17 +101,28 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 This project has 6 main Milestones:
 
 1. Basic Setup
-The basic setup milestone contains all of the stories needed for the ecommerce site’s initial setup. The ecommerce site wouldn't be feasible without the basic setup, so it was the initial milestone to be produced since all other functionalities are dependent on the successful completion of the basic setup.
+
+    >The basic setup milestone contains all of the stories needed for the ecommerce site’s initial setup. The ecommerce site wouldn't be feasible without the basic setup, so it was the initial milestone to be produced since all other functionalities are dependent on the successful completion of the basic setup.
+
 2. Stand Alone Pages Setup
-The standalone pages milestone is for comparatively tiny pages with insufficient stories to justify a full milestone. Rather than generating milestones for minimal features like error pages, these minimal features were categorized under this milestone.
+
+    >The standalone pages milestone is for comparatively tiny pages with insufficient stories to justify a full milestone. Rather than generating milestones for minimal features like error pages, these minimal features were categorized under this milestone.
+
 3. Authentication Setup
-The authentication milestone includes all stories concerning registration, login, and authentication. This milestone is critical and important because otherwise, the ecommerce site's administrators would be unable to manage products or orders securely without normal users having the ability to see and execute administrator commands.
+
+    >The authentication milestone includes all stories concerning registration, login, and authentication. This milestone is critical and important because otherwise, the ecommerce site's administrators would be unable to manage products or orders securely without normal users having the ability to see and execute administrator commands.
+
 4. Admin Setup
-The milestone admin setup includes all stories concerning creating, viewing, updating, and deleting products, in addition to managing users, and categories. This makes it simple for administrators to view products, manage products and manage administrator users and categories.
+
+    >The milestone admin setup includes all stories concerning creating, viewing, updating, and deleting products, in addition to managing users, and categories. This makes it simple for administrators to view products, manage products and manage administrator users and categories.
+
 5. Stripe
-The milestone stripe feature allows an ecommerce site user to purchase a product. This milestone is critical and essential for a user in order to create a shopping page, and purchase a product.
+
+    >The milestone stripe feature allows an ecommerce site user to purchase a product. This milestone is critical and essential for a user in order to create a shopping page, and purchase a product.
+
 6. Documentation
-This milestone includes all document-related stories and tasks required to document the software development process for the application. It aspires to provide high-quality documentation that aids in the understanding of all stages of development in addition to the information required for running, deploying, and operating the application.
+
+    >This milestone includes all document-related stories and tasks required to document the software development process for the application. It aspires to provide high-quality documentation that aids in the understanding of all stages of development in addition to the information required for running, deploying, and operating the application.
 
 ## Scope Plane
 
