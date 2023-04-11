@@ -274,6 +274,8 @@ Used Abode Photoshop to edit the main hero image with the logo in the circles fr
 
 #### Verify Email Page Wireframe
 
+![Verify Email](./docs/wireframes/vewf.jpg)
+
 #### Logout Page Wireframe
 
 ![Logout](./docs/wireframes/logoutwf.jpg)
