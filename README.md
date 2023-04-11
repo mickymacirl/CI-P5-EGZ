@@ -216,51 +216,51 @@ Delivery
 
 4.1 As an admin, I need to be able to administer Products.
 
-Issue 17 GitHub Project for information.
+*[Issue 22 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/22)* for information.
 
 4.2 As an admin, I need to be able to administer users.
 
-Issue 18 GitHub Project for information.
+*[Issue 23 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/23)* for information.
 
 4.3 As an admin, I need to be able to administer categories.
 
-Issue 19 GitHub Project for information.
+*[Issue 24 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/24)* for information.
 
 4.4 As an admin, I need to create robots.txt and sitemap files for the site.
 
-Issue 19 GitHub Project for information.
+*[Issue 25 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/25)* for information.
 
 #### Milestone 5 - Stripe
 
 5.1 As a user, I want to be able to add items to my shopping cart so that I can easily purchase multiple items at once.
 
-Issue 25 GitHub Project for information.
+*[Issue 26 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/26)* for information.
 
 5.2 As a user, I want to be able to securely enter my payment information so that I can complete my purchase.
 
-Issue 26 GitHub Project for information.
+*[Issue 27 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/27)* for information.
 
 5.3 As a user, I want to be able to view my order history and receipts so that I can keep track of my purchases.
 
-Issue 27 GitHub Project for information.
+*[Issue 28 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/28)* for information.
 
 5.4 As an administrator, I want to be able to view and manage orders placed by user so that I can ensure orders are fulfilled correctly.
 
-Issue 28 GitHub Project for information.
+*[Issue 29 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/29)* for information.
 
 #### Milestone 6 - Additional Features
 
-6.1 As a user, I want to be able to create a wishlist of products for future purchase.
+6.1 As a user, I want to be able to create a wishlist of products for future purchases.
 
-Issue 35 GitHub Project for information.
+*[Issue 30 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/25)* for information.
 
 6.2 As a user, I want to be able to leave product reviews and ratings.
 
-Issue 36 GitHub Project for information.
+*[Issue 31 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/31)* for information.
 
 6.3 As a user, I want to be able to view recommended products based on my browsing and purchasing history.
 
-Issue 37 GitHub Project for information.
+*[Issue 32 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/32)* for information.
 
 #### Milestone 7 - Documentation
 
