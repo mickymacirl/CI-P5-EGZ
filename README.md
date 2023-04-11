@@ -124,7 +124,7 @@ This project has 7 main Milestones:
 
 6. Additional Features
 
-    >The milestone additional features allows an ecommerce site creator to add certain feature. This milestone is important but not essential for a user to use the site.
+    >The milestone additional features allows an ecommerce site creator to add certain features. This milestone is important but not essential for a user to use the site.
 
 7. Documentation
 
