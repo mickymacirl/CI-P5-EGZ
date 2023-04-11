@@ -98,7 +98,7 @@ GitHub Projects was used to create a Kanban board, which can be found [here](htt
 
 ### Milestones
 
-This project has 6 main Milestones:
+This project has 7 main Milestones:
 
 1. Basic Setup
 
@@ -136,7 +136,7 @@ During the four sprints, the following user stories were completed (in order of 
 
 1.1 As a developer, I must set up the project so that it can implement the core features.
 
-Issue 2 GitHub Project for information.
+*[Issue 1 GitHub Project](https://github.com/mickymacirl/CI-P5-EGZ/issues/1)* GitHub Project for information.
 
 1.2 As a developer, I must set up static files and folders so that the project images, CSS and javascript work on the website.
 
