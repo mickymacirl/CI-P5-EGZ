@@ -287,8 +287,6 @@ Delivery
 
 ## Structure Plane
 
-# Features
-
 ## Features of the website
 
 ### Navbar
