@@ -1,15 +1,23 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Product
+from .models import Product, Category
 
 # Create your views here.
+
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
     query = None
+    categories = None
+
+    if request.GET:
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            products = products.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
 
     if request.GET:
         if 'q' in request.GET:
@@ -30,7 +38,17 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """
+    This is a view function that retrieves and displays the details of a specific product.
+    
+    :param request: The HTTP request object that contains information about the current request, such as
+    the user agent, the requested URL, and any data submitted in the request
+    :param product_id: The ID of the specific product that the user wants to view the details of. It is
+    passed as a parameter in the URL and used to retrieve the corresponding product object from the
+    database using the `get_object_or_404` function
+    :return: an HTTP response that renders the 'product_detail.html' template with the context
+    dictionary containing the product object.
+    """
 
     product = get_object_or_404(Product, pk=product_id)
 
