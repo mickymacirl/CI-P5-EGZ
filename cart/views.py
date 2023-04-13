@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse
+from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 from django.contrib import messages
 from products.models import Product
 
@@ -14,7 +14,7 @@ def view_cart(request):
 def add_to_cart(request, item_id):
     """ Add a quantity of the specified product to the shopping cart """
 
-    product = Product.objects.get(pk=item_id)
+    product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     size = None
@@ -33,6 +33,7 @@ def add_to_cart(request, item_id):
     else:
         if item_id in list(cart.keys()):
             cart[item_id] += quantity
+            messages.success(request, f'Added {product.name} to the cart')
         else:
             cart[item_id] = quantity
             messages.success(request, f'You have added {product.name} to the cart')
@@ -50,6 +51,7 @@ def add_to_cart(request, item_id):
 def adjust_cart(request, item_id):
     """Adjust the quantity of the specified product to the specified amount in the cart"""
 
+    product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     size = None
     if 'product_size' in request.POST:
@@ -68,6 +70,7 @@ def adjust_cart(request, item_id):
             cart[item_id] = quantity
         else:
             cart.pop(item_id)
+            messages.success(request, f'Updated {product.name} in the cart')
 
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))
@@ -77,6 +80,7 @@ def remove_from_cart(request, item_id):
     """Remove the item from the shopping cart"""
 
     try:
+        product = get_object_or_404(Product, pk=item_id)
         size = None
         if 'product_size' in request.POST:
             size = request.POST['product_size']
@@ -88,9 +92,11 @@ def remove_from_cart(request, item_id):
                 cart.pop(item_id)
         else:
             cart.pop(item_id)
+            messages.success(request, f'Removed {product.name} from the cart')
 
         request.session['cart'] = cart
         return HttpResponse(status=200)
 
     except Exception as e:
+        messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
