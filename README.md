@@ -637,6 +637,10 @@ Testing Readme found here: *[Testing Readme](/TESTING.md)*.
 
 * Used *[Shopify Marketing Blog](https://www.shopify.com/ie/blog/ecommerce-marketing)* as reference for ecommerce marketing strategy.
 
+## Template Tags
+
+* Used *[Django Template Tags](https://docs.djangoproject.com/en/4.2/howto/custom-template-tags/)* as reference for custom template tags.
+
 # Acknowledgements
 
 * Mentor support from *[Daisy McGirr](https://github.com/Daisy-McG)*.
