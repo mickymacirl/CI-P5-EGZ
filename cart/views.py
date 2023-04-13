@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse
 
 # Create your views here.
 
@@ -28,7 +28,7 @@ def add_to_cart(request, item_id):
         else:
             cart[item_id] = {'items_by_size': {size: quantity}}
     else:
-        if item_id in list(bag.keys()):
+        if item_id in list(cart.keys()):
             cart[item_id] += quantity
         else:
             cart[item_id] = quantity
@@ -36,3 +36,10 @@ def add_to_cart(request, item_id):
     request.session['cart'] = cart
     print(request.session['cart'])
     return redirect(redirect_url)
+
+
+# def clear_cart(request):
+#     cart = cart(request)
+#    cart.clear()
+#    return redirect('cart/')
+
