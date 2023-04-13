@@ -6,7 +6,7 @@ from products.models import Product
 
 
 def view_cart(request):
-    """ A view that renders the bag contents page """
+    """ A view that renders the cart contents page """
 
     return render(request, 'cart/cart.html')
 
