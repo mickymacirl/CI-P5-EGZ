@@ -641,6 +641,10 @@ Testing Readme found here: *[Testing Readme](/TESTING.md)*.
 
 * Used *[Django Template Tags](https://docs.djangoproject.com/en/4.2/howto/custom-template-tags/)* as reference for custom template tags.
 
+## Credit Card Testing
+
+* Used *[Stripe Testing Cards](https://stripe.com/docs/testing)* to simulate payments and test integration.
+
 # Acknowledgements
 
 * Mentor support from *[Daisy McGirr](https://github.com/Daisy-McG)*.
