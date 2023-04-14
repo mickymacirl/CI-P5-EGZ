@@ -1,41 +1,87 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
 from .forms import OrderForm
+from .models import Order, OrderLineItem
+from products.models import Product
 from cart.contexts import cart_contents
 import stripe
 
 
 def checkout(request):
     """
-    This function creates a Stripe PaymentIntent object for the total amount of the items in the user's
-    cart.
-    
-    :param request: The request object represents the current HTTP request that the user has made
-    :return: The code snippet does not have a return statement, so nothing is being returned. It is
-    likely a part of a larger view function that handles the checkout process for an e-commerce website.
+    This function creates a Stripe PaymentIntent object for the total amount 
+    of the items in the user's cart.
+    :param request: The request object represents the current HTTP request 
+    that the user has made
+    :return: The code snippet does not have a return statement, so nothing is 
+    being returned. It is likely a part of a larger view function that handles
+    the checkout process for an e-commerce website.
     """
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
-    cart = request.session.get('cart', {})
-    if not cart:
-        messages.error(request, "The cart is empty! Please add products!")
-        return redirect(reverse('products'))
+    if request.method == 'POST':
+        cart = request.session.get('cart', {})
 
-    cart = request.session.get('cart', {})
-    if not cart:
-        messages.error(request, "There's nothing in the cart")
-        return redirect(reverse('products'))
+        form_data = {
+            'full_name': request.POST['full_name'],
+            'email': request.POST['email'],
+            'phone_number': request.POST['phone_number'],
+            'country': request.POST['country'],
+            'postcode': request.POST['postcode'],
+            'town_or_city': request.POST['town_or_city'],
+            'street_address1': request.POST['street_address1'],
+            'street_address2': request.POST['street_address2'],
+            'county': request.POST['county'],
+        }
+        order_form = OrderForm(form_data)
+        if order_form.is_valid():
+            order = order_form.save()
+            for item_id, item_data in cart.items():
+                try:
+                    product = Product.objects.get(id=item_id)
+                    if isinstance(item_data, int):
+                        order_line_item = OrderLineItem(
+                            order=order,
+                            product=product,
+                            quantity=item_data,
+                        )
+                        order_line_item.save()
+                    else:
+                        for size, quantity in item_data['items_by_size'].items():
+                            order_line_item = OrderLineItem(
+                                order=order,
+                                product=product,
+                                quantity=quantity,
+                                product_size=size,
+                            )
+                            order_line_item.save()
+                except Product.DoesNotExist:
+                    messages.error(request, (
+                        "One of the products in the cart wasn't found!")
+                    )
+                    order.delete()
+                    return redirect(reverse('view_cart'))
 
-    current_cart = cart_contents(request)
-    total = current_cart['grand_total']
-    stripe_total = round(total * 100)
-    stripe.api_key = stripe_secret_key
-    intent = stripe.PaymentIntent.create(
-        amount=stripe_total,
-        currency=settings.STRIPE_CURRENCY,
-    )
+            request.session['save_info'] = 'save-info' in request.POST
+            return redirect(reverse('checkout_success', args=[order.order_number]))
+        else:
+            messages.error(request, 'There was an error with the form!')
+    else:
+        cart = request.session.get('cart', {})
+        if not cart:
+            messages.error(request, "There's nothing in the cart at the moment")
+            return redirect(reverse('products'))
+
+        current_cart = cart_contents(request)
+        total = current_cart['grand_total']
+        stripe_total = round(total * 100)
+        stripe.api_key = stripe_secret_key
+        intent = stripe.PaymentIntent.create(
+            amount=stripe_total,
+            currency=settings.STRIPE_CURRENCY,
+        )
 
     print(intent)
     # This code is rendering the checkout page with an order form, Stripe public key, and a client secret.
@@ -52,6 +98,36 @@ def checkout(request):
         'order_form': order_form,
         'stripe_public_key': stripe_public_key,
         'client_secret': intent.client_secret,
+    }
+
+    return render(request, template, context)
+
+
+def checkout_success(request, order_number):
+    """
+    Handle successful checkouts
+    """
+    save_info = request.session.get('save_info')
+    order = get_object_or_404(Order, order_number=order_number)
+    messages.success(request, f'Order was processed! \
+       Your order number is {order_number}. A confirmation \
+       email will be sent to {order.email}.')
+
+#    messages.success(request, f'Order was processed! \
+#        Your order number is {order_number}. A confirmation \
+#        email will be sent to {order_email}.')
+
+#    message.success(request, f'Congratulations! Your order has been \
+#        successfully processed with order number {order_number}. We have sent \
+#        a confirmation email to {order_email} shortly. \
+#        Thank you for choosing our service."')
+
+    if 'cart' in request.session:
+        del request.session['cart']
+
+    template = 'checkout/checkout_success.html'
+    context = {
+        'order': order,
     }
 
     return render(request, template, context)

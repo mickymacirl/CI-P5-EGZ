@@ -49,7 +49,7 @@ class Order(models.Model):
         # calculated as a percentage of the order total using the `STANDARD_DELIVERY_PERCENTAGE` setting.
         # Otherwise, the delivery cost is set to 0. Finally, the updated `grand_total` is saved to the
         # database.
-        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
+        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
         if self.order_total < settings.FREE_DELIVERY_THRESHOLD:
             self.delivery_cost = self.order_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         else:
