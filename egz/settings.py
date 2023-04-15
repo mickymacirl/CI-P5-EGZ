@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-w&r2i-5(0m=lgtxqh2wd_xw$w6h3uisy$hap=aa044p9si5z*6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'cart',
     'checkout',
     'crispy_forms',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -112,7 +113,8 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'egz.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://*.127.0.0.1:8000', 'https://*.gitpod.io']
+# CSRF_TRUSTED_ORIGINS = ['https://*.127.0.0.1:8000', 'https://*.gitpod.io', 'https://8000-mickymacirl-cip5egz-kcqbptsz352.ws-eu94.gitpod.io/']
+
 
 
 # Database
