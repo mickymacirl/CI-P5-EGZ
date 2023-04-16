@@ -52,6 +52,11 @@ INSTALLED_APPS = [
     'profiles',
     'storages',
     'contactus',
+    'delivery',
+    'ethical',
+    'gdpr',
+    'tad',
+    'privacy',
 ]
 
 MIDDLEWARE = [

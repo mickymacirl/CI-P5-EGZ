@@ -22,6 +22,7 @@ from .views import handler404
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('tad/', include('tad.urls')),
     path('accounts/', include('allauth.urls')),
     path('', include('home.urls')),
     path('products/', include('products.urls')),
@@ -29,6 +30,10 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
     path('contactus/', include('contactus.urls')),
+    path('ethical/', include('ethical.urls')),
+    path('delivery/', include('delivery.urls')),
+    path('gdpr/', include('gdpr.urls')),
+    path('privacy/', include('privacy.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'egz.views.handler404'
