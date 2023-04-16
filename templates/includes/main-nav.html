@@ -1,7 +1,7 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
@@ -13,10 +13,11 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="hardware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Hardware
+                <i class="fa-regular fa-circle-dot"></i>
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-0" aria-labelledby="hardware-link">
                 <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Hardware</a>
                 <a href="{% url 'products' %}?category=jeans" class="dropdown-item">USB</a>
                 <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Devices</a>
@@ -25,10 +26,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="software-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Software
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+            <div class="dropdown-menu border-0" aria-labelledby="software-link">
                 <a href="{% url 'products' %}?category=software" class="dropdown-item">Software</a>
                 <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Open Source</a>
                 <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">Commerical</a>
@@ -37,7 +38,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -45,6 +46,20 @@
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="docs-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documents
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="docs-link">
+                <a href="#" class="dropdown-item">Getting Started</a>
+                <a href="#" class="dropdown-item">API Reference</a>
+                <a href="#" class="dropdown-item">User Guide</a>
+                <a href="#" class="dropdown-item">FAQs</a>
+                <a href="#" class="dropdown-item">Support</a>
+                <a href="#" class="dropdown-item">All Documents</a>
             </div>
         </li>
     </ul>
