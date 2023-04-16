@@ -55,8 +55,8 @@ INSTALLED_APPS = [
     'delivery',
     'ethical',
     'gdpr',
-    'tad',
     'privacy',
+    'newsletter',
 ]
 
 MIDDLEWARE = [
