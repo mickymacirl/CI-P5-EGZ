@@ -1,0 +1,8 @@
+{% block content %}
+<a class="nav-link" href=""><h1>Add Blog Post</h1></a>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>Post</button>
+</form>
+{% endblock %}

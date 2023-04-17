@@ -1,10 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<style>
+    /* reduce title font size on smaller screens */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 28px;
+      }
+    }
+    /* push posts down the page */
+    table {
+      margin-top: 70px;
+    }
+    /* reduce font size at 320px */
+    @media (max-width: 320px) {
+      h1 {
+        font-size: 24px;
+      }
+    }
+    h5 {
+        margin-top: 50px;
+    }
+</style>
+{% endblock %}
+<br>
+<br>
 {% block content %}
-<div class="container mt-5">
+<div class="container mt-5" style="margin-top: 20px;">
   <div class="row">
+    <div class="overlay"></div>
     <div class="col-lg-8">
       <div class="card mb-5">
         <div class="card-body">
-          <h5 class="card-title">{{ post.title }}</h5>
+          <h2 class="card-title">{{ post.title }}</h2>
           <p class="card-text">{{ post.body }}</p>
           <p class="card-text"><small class="text-muted">{{ post.created_on }}</small></p>
           <p class="card-text"><small class="text-muted">Likes: {{ post.likes }}</small></p>

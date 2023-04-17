@@ -1,47 +1,67 @@
+{% extends "base.html" %}
+{% load static %}
 
+{% block extra_css %}
+<style>
+    /* reduce title font size on smaller screens */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 28px;
+      }
+    }
+    /* push posts down the page */
+    table {
+      margin-top: 50px;
+    }
+    /* reduce font size at 320px */
+    @media (max-width: 320px) {
+      h1 {
+        font-size: 24px;
+      }
+    }
+    h5 {
+  margin-top: 50px;
+}
+  </style>
+{% endblock %}
 
+{% block content %}
 
+<div class="overlay"></div>
 <div class="container my-5">
-  <h1 class="text-center mb-5">Posts</h1>
-  <div class="row">
-    <div class="col-md-8 mx-auto">
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col"><a href="?sort=title">Title</a></th>
-            <th scope="col"><a href="?sort=author">Author</a></th>
-            <th scope="col"><a href="?sort=created_on">Created on</a></th>
-          </tr>
-        </thead>
-        <tbody>
-          {% if object_list %}
-            {% for post in object_list %}
-              <tr>
-                <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></td>
-                <td>{{ post.author }}</td>
-                <td>{{ post.created_on }}</td>
-                <td><p>Likes: {{ post.likes }}</p></td>
-              </tr>
-            {% endfor %}
-          {% else %}
+    <h1 class="text-center mb-5">Posts</h1>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <table class="table table-striped table-bordered">
+          <thead class="thead-dark">
             <tr>
-              <td colspan="3">There are no posts to display.</td>
+              <th scope="col">Title</a></th>
+              <th scope="col">Author</a></th>
+              <th scope="col">Date Posted</a></th>
+              <th scope="col">Likes</th>
             </tr>
-          {% endif %}
-        </tbody>
-      </table>
-      <div class="text-center">
-        <a href="{% url 'blog' %}" class="btn btn-secondary">Back to all posts</a>
+          </thead>
+          <tbody>
+            {% if object_list %}
+              {% for post in object_list %}
+                <tr>
+                  <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></td>
+                  <td>{{ post.author }}</td>
+                  <td>{{ post.created_on }}</td>
+                  <td><p>{{ post.likes }}</p></td>
+                </tr>
+              {% endfor %}
+            {% else %}
+              <tr>
+                <td colspan="6">There are no posts to display.</td>
+              </tr>
+            {% endif %}
+          </tbody>
+        </table>
+        <div class="text-center">
+          <a href="{% url 'blog' %}" class="btn btn-secondary">Back to all posts</a>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-{% block content %}
-  <div class="post">
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.body }}</p>
-    <p>Created by {{ post.author }} on {{ post.created_on }}</p>
-    <p>Likes: {{ post.likes }}</p>
-    <a href="">Like this post</a>
   </div>
 {% endblock %}
