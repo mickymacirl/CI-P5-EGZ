@@ -5,6 +5,6 @@ from django.shortcuts import render
 
 
 def privacy(request):
-    """ A view to return the privacy page """
+    """A view to return the privacy page"""
 
-    return render(request, 'privacy/index.html')
+    return render(request, "privacy/index.html")

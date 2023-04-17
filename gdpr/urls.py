@@ -2,6 +2,4 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 
-urlpatterns = [
-    path('', views.gdpr, name='gdpr')
-]
+urlpatterns = [path("", views.gdpr, name="gdpr")]

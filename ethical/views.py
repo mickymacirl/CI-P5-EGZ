@@ -5,6 +5,6 @@ from django.shortcuts import render
 
 
 def ethical(request):
-    """ A view to return the contact us page """
+    """A view to return the contact us page"""
 
-    return render(request, 'ethical/index.html')
+    return render(request, "ethical/index.html")

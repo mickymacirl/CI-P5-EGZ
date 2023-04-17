@@ -5,6 +5,6 @@ from django.shortcuts import render
 
 
 def delivery(request):
-    """ A view to return the delivery page """
+    """A view to return the delivery page"""
 
-    return render(request, 'delivery/index.html')
+    return render(request, "delivery/index.html")

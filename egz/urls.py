@@ -21,20 +21,20 @@ from django.conf.urls.static import static
 from .views import handler404
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('accounts/', include('allauth.urls')),
-    path('', include('home.urls')),
-    path('products/', include('products.urls')),
-    path('cart/', include('cart.urls')),
-    path('checkout/', include('checkout.urls')),
-    path('profile/', include('profiles.urls')),
-    path('contactus/', include('contactus.urls')),
-    path('ethical/', include('ethical.urls')),
-    path('delivery/', include('delivery.urls')),
-    path('gdpr/', include('gdpr.urls')),
-    path('privacy/', include('privacy.urls')),
-    path('newsletter/', include('newsletter.urls')),
-    path('', include('blog.urls')),
+    path("admin/", admin.site.urls),
+    path("accounts/", include("allauth.urls")),
+    path("", include("home.urls")),
+    path("products/", include("products.urls")),
+    path("cart/", include("cart.urls")),
+    path("checkout/", include("checkout.urls")),
+    path("profile/", include("profiles.urls")),
+    path("contactus/", include("contactus.urls")),
+    path("ethical/", include("ethical.urls")),
+    path("delivery/", include("delivery.urls")),
+    path("gdpr/", include("gdpr.urls")),
+    path("privacy/", include("privacy.urls")),
+    path("newsletter/", include("newsletter.urls")),
+    path("", include("blog.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler404 = 'egz.views.handler404'
+handler404 = "egz.views.handler404"
