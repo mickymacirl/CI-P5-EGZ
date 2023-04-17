@@ -34,6 +34,7 @@ urlpatterns = [
     path('gdpr/', include('gdpr.urls')),
     path('privacy/', include('privacy.urls')),
     path('newsletter/', include('newsletter.urls')),
+    path('', include('blog.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'egz.views.handler404'

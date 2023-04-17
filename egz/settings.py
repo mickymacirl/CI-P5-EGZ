@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'gdpr',
     'privacy',
     'newsletter',
+    'blog',
 ]
 
 MIDDLEWARE = [
