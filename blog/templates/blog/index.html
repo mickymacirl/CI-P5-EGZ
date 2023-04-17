@@ -1,29 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block extra_css %}
-<style>
-    /* reduce title font size on smaller screens */
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 28px;
-      }
-    }
-    /* push posts down the page */
-    table {
-      margin-top: 50px;
-    }
-    /* reduce font size at 320px */
-    @media (max-width: 320px) {
-      h1 {
-        font-size: 24px;
-      }
-    }
-    h5 {
-  margin-top: 50px;
-}
-  </style>
-{% endblock %}
 
 {% block content %}
 

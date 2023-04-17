@@ -121,10 +121,6 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'egz.wsgi.application'
 
-# CSRF_TRUSTED_ORIGINS = ['https://*.127.0.0.1:8000', 'https://*.gitpod.io', 'https://8000-mickymacirl-cip5egz-kcqbptsz352.ws-eu94.gitpod.io/']
-
-
-
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
@@ -140,7 +136,6 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
 
 
 # Password validation

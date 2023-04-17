@@ -9,8 +9,10 @@ from profiles.models import UserProfile
 
 
 class Order(models.Model):
-    # `order_number` is a field in the `Order` model that is a character field with a maximum length
-    # of 32 characters. It cannot be null and is not editable. It is used to store a unique identifier
+    # `order_number` is a field in the `Order` model that is a character field
+    # with a maximum length
+    # of 32 characters. It cannot be null and is not editable. It is used to
+    # store a unique identifier
     # for each order, generated using the `_generate_order_number` method.
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(
@@ -37,9 +39,12 @@ class Order(models.Model):
     order_total = models.DecimalField(
         max_digits=10, decimal_places=2, null=False, default=0
     )
-    # `grand_total` is a DecimalField in the `Order` model with a maximum of 10 digits and 2 decimal
-    # places. It cannot be null and has a default value of 0. This field represents the total cost of
-    # an order, including the order total and any delivery costs. It is updated each time a line item
+    # `grand_total` is a DecimalField in the `Order` model with a maximum of
+    # 10 digits and 2 decimal
+    # places. It cannot be null and has a default value of 0. This field
+    # represents the total cost of
+    # an order, including the order total and any delivery costs. It is
+    # updated each time a line item
     # is added to the order using the `update_total` method.
     grand_total = models.DecimalField(
         max_digits=10, decimal_places=2, null=False, default=0
@@ -49,9 +54,10 @@ class Order(models.Model):
 
     def _generate_order_number(self):
         """
-        return uuid.uuid4().hex.upper()` is generating a random, unique order number using UUID
-        (Universally Unique Identifier) and converting it to a hexadecimal string in uppercase
-        format.
+        return uuid.uuid4().hex.upper()` is generating a random, unique 
+        order number using UUID
+        (Universally Unique Identifier) and converting it to a hexadecimal 
+        string in uppercase format.
         """
         return uuid.uuid4().hex.upper()
 
@@ -60,11 +66,16 @@ class Order(models.Model):
         Update grand total each time a line item is added,
         accounting for delivery costs.
         """
-        # This code is updating the total cost of an order (`self.grand_total`) by calculating the sum of all
-        # line item totals (`self.order_total`) and adding the delivery cost (`self.delivery_cost`). If the
-        # order total is less than the free delivery threshold specified in the settings, the delivery cost is
-        # calculated as a percentage of the order total using the `STANDARD_DELIVERY_PERCENTAGE` setting.
-        # Otherwise, the delivery cost is set to 0. Finally, the updated `grand_total` is saved to the
+        # This code is updating the total cost of an order (`self.grand_total`)
+        #  by calculating the sum of all
+        # line item totals (`self.order_total`) and adding the delivery cost
+        # (`self.delivery_cost`). If the
+        # order total is less than the free delivery threshold specified in
+        # the settings, the delivery cost is
+        # calculated as a percentage of the order total using the
+        # `STANDARD_DELIVERY_PERCENTAGE` setting.
+        # Otherwise, the delivery cost is set to 0. Finally, the updated
+        # `grand_total` is saved to the
         # database.
         self.order_total = (
             self.lineitems.aggregate(Sum("lineitem_total"))["lineitem_total__sum"] or 0
@@ -112,17 +123,19 @@ class OrderLineItem(models.Model):
 
     def save(self, *args, **kwargs):
         """
-        This function overrides the original save method to set the lineitem total and update the order
-        total.
+        This function overrides the original save method to set the lineitem 
+        total and update the order total.
         """
         self.lineitem_total = self.product.price * self.quantity
         super().save(*args, **kwargs)
 
     def __str__(self):
         """
-        This function returns a string representation of an order with its associated product SKU.
-        :return: The `__str__` method is returning a string that includes the SKU of a product and the
-        order number it is associated with. The format of the string is "SKU {product_sku} on order
+        This function returns a string representation of an order with its 
+        associated product SKU.
+        :return: The `__str__` method is returning a string that includes the 
+        SKU of a product and the order number it is associated with. The 
+        format of the string is "SKU {product_sku} on order
         {order_number}".
         """
         return f"SKU {self.product.sku} on order {self.order.order_number}"
