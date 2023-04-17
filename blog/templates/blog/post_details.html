@@ -1,0 +1,13 @@
+<div>
+    <a href="{% url 'blog' %}">&larr; Back to all posts</a>
+    <table class="table">
+      <tbody>
+        <tr>
+          <td><strong>{{ post.title }}</strong> by {{ post.author }} on {{ post.created_on }}</td>
+        </tr>
+        <tr>
+          <td>{{ post.body }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

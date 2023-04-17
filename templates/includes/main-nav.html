@@ -62,5 +62,21 @@
                 <a href="{% url 'privacy' %}" class="dropdown-item">Privacy Policy</a>
             </div>
         </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="docs-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documents
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="docs-link">
+                <a href="{% url 'ethical' %}" class="dropdown-item">Ethical Policy</a>
+                <a href="{% url 'delivery' %}" class="dropdown-item">Delivery Policy</a>
+                <a href="{% url 'contactus' %}" class="dropdown-item">Contact Us</a>
+                <a href="{% url 'gdpr' %}" class="dropdown-item">GDPR Policy</a>
+                <a href="#" class="dropdown-item">Terms and Conditions</a>
+                <a href="{% url 'privacy' %}" class="dropdown-item">Privacy Policy</a>
+                <div class="dropdown-divider"></div>
+                <a href="{% url 'blog' %}" class="dropdown-item">Blog</a>
+            </div>
+        </li>
+        
     </ul>
 </div>

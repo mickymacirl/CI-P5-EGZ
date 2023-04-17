@@ -1,1 +1,37 @@
-test
+
+
+
+<div class="container my-5">
+  <h1 class="text-center mb-5">Posts</h1>
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col"><a href="?sort=title">Title</a></th>
+            <th scope="col"><a href="?sort=author">Author</a></th>
+            <th scope="col"><a href="?sort=created_on">Created on</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% if object_list %}
+            {% for post in object_list %}
+              <tr>
+                <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></td>
+                <td>{{ post.author }}</td>
+                <td>{{ post.created_on }}</td>
+              </tr>
+            {% endfor %}
+          {% else %}
+            <tr>
+              <td colspan="3">There are no posts to display.</td>
+            </tr>
+          {% endif %}
+        </tbody>
+      </table>
+      <div class="text-center">
+        <a href="{% url 'blog' %}" class="btn btn-secondary">Back to all posts</a>
+      </div>
+    </div>
+  </div>
+</div>
