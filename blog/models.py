@@ -9,6 +9,8 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     body = models.TextField()
     created_on = models.DateTimeField(default=timezone.now)
+    # likes
+    likes = models.IntegerField(default=0)
 
 #    def __str__(self):
 #        return self.title + '|' + self.author

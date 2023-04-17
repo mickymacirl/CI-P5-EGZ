@@ -20,6 +20,7 @@
                 <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></td>
                 <td>{{ post.author }}</td>
                 <td>{{ post.created_on }}</td>
+                <td><p>Likes: {{ post.likes }}</p></td>
               </tr>
             {% endfor %}
           {% else %}
@@ -35,3 +36,12 @@
     </div>
   </div>
 </div>
+{% block content %}
+  <div class="post">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.body }}</p>
+    <p>Created by {{ post.author }} on {{ post.created_on }}</p>
+    <p>Likes: {{ post.likes }}</p>
+    <a href="">Like this post</a>
+  </div>
+{% endblock %}
