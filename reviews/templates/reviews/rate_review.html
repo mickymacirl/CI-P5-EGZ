@@ -1,26 +1,25 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container header-container">
+  <div class="row">
+    <div class="col"></div>
+  </div>
+</div>
 {% endblock %}
 {% block content %}
-  <h1>Approved Reviews</h1>
-  {% if reviews %}
-    <ul>
-      {% for review in reviews %}
-        <li>{{ review.name }} - {{ review.review_text }}
-          {% if user.is_authenticated %}
-            <a href="{% url 'rate_review' review.id %}">Rate this review</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p>No approved reviews yet.</p>
-  {% endif %}
+<h1>Approved Reviews</h1>
+{% if reviews %}
+<ul>
+  {% for review in reviews %}
+  <li>{{ review.name }} - {{ review.review_text }}
+    {% if user.is_authenticated %}
+    <a href="{% url 'rate_review' review.id %}">Rate this review</a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No approved reviews yet.</p>
+{% endif %}
 {% endblock %}
