@@ -25,6 +25,14 @@ body {
     color: white;
   }
 
+/* center contact form */
+  #container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
 /* drop down menu shadow */
 .dropdown-menu {
     animation: slide-down 0.3s ease;
