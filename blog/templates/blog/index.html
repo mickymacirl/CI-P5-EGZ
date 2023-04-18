@@ -4,6 +4,13 @@
 
 {% block content %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
 <div class="overlay"></div>
 <div class="container my-5">
     <h1 class="text-center mb-5">Posts</h1>
@@ -22,10 +29,12 @@
             {% if object_list %}
               {% for post in object_list %}
                 <tr>
-                  <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></td>
+                  <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a> | <a href="{% url 'update_post' post.pk %}">edit</a></td>
+                  
                   <td>{{ post.author }}</td>
                   <td>{{ post.created_on }}</td>
                   <td><p>{{ post.likes }}</p></td>
+                  
                 </tr>
               {% endfor %}
             {% else %}

@@ -12,5 +12,5 @@ urlpatterns = [
     # path('login/', auth_views.LoginView.as_view(), name='login'),
     #path("login/", LoginView.as_view(), name="login"),
     path("add_post/", AddPostView.as_view(), name="add_post"),
-    path("update_post/<int:pk>", UpdatePostView.as_view(), name="update_post"),
+    path("post/edit_post/<int:pk>", UpdatePostView.as_view(), name="update_post"),
 ]

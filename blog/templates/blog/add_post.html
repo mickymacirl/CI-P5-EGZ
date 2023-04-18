@@ -1,8 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-<a class="nav-link" href=""><h1>Add Blog Post</h1></a>
-<form method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button>Post</button>
-</form>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <hr>
+                <h2 class="logo-font mb-4">Post Management</h2>
+                <h5 class="text-muted">Add a Post</h5>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button>Post</button>
+                </form>
+       </div>            
+        </div>
+    </div>
 {% endblock %}
