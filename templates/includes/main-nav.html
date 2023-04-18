@@ -3,8 +3,8 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="all-products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
-                <i class="fa-brands fa-product-hunt fa-sm"></i>
+                All Products 
+                <i class="fa-brands fa-product-hunt fa-sm" style="margin-left: 10px;"></i>
             </a>
             <div class="dropdown-menu border-1" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
@@ -16,8 +16,8 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="hardware-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Hardware
-                <i class="fa-solid fa-server fa-sm"></i>
+                Hardware 
+                <i class="fa-solid fa-server fa-sm" style="margin-left: 10px;"></i>
             </a>
             <div class="dropdown-menu border-1" aria-labelledby="hardware-link">
                 <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Hardware</a>
@@ -30,8 +30,8 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="software-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Software
-                <i class="fa-brands fa-uncharted fa-sm"></i>
+                Software 
+                <i class="fa-brands fa-uncharted fa-sm" style="margin-left: 10px;"></i>
             </a>
             <div class="dropdown-menu border-1" aria-labelledby="software-link">
                 <a href="{% url 'products' %}?category=software" class="dropdown-item">Software</a>
@@ -43,8 +43,8 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="specials-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
-                <i class="fa-brands fa-shopify fa-beat-fade fa-sm"></i>
+                Special Offers 
+                <i class="fa-brands fa-shopify fa-beat-fade fa-sm" style="margin-left: 10px;"></i>
             </a>
             <div class="dropdown-menu border-1" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
@@ -57,8 +57,8 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-3" href="#" id="docs-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Documents
-                <i class="fa-solid fa-building-shield fa-sm"></i>
+                Documents 
+                <i class="fa-solid fa-building-shield fa-sm" style="margin-left: 10px;"></i>
             </a>
             <div class="dropdown-menu border-1" aria-labelledby="docs-link">
                 <a href="{% url 'ethical' %}" class="dropdown-item">Ethical Policy</a>
@@ -70,8 +70,9 @@
                 <div class="dropdown-divider"></div>
                 <a href="{% url 'blog' %}" class="dropdown-item">Blog</a>
                 <div class="dropdown-divider"></div>
-                <a href="https://stripe.com/en-ie" class="dropdown-item">Powered by Stripe <i class="fa-brands fa-stripe-s fa-beat"></i></a>
-                <i class="fa-brands fa-stripe-s fa-beat"></i>
+                <a href="https://stripe.com/en-ie" class="dropdown-item" rel="noreferer">Powered by Stripe <i class="fa-brands fa-stripe-s fa-beat"></i></a>
+                <div class="dropdown-divider"></div>
+                <a href="{% url 'subscribe' %}" class="dropdown-item newsletter-item">Sign up to Newsletter! <i class="fa-solid fa-newspaper fa-sm"></i></a>
             </div>
         </li>
     </ul>

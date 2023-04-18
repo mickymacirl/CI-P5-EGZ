@@ -19,6 +19,12 @@ body {
     width: 1.5rem;
 }
 
+/* newsletter button styling */
+.newsletter-item {
+    background-color: black;
+    color: white;
+  }
+
 /* drop down menu shadow */
 .dropdown-menu {
     animation: slide-down 0.3s ease;

@@ -1,16 +1,23 @@
-{% block title %}Home Page {% endblock %}
-
-
+{% extends "base.html" %}
+{% load static %}
 
 {% block content %}
-<div class="container">
-    <div class="row mt-5 pt-5">
-        <div class="col-md-4 offset-md-4">
- 
-            <div class="card">
-                <h2>Email Address already subscribed.</h2>
-            </div>
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+<div class="container my-5">
+    <div class="overlay"></div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h2><i class="fa-solid fa-newspaper fa-lg" style="margin-right: 10px;"></i> Email Address already
+                subscribed! <i class="fa-solid fa-xmark" style="color: #ff0000;" style="margin-left: 10px;"></i></h2>
         </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
 {% endblock %}
