@@ -19,6 +19,23 @@ body {
     width: 1.5rem;
 }
 
+/* drop down menu shadow */
+.dropdown-menu {
+    animation: slide-down 0.3s ease;
+  }
+  
+  @keyframes slide-down {
+    from {
+      transform: translate3d(0, -100%, 0);
+      visibility: hidden;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+  }
+
 .logo-font {
     text-transform: uppercase;
 }
