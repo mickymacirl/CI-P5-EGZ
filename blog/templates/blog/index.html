@@ -29,12 +29,11 @@
             {% if object_list %}
               {% for post in object_list %}
                 <tr>
-                  <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a> | <a href="{% url 'update_post' post.pk %}">edit</a> | <a href="{% url 'delete_post' post.pk %}">delete</a></td>
+                  <td><a href="{% url 'blog-detail' post.pk %}">{{ post.title }}</a></td>
                   
                   <td>{{ post.author }}</td>
                   <td>{{ post.created_on }}</td>
                   <td><p>{{ post.likes }}</p></td>
-                  <td></td>
                   
                 </tr>
               {% endfor %}
