@@ -1,5 +1,6 @@
-from django.contrib import admin
 from django.urls import path
-from . import views
+from contactus.views import contact
 
-urlpatterns = [path("", views.contactus, name="contactus")]
+urlpatterns = [
+    path('contact/', contact, name='contact'),
+]
