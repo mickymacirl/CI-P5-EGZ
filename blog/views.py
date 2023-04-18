@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.views.generic import ListView, DetailView, CreateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.shortcuts import render, get_object_or_404
@@ -70,4 +70,10 @@ def get_context_data(self, **kwargs):
 class AddPostView(CreateView):
     model = Post
     template_name = "blog/add_post.html"
+    fields = '__all__'
+
+class UpdatePostView(CreateView):
+    model = Post
+    template_name = "blog/update_post.html"
+    #fields = ['title', 'body']
     fields = '__all__'
