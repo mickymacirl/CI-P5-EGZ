@@ -10,3 +10,13 @@ class ReviewForm(forms.ModelForm):
             'email': 'Email Address',
             'review_text': 'Review'
         }
+
+#class RatingForm(forms.ModelForm):
+#    value = forms.IntegerField(
+#        widget=forms.NumberInput(attrs={'class': 'form-control'}),
+#        label='Rating (1-5)'
+#    )
+#
+#   class Meta:
+#        model = Rating
+#        fields = ('value',)
