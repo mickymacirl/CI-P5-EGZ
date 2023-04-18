@@ -1,9 +1,11 @@
 from django.contrib import admin
 from .models import Review
 
-@admin.register(Review)
 class ReviewAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'email', 'created_at')
-    search_fields = ('name', 'email', 'comment')
-    ordering = ('-created_at',)
-    readonly_fields = ('id', 'created_at')
+    list_display = ('name', 'email', 'created_at')
+    actions = ['approve_reviews']
+
+    def approve_reviews(self, request, queryset):
+        queryset.update(approved=True)
+
+admin.site.register(Review, ReviewAdmin)
