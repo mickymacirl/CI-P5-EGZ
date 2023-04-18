@@ -2,28 +2,23 @@
 
 <!doctype html>
 <html lang="en">
-<head>
 
+<head>
     {% block meta %}
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% endblock %}
-
     {% block extra_meta %}
     {% endblock %}
-
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
-    <link rel="stylesheet" href="https://ci-p5-egz.s3.eu-west-1.amazonaws.com/static/css/base.css">
-    
+    <link rel="stylesheet" href="https://asset.cloudinary.com/ds197sglr/a12e7d6ca262b50cbb78a130e40605a5">
     {% endblock %}
-
     {% block extra_css %}
     {% endblock %}
-
     {% block corejs %}
     <script src="https://kit.fontawesome.com/acbd4edc31.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -38,10 +33,8 @@
     </script>
     <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
-
     {% block extra_js %}
     {% endblock %}
-
     <title>Ethical Gearz {% block extra_title %}{% endblock %}</title>
 </head>
 
@@ -80,23 +73,24 @@
                         </a>
                         <div class="dropdown-menu border-1" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
-                                <p class="dropdown-item mb-0"><strong>Username:</strong> {{ request.user.username }}</p>
-                                <p class="dropdown-item mb-0"><strong>Access Level:</strong> {% if request.user.is_superuser %}Admin{% else %}User{% endif %}</p>
-                                {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                                    <a href="{% url 'add_post' %}" class="dropdown-item">Post Management</a>
-                                {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                            <p class="dropdown-item mb-0"><strong>Username:</strong> {{ request.user.username }}</p>
+                            <p class="dropdown-item mb-0"><strong>Access Level:</strong>
+                                {% if request.user.is_superuser %}Admin{% else %}User{% endif %}</p>
+                            {% if request.user.is_superuser %}
+                            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                            <a href="{% url 'add_post' %}" class="dropdown-item">Post Management</a>
+                            {% endif %}
+                            <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
-                        
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link text-white" href="{% url 'view_cart' %}">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link text-white"
+                            href="{% url 'view_cart' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-small"></i></div>
                                 <p class="my-0">
@@ -109,7 +103,6 @@
                             </div>
                         </a>
                     </li>
-                    
                 </ul>
             </div>
         </div>
@@ -124,14 +117,7 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
-    <!--<div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
-            </div>
-        </div> -->
     </header>
-
-
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -149,22 +135,14 @@
         {% endfor %}
     </div>
     {% endif %}
-
     {% block page_header %}
     {% endblock %}
-
-
-    
     {% block content %}
     {% endblock %}
-
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
-
-
 </body>
-
 </html>
