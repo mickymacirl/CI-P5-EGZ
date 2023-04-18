@@ -1,6 +1,10 @@
 from django import forms
 from .models import Review
 
+
+# This is a Django form class for creating a
+# review form with fields for name, email, and
+# review text, and custom labels for each field.
 class ReviewForm(forms.ModelForm):
     class Meta:
         model = Review
@@ -10,13 +14,3 @@ class ReviewForm(forms.ModelForm):
             'email': 'Email Address',
             'review_text': 'Review'
         }
-
-#class RatingForm(forms.ModelForm):
-#    value = forms.IntegerField(
-#        widget=forms.NumberInput(attrs={'class': 'form-control'}),
-#        label='Rating (1-5)'
-#    )
-#
-#   class Meta:
-#        model = Rating
-#        fields = ('value',)

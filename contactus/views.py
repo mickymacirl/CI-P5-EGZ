@@ -10,8 +10,3 @@ def contact(request):
     else:
         form = InquiryForm()
     return render(request, 'contactus/contact.html', {'form': form})
-
-#def contactus(request):
-#    """A view to return the contact us page"""
-#
-#    return render(request, "contactus/index.html")

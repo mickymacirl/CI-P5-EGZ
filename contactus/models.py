@@ -1,5 +1,10 @@
 from django.db import models
 
+# This is a Django model for an inquiry form that
+# includes fields for full name, email, phone number,
+# subject, message, and creation date.
+
+
 class Inquiry(models.Model):
     full_name = models.CharField(max_length=100)
     email = models.EmailField()
@@ -10,4 +15,3 @@ class Inquiry(models.Model):
 
     def __str__(self):
         return self.full_name
-

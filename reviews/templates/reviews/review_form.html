@@ -1,18 +1,25 @@
 {% extends 'base.html' %}
-{% load static %}
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
 {% block content %}
-    <h1>Submit a review</h1>
-    <form method="POST">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Submit</button>
-    </form>
+<div class="container my-5" id="container-contact">
+    <div class="overlay"></div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"
+            style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h2><i class="fa-solid fa-address-book" style="margin-right: 10px;"></i>Submit a Review</h2>
+            <form method="POST">
+                {% csrf_token %}
+                {% for field in form %}
+                <div class="form-group">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field }}
+                </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
 {% endblock %}
