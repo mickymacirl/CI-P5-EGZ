@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
-from .views import BlogView, BlogDetailView, like_post, AddPostView, UpdatePostView
+from .views import BlogView, BlogDetailView, like_post, AddPostView, UpdatePostView, DeletePostView
 from django.contrib.auth.views import LoginView
 
 urlpatterns = [
@@ -13,4 +13,5 @@ urlpatterns = [
     #path("login/", LoginView.as_view(), name="login"),
     path("add_post/", AddPostView.as_view(), name="add_post"),
     path("post/edit_post/<int:pk>", UpdatePostView.as_view(), name="update_post"),
+    path("post/<int:pk>/remove", DeletePostView.as_view(), name="delete_post"),
 ]

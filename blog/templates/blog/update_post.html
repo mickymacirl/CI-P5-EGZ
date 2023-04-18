@@ -2,12 +2,13 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
+
 {% block content %}
 <div class="overlay"></div>
 <div class="container">
@@ -21,19 +22,9 @@
     </div>
     <form method="POST">
         {% csrf_token %}
-        <div class="form-group">
-            <label for="{{ form.title.id_for_label }}" class="font-weight-bold">Title:</label>
-            {{ form.title }}
-        </div>
-        <div class="form-group">
-            <label for="{{ form.body.id_for_label }}" class="font-weight-bold">Body:</label>
-            {{ form.body }}
-        </div>
-        <div class="form-group">
-            <label for="{{ form.author.id_for_label }}" class="font-weight-bold">Author:</label>
-            {{ form.author }}
-        </div>
-        <button class="btn btn-secondary">Update</button>
+        {{ form.as_p }}
+        <button>Update</button>
     </form>
+</div>
 </div>
 {% endblock %}

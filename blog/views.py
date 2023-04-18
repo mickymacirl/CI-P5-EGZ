@@ -1,11 +1,12 @@
 from django.shortcuts import render, redirect
-from django.views.generic import ListView, DetailView, CreateView, UpdateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from django.http import HttpResponseRedirect
+from django.contrib.auth.mixins import UserPassesTestMixin
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
 from .models import Post
@@ -66,15 +67,32 @@ def get_context_data(self, **kwargs):
     context["like_post_url"] = reverse("like_post", kwargs={"pk": 1})
     return context
 
-
-class AddPostView(CreateView):
+class AddPostView(UserPassesTestMixin,CreateView):
     model = Post
     # form_class = PostForm
     template_name = "blog/add_post.html"
     fields = '__all__'
 
-class UpdatePostView(CreateView):
+    def test_func(self):
+        return self.request.user.is_superuser
+
+class UpdatePostView(UserPassesTestMixin,UpdateView):
     model = Post
+    # form_class = PostForm
     template_name = "blog/update_post.html"
     #fields = ['title', 'body']
     fields = '__all__'
+
+    def test_func(self):
+        return self.request.user.is_superuser
+
+
+class DeletePostView(UserPassesTestMixin, DeleteView):
+    model = Post
+    # form_class = PostForm
+    template_name = "blog/delete_post.html"
+    #fields = ['title', 'body']
+    success_url = reverse_lazy('blog')
+
+    def test_func(self):
+        return self.request.user.is_superuser
