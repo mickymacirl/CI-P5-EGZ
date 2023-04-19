@@ -551,17 +551,7 @@ The website's primary color scheme is white on white. To match the color of the 
 
 ### Typography
 
-Throughout the website, the *[Font 1](https://fonts.google.com/specimen/)* font was used. This font was imported into the style sheet from Google Fonts.
-
-Logo fonts are:
-
-### Font 1
-
-![Font 1](./docs/readme/1.jpg)
-
-### Font 2
-
-![Font 2](./docs/readme/2.jpg)
+Throughout the website, the *[Lato](https://fonts.google.com/specimen/Lato)* font was used. This font was imported into the style sheet from Google Fonts.
 
 ### Imagery
 
