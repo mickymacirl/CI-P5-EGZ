@@ -100,7 +100,7 @@ The user is directed to the relevant page, either redirecting to the login page 
 
 Actual:
 
-The user was directed to the relevant page, redirecting to the login page for protected pages and displayed a 403 error.
+The user was directed to the relevant page, redirected to the login page for protected pages and displayed a 403 error.
 
 <hr>
 
@@ -144,6 +144,257 @@ Actual:
 6. User was able to enter credit card information
 7. User was able to complete the purchase
 8. User received an order confirmation email.
+
+<hr>
+
+## Blog Section
+
+Testing was performed to ensure the blog section of the site functions as intended. The tests include user and admin actions such as reading blogs, creating, reading, updating, and deleting posts using the product management section.
+
+Description:
+
+Ensure users can read blogs and the admin can manage posts using the product management section.
+
+Steps:
+
+1. Navigate to the blog section of the site
+2. Read a blog post
+3. Log in as an admin
+4. Navigate to the product management section
+5. Create a new blog post
+6. Read a blog post
+7. Update a blog post
+8. Delete a blog post
+
+Expected:
+
+1. User can navigate to the blog section of the site
+2. User can read a blog post
+3. Admin can log in to the site
+4. Admin can navigate to the product management section
+5. Admin can create a new blog post
+6. User can read a blog post
+7. Admin can update a blog post
+8. Admin can delete a blog post
+
+Actual:
+
+1. User was able to navigate to the blog section of the site
+2. User was able to read a blog post
+3. Admin was able to log in to the site
+4. Admin was able to navigate to the product management section
+5. Admin was able to create a new blog post
+6. User was able to read a blog post
+7. Admin was able to update a blog post
+8. Admin was able to delete a blog post.
+
+<hr>
+
+## Reviews Section
+
+Testing was performed to ensure the reviews section of the site functions as intended. The tests include user and admin actions such as reading approved reviews, adding reviews, creating, reading, updating, and deleting reviews as an admin, and testing that approved reviews are displayed.
+
+Description:
+
+Ensure users can read approved reviews, add reviews, and that admins can manage reviews.
+
+Steps:
+
+1. Navigate to the reviews section of the site
+2. Read an approved review
+3. Add a review
+4. Log in as an admin
+5. Navigate to the review management section
+6. Create a new review
+7. Read a review
+8. Update a review
+9. Delete a review
+10. Approve a review
+11. Verify that approved reviews are displayed
+
+Expected:
+
+1. User can navigate to the reviews section of the site
+2. User can read an approved review
+3. User can add a review
+4. Admin can log in to the site
+5. Admin can navigate to the review management section
+6. Admin can create a new review
+7. User can read a review
+8. Admin can update a review
+9. Admin can delete a review
+10. Admin can approve a review
+11. Approved reviews are displayed for users to read
+
+Actual:
+
+1. User was able to navigate to the reviews section of the site
+2. User was able to read an approved review
+3. User was able to add a review
+4. Admin was able to log in to the site
+5. Admin was able to navigate to the review management section
+6. Admin was able to create a new review
+7. User was able to read a review
+8. Admin was able to update a review
+9. Admin was able to delete a review
+10. Admin was able to approve a review
+11. Approved reviews were displayed for users to read.
+
+<hr>
+
+## Newsletter Section
+
+Testing was performed to ensure the newsletter section of the site functions as intended. The tests include user and admin actions such as submitting an email address, checking if the email is already in the database, adding new emails to the database, and managing emails using django admin as an admin.
+
+Description:
+
+Ensure users can submit an email address for the newsletter and admins can manage email addresses using the product management section.
+
+Steps:
+
+1. Navigate to the newsletter section of the site
+2. Enter an email address
+3. Submit the email address
+4. Verify if the email address is already in the database
+5. If not, add the email address to the database
+6. Log in as an admin
+7. Navigate to django admin
+8. Create a new email address
+9. Read an email address
+10. Update an email address
+11. Delete an email address
+
+Expected:
+
+1. User can navigate to the newsletter section of the site
+2. User can enter an email address
+3. User can submit the email address
+4. System verifies if the email address is already in the database
+5. If not, system adds the email address to the database
+6. Admin can log in to the site
+7. Admin can navigate to django admin
+8. Admin can create a new email address
+9. User can read an email address
+10. Admin can update an email address
+11. Admin can delete an email address
+
+Actual:
+
+1. User was able to navigate to the newsletter section of the site
+2. User was able to enter an email address
+3. User was able to submit the email address
+4. System verified if the email address is already in the database
+5. If not, system added the email address to the database
+6. Admin was able to log in to the site
+7. Admin was able to navigate to django admin
+8. Admin was able to create a new email address
+9. User was able to read an email address
+10. Admin was able to update an email address
+11. Admin was able to delete an email address.
+
+<hr>
+
+## Product Admin Section
+
+Testing was performed to ensure the Product Admin section of the site functions as intended. The tests include admin actions such as creating, reading, updating, and deleting products, including name, price, category, rating, image, and SKU. The tests also verify that standard users can see products in the correct categories and search, sort, and filter products based on various criteria.
+
+Description:
+
+Ensure admins can manage products using the Product Admin section of the site and that standard users can view products in the correct categories, and search, sort, and filter products based on various criteria.
+
+Steps:
+
+1. Log in as an admin
+2. Navigate to the Product Admin section
+3. Create a new product with name, price, category, rating, image, and SKU
+4. Read a product
+5. Update a product
+6. Delete a product
+7. Log out as admin
+8. Log in as a standard user
+9. Navigate to the Products section
+10. Verify that products are displayed in the correct categories
+11. Search for a product by name, or category
+12. Sort products by name, price, rating, or category
+13. Filter products by category or rating
+
+Expected:
+
+1. Admin can log in to the site
+2. Admin can navigate to the Product Admin section
+3. Admin can create a new product with name, price, category, rating, image, and SKU
+4. User can read a product
+5. Admin can update a product
+6. Admin can delete a product
+7. Admin can log out
+8. Standard user can log in to the site
+9. Standard user can navigate to the Products section
+10. Products are displayed in the correct categories for the standard user to view.
+11. User can search for a product by name and category
+12. User can sort products by name, price, rating, or category
+13. User can filter products by category or rating.
+
+Actual:
+
+1. Admin was able to log in to the site
+2. Admin was able to navigate to the Product Admin section
+3. Admin was able to create a new product with name, price, category, rating, image, and SKU
+4. User was able to read a product
+5. Admin was able to update a product
+6. Admin was able to delete a product
+7. Admin was able to log out
+8. Standard user was able to log in to the site
+9. Standard user was able to navigate to the Products section
+10. Products were displayed in the correct categories for the standard user to view.
+11. User was able to search for a product by name and category
+12. User was able to sort products by name, price, rating, or category
+13. User was able to filter products by category or rating.
+
+<hr>
+
+## Contact Us Section
+
+Testing was performed to ensure the Contact Us section of the site functions as intended. The tests include user and admin actions such as submitting and managing messages using django admin as an admin.
+
+Description:
+
+Ensure users can submit a message to the site's owners, and admins can manage messages using django admin.
+
+Steps:
+
+1. Navigate to the Contact Us section of the site
+2. Fill out the message form and submit the message
+3. Verify that the thank you message was sent successfully
+4. Log in as an admin
+5. Navigate to django admin
+6. Create a new message
+7. Read a message
+8. Update a message
+9. Delete a message
+
+Expected:
+
+1. User can navigate to the Contact Us section of the site
+2. User can fill out the message form and submit the message
+3. User receives a thank you confirmation that the message was sent successfully
+4. Admin can log in to django admin
+5. Admin can navigate to django admin
+6. Admin can create a new message
+7. Admin can read a message
+8. Admin can update a message
+9. Admin can delete a message
+
+Actual:
+
+1. User was able to navigate to the Contact Us section of the site
+2. User was able to fill out the message form and submit the message
+3. User received a thank you confirmation that the message was sent successfully
+4. Admin was able to log in to django admin
+5. Admin was able to navigate to the message section
+6. Admin was able to create a new message
+7. Admin was able to read a message
+8. Admin was able to update a message
+9. Admin was able to delete a message.
 
 <hr>
 
