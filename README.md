@@ -70,14 +70,12 @@ Brand awareness is a key component of our marketing strategy at Ethical Gearz. W
 
 For our marketing strategy, we will focus on building brand recognition by using a professional logo and slogan and a branded domain name, ethicalgearz.com. This will help to establish our brand identity and make it easier for customers to remember us. We will also ensure that our branding is consistent across all marketing channels to increase recognition and make our brand more memorable.
 
-Pic of Logo
-domain name
-
+![Domain](./docs/readme/forwardrm.jpg)
 #### Search Engine Optimization
 
 A key strategy for improving the visibility of Ethical Gearz in search engine results pages is search engine optimization (SEO). One important step in this process was creating a dedicated domain for the website, which is ethicalgearz.com, to improve indexing by search engines. By using ethicalgearz.com as our domain, we will increase the chances of our site appearing higher in search results when users search for keywords related to ethical hacking and cybersecurity. This will help us reach a wider audience and ultimately drive more traffic to the site.
 
-![SEO](./docs/readme/seord.jpg)
+![SEO](./docs/readme/seorm.jpg)
 
 #### Content Marketing
 
