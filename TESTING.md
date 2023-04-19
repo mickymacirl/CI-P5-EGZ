@@ -482,7 +482,7 @@ The store was designed to provide optimal viewing experience across different sc
 
 During the development process, the *[WAVE Evaluation Website](https://wave.webaim.org/report#/https://ci-p5-egz.herokuapp.com/)*  tool was used to ensure the highest level of accessibility in accordance with the Web Content Accessibility Guidelines (WCAG).
 
-![WAVE](/docs/testing/testing-wave.jpg)
+![WAVE](./docs/readme/waverm.png)
 
 ## Validator Testing
 
@@ -511,13 +511,13 @@ Because of validator will only accept HTML rendered code, paste the raw HTML cod
 
 ### Desktop Testing
 
-Desktop Lighthouse testing is showing a perfect score of 96, with SEO of 100 seo.
+Desktop Lighthouse testing is showing a perfect score of 95, with SEO of 91 seo.
 
 ![Desktop Lighthouse Result](./docs/readme/lhdesktoprm.jpg)
 
 ### Mobile Testing
 
-Mobile Lighthouse Testing is showing a score of 72 due to image sizes, with SEO of 100.
+Mobile Lighthouse Testing is showing a score of 71 due to image sizes, with SEO of 100.
 
 ![Mobile Lighthouse Result](./docs/readme/lhmobilerm.jpg)
 
