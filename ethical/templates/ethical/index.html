@@ -1,32 +1,48 @@
-{% extends "base.html" %}
-{% load static %}
-
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+{% extends "base.html" %} {% load static %} {% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
-{% endblock %}
-
-{% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="overlay"></div>
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    ethical
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
+</div>{% endblock %} {% block content %}
+<div class="container my-5">
+    <div class="overlay"></div>
+    <h1 class="text-center mb-5">Ethical Policy</h1>
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow-sm mb-5">
+                <div class="card-body">
+                    <p>Ethical Gearz is dedicated to using security testing tools and products ethically. As a
+                        responsible member of the security community, we have established the following ethical policy
+                        for our customers:</p>
+                    <ol>
+                        <li>Ethical Use Only: Our products are intended for security testing and auditing and must
+                            comply with all local, state, and federal laws. Therefore, we strongly discourage any
+                            illegal use of our products.</li>
+                        <li>Informed Consent: Ethical Gearz will not be held responsible for any damages or liabilities
+                            resulting from using or misusing our products. By purchasing our products, customers agree
+                            to take full responsibility for their actions and use the products legally and ethically.
+                        </li>
+                        <li>Professionalism: Ethical Gearz strongly encourages customers to act professionally and
+                            ethically when using our products. We do not condone any malicious or harmful actions and
+                            will not tolerate unethical behaviour from our customers.</li>
+                        <li>Responsible Disclosure: We urge our customers to adhere to responsible disclosure practices
+                            when identifying and reporting security vulnerabilities to others.</li>
+                        <li>Respect for Privacy: Ethical Gearz respects the privacy of all individuals and organizations
+                            and will not sell or share any customer information with third parties without prior
+                            consent.</li>
+                        <li>Compliance with International Laws: Customers who purchase our products are responsible for
+                            complying with all international laws regarding using security testing tools.</li>
+                    </ol>
+                    <p>Customers agree to adhere to the above ethical policy by using our website and purchasing our
+                        products. Any violation of this policy may result in the termination of the customer's account
+                        and the refusal of future service.</p>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center"></div>
+                    <div class="text-center mt-5">
+                        <a href="{% url 'home' %}" class="btn btn-secondary">Home</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    
-
-
-{% endblock %}
+</div>{% endblock %}

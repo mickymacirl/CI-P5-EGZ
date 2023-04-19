@@ -40,11 +40,13 @@ To accomplish this, we will employ a combination of digital marketing tactics an
 
 ![Social Media](./docs/readme/smrd.jpg)
 
-**Referral program:** Offer a referral program to incentivize customers to share their positive experiences with Ethical Gearz with their friends and colleagues. This can help to expand the customer base and build trust in the brand.
-
-**Partnerships:** Partner with ethical hacking and cybersecurity influencers, bloggers, and organizations to reach a wider audience and gain credibility in the industry.
-
 **Ethical messaging:** Emphasize the ethical aspect of the business in all marketing efforts. Use messaging that highlights the importance of responsible hacking and the role Ethical Gearz plays in promoting ethical hacking practices.
+
+![Ethical 1](./docs/readme/ethical1rm.jpg)
+
+![Ethical 2](./docs/readme/ethical2rm.jpg)
+
+![Ethical 3](./docs/readme/smrd.jpg)
 
 **Discounts and promotions:** Offer discounts and promotions on ethical hacking products and services to attract customers and build loyalty.
 
@@ -329,6 +331,14 @@ Defensive Application programming techniques were utilized in the development of
 ### User Profile Page
 
 ### Contact Us Page
+
+![Contact Us 1](./docs/readme/contactus1.jpg)
+
+![Contact Us 2](./docs/readme/contactus2.jpg)
+
+![Contact Us 3](./docs/readme/contactus3.jpg)
+
+![Contact Us 4](./docs/readme/contactus4.jpg)
 
 ### 404 Error Page
 

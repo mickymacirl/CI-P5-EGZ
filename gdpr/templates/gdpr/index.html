@@ -1,32 +1,55 @@
-{% extends "base.html" %}
-{% load static %}
-
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+{% extends "base.html" %} {% load static %} {% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
-{% endblock %}
-
-{% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="overlay"></div>
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    gdpr
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
+</div>{% endblock %} {% block content %}
+<div class="container my-5">
+    <div class="overlay"></div>
+    <h1 class="text-center mb-5">GDPR Policy</h1>
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow-sm mb-5">
+                <div class="card-body">
+                    <p>At Ethical Gearz, accessible from www.ethicalgearz.com, one of our main priorities is the privacy
+                        of our visitors. This GDPR Policy document contains types of information that is collected and
+                        recorded by Ethical Gearz and how we use it.</p>
+                    <p>If you have additional questions or require more information about our GDPR Policy, do not
+                        hesitate to contact us.
+                        <h3>General Data Protection Regulation (GDPR)</h3>
+                        <p>We are a Data Controller of your information.</p>
+                        <p>Ethical Gearz legal basis for collecting and using the personal information described in this
+                            GDPR Policy depends on the Personal Information we collect and the specific context in which
+                            we collect the information:</p>
+                        <ul>
+                            <li>Ethical Gearz needs to perform a contract with you</li>
+                            <li>You have given Ethical Gearz permission to do so</li>
+                            <li>Processing your personal information is in Ethical Gearz legitimate interests</li>
+                            <li>Ethical Gearz needs to comply with the law</li>
+                        </ul>
+                        <p>Ethical Gearz will retain your personal information only for as long as is necessary for the
+                            purposes set out in this GDPR Policy. We will retain and use your information to the extent
+                            necessary to comply with our legal obligations, resolve disputes, and enforce our policies.
+                        </p>
+                        <p>If you are a resident of the European Economic Area (EEA), you have certain data protection
+                            rights. If you wish to be informed what Personal Information we hold about you and if you
+                            want it to be removed from our systems, please contact us.</p>
+                        <p>In certain circumstances, you have the following data protection rights:</p>
+                        <ul>
+                            <li>The right to access, update or to delete the information we have on you.</li>
+                            <li>The right of rectification.</li>
+                            <li>The right to object.</li>
+                            <li>The right of restriction.</li>
+                            <li>The right to data portability</li>
+                            <li>The right to withdraw consent</li>
+                        </ul>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center"></div>
+                        <div class="text-center mt-5">
+                            <a href="{% url 'home' %}" class="btn btn-secondary">Home</a>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
-
-    
-
-
-{% endblock %}
+</div>{% endblock %}
