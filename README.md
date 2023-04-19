@@ -73,7 +73,7 @@ Picture of SEO
 
 Content marketing for Ethical Gearz involves creating and sharing informative and engaging content related to ethical hacking and cybersecurity. This content could take the form of blog posts and infographics. The goal of content marketing is to attract and retain a clearly defined audience, and ultimately, to drive profitable customer action. By providing valuable and educational content on the site, Ethical Gearz can establish itself as a trusted resource for ethical hackers of all levels, and build a loyal following over time.
 
-Picture of Content Marketing
+![Blog](./docs/readme/contentrm.png)
 
 #### Social Media Marketing
 
