@@ -389,19 +389,19 @@ Defensive Application programming techniques were utilized in the development of
 
 Here are some potential future features for Ethical Gearz online store:
 
-    Personalized product recommendations: Use machine learning algorithms to offer personalized product recommendations to users based on their behavior and preferences.
+Personalized product recommendations: Use machine learning algorithms to offer personalized product recommendations to users based on their behavior and preferences.
 
-    Customer rewards program: Implement a rewards program that incentivizes customers to make repeat purchases and refer friends.
+Customer rewards program: Implement a rewards program that incentivizes customers to make repeat purchases and refer friends.
 
-    User-generated content: Allow customers to share photos and reviews of their purchases, creating a sense of community and social proof.
+User-generated content: Allow customers to share photos and reviews of their purchases, creating a sense of community and social proof.
 
-    AI-powered chatbot: Develop a chatbot that can answer common customer questions and provide assistance with purchases.
+AI-powered chatbot: Develop a chatbot that can answer common customer questions and provide assistance with purchases.
 
-    Subscription services: Offer subscription services for products such as software, digital courses, or other regularly-updated products.
+Subscription services: Offer subscription services for products such as software, digital courses, or other regularly-updated products.
 
-    In-store pickup: Allow customers to order products online and pick them up in-store, providing a convenient option for local customers.
+In-store pickup: Allow customers to order products online and pick them up in-store, providing a convenient option for local customers.
 
-    Collaborations with ethical brands: Partner with other ethical and sustainable brands to create exclusive products and collections.
+Collaborations with ethical brands: Partner with other ethical and sustainable brands to create exclusive products and collections.
 
 ## Skeleton Plane
 
@@ -519,13 +519,13 @@ The database model diagram was designed using graph_models django extension on a
 
 A total of 4 custom models were created for the Blog App, Newsletter App, Reviews App and Contact Us App.
 
-    Blog: The custom model for the blog includes fields such as title, author, body, created_on, and likes. These fields allow for the creation and management of blog posts, including the ability to track the number of likes a post has received.
+Blog: The custom model for the blog includes fields such as title, author, body, created_on, and likes. These fields allow for the creation and management of blog posts, including the ability to track the number of likes a post has received.
 
-    Newsletter: The custom model for the newsletter includes a single field for storing email addresses. This allows users to subscribe to a newsletter mailing list for regular updates.
+Newsletter: The custom model for the newsletter includes a single field for storing email addresses. This allows users to subscribe to a newsletter mailing list for regular updates.
 
-    Reviews: The custom model for reviews includes fields such as name, email, review_txt, approved, and created_at. These fields allow for the collection and management of reviews from users, including the ability to approve or reject reviews.
+Reviews: The custom model for reviews includes fields such as name, email, review_txt, approved, and created_at. These fields allow for the collection and management of reviews from users, including the ability to approve or reject reviews.
 
-    Contact Us: The custom model for the Contact Us form includes fields such as full_name, email, phone_number, subject, message, and created_at. These fields allow users to submit contact messages to the site's administrators, including contact details such as phone number and email, as well as a subject and message for their inquiry.
+Contact Us: The custom model for the Contact Us form includes fields such as full_name, email, phone_number, subject, message, and created_at. These fields allow users to submit contact messages to the site's administrators, including contact details such as phone number and email, as well as a subject and message for their inquiry.
 
 ### Create, Read, Update and Delete
 
