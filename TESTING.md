@@ -526,4 +526,4 @@ Mobile Lighthouse Testing is showing a score of 71 due to image sizes and stripe
 
 * Used *[StackOverFlow](https://stackoverflow.com/questions/70285834/forbidden-403-csrf-verification-failed-request-aborted-reason-given-for-fail/70326426#70326426)* to fix csrf verification error to login to django admin site, which required adding CSRF_TRUSTED_ORIGINS in settings.py file.
 
-* Bug with AWS S3, when uploading an image in the Product Admin section, and after the static migration, S3 requires modification of the ACL to public to allow the image to be displayed and the static files to show, added cloudinary link to static base.css as a short term fix for the stores styling.
+* Bug with AWS S3, when uploading an image in the Product Admin section, and after the static migration, S3 requires modification of the ACL to public to allow the image to be displayed and the static files to show, added cloudinary link to static base.css as a short term fix for the stores styling. I have opened a support case with Amazon on this issue.
