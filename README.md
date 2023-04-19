@@ -48,6 +48,8 @@ To accomplish this, we will employ a combination of digital marketing tactics an
 
 **Discounts and promotions:** Offer discounts and promotions on ethical hacking products and services to attract customers and build loyalty.
 
+![Specials](./docs/readme/specialsrm.jpg)
+
 **Customer reviews:** Encourage customers to leave reviews on the website and other review platforms to build social proof and credibility in the industry.
 
 ![Customer Reviews](./docs/readme/reviewsrm.jpg)
