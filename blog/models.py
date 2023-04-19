@@ -13,8 +13,6 @@ class Post(models.Model):
     # likes
     likes = models.IntegerField(default=0)
 
-    #    def __str__(self):
-    #        return self.title + '|' + self.author
     def __str__(self):
         return f"{self.title} | {self.author.username}"
 
