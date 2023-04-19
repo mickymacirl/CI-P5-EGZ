@@ -318,6 +318,8 @@ Defensive Application programming techniques were utilized in the development of
 
 ![Products 1](./docs/readme/products1rm.jpg)
 
+![Products 2](./docs/readme/products2rm.jpg)
+
 ### Product Detail Page
 
 ### Shopping Basket Page
