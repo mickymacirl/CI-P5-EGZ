@@ -480,7 +480,7 @@ The store was tested on the following screen sizes using Chrome Dev tools, Media
 
 The store was designed to provide optimal viewing experience across different screen sizes and resolutions.
 
-During the development process, the *[WAVE Evaluation Website](https://wave.webaim.org/report#/https://icsblogp4.herokuapp.com/)*  tool was used to ensure the highest level of accessibility in accordance with the Web Content Accessibility Guidelines (WCAG).
+During the development process, the *[WAVE Evaluation Website](https://wave.webaim.org/report#/https://ci-p5-egz.herokuapp.com/)*  tool was used to ensure the highest level of accessibility in accordance with the Web Content Accessibility Guidelines (WCAG).
 
 ![WAVE](/docs/testing/testing-wave.jpg)
 
@@ -519,7 +519,7 @@ Desktop Lighthouse testing is showing a perfect score of 96, with SEO of 100 seo
 
 Mobile Lighthouse Testing is showing a score of 72 due to image sizes, with SEO of 100.
 
-![Mobile Lighthouse Result](/docs/testing/testing_lh_mobile.jpg)
+![Mobile Lighthouse Result](./docs/readme/lhmobilerm.jpg)
 
 ## Bugs
 
