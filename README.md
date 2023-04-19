@@ -8,6 +8,8 @@
 
 This was my fifth project for the Code Institute's [Full Stack Software Development Diploma](https://codeinstitute.net/ie/full-stack-software-development-diploma/).
 
+![Mock](./docs/readme/mockrm.png)
+
 # User Experience
 
 ## Strategy Plane
