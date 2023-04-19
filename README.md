@@ -8,6 +8,8 @@
 
 This was my fifth project for the Code Institute's [Full Stack Software Development Diploma](https://codeinstitute.net/ie/full-stack-software-development-diploma/).
 
+Live site is *[here](https://ci-p5-egz.herokuapp.com/)* and the forwarded site from *[EthicalGearzcom](https://ci-p5-egz.herokuapp.com/)*
+
 ![Mock](./docs/readme/mockrm.png)
 
 # User Experience
