@@ -14,11 +14,11 @@ Steps:
 
 Expected:
 
-The user is directed back to login screen to login after entering suitable username and password, registration is successful
+The user is directed to a verify email messagen after entering suitable email, username and password, registration is successful after verifying email.
 
 Actual:
 
-The user is directed back to login screen to login after entering suitable username and password, registration was successful with an email confirmation link being recieved. 
+The user was directed to a verify email messagen after entering suitable email, username and password, registration was successful after verifying email.
 
 <hr>
 
@@ -96,11 +96,49 @@ Click on the different navigations link in the navigation bar
 
 Expected:
 
-The user is directed to the relevant page
+The user is directed to the relevant page, either redirecting to the login page for protected pages or displaying a 403 error.
 
 Actual:
 
-The user is directed to the relevant page
+The user was directed to the relevant page, redirecting to the login page for protected pages and displayed a 403 error.
+
+Testing was performed to ensure a user can successfully buy a product from the store. The steps include logging in, selecting a product, customizing the order, clicking checkout, entering in details, entering credit card information, and receiving an order confirmation email.
+Description
+
+Ensure a user can buy a product from the store and receive an order confirmation email.
+
+Steps:
+
+1. Log in to the store
+2. Browse products and select a product to purchase
+3. Customize the order (if applicable)
+4. Click on the checkout button
+5. Enter shipping and billing details
+6. Enter credit card information
+7. Click on the purchase button
+8. Check for order confirmation email
+
+Expected:
+
+1. User is able to log in to the store
+2. User is able to select a product to purchase
+3. User is able to customize the order (if applicable)
+4. User is directed to the checkout page
+5. User is able to enter shipping and billing details
+6. User is able to enter credit card information
+7. User is able to complete the purchase
+8. User receives an order confirmation email
+
+Actual:
+
+1. User was able to log in to the store
+2. User was able to select a product to purchase
+3. User was able to customize the order (if applicable)
+4. User was directed to the checkout page
+5. User was able to enter shipping and billing details
+6. User was able to enter credit card information
+7. User was able to complete the purchase
+8. User received an order confirmation email.
 
 <hr>
 ## Bugs
