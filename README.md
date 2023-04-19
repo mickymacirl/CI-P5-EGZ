@@ -308,11 +308,6 @@ Delivery
 
 ![Navbar 1](./docs/readme/navbar1rm.jpg)
 
-
-### Footer
-
-### Favicon
-
 ### Defensive Application
 
 Defensive Application programming techniques were utilized in the development of this website to ensure that only authorized administrators were given access to sensitive features. This was done to prevent unauthorized access and ensure the integrity of user data. Appropriate authentication and authorization mechanisms were put in place as part of these techniques. By doing so, the website was made more secure and less vulnerable to potential security breaches.
@@ -320,6 +315,8 @@ Defensive Application programming techniques were utilized in the development of
 ### Home Page
 
 ### Products Page
+
+![Products 1](./docs/readme/products1rm.jpg)
 
 ### Product Detail Page
 
