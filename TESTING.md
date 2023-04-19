@@ -400,7 +400,7 @@ Actual:
 
 ## Protected Pages
 
-Testing was performed to ensure coded restriction are functional.
+Testing was performed to ensure coded restriction are functional, in all the CRUD functionality including Product, Blog and Rewiews admin section.
 
 Description:
 
@@ -417,9 +417,9 @@ Steps:
 7. Verify that the user can now access the protected view.
 8. Log in as a superuser and attempt to access the protected view again.
 9. Verify that the superuser can access the protected view as well.
-10. Test that the user can perform the expected CRUD operations on posts and likes in the posts admin section.
-11. Test that the user can view the posts and comments if authenticated only in the posts admin section.
-12. Test that only staff and superusers can perform the CRUD operations on posts and comments in the posts admin section.
+10. Test that the user can perform the expected CRUD operations on posts likes in the blog section.
+11. Test that the user can like the posts if authenticated only in the blogs section.
+12. Test that only staff and superusers can perform the CRUD operations on posts and likes in the posts admin section.
 13. Repeat steps 2-12 for the review and product admin sections.
 
 Expected:
