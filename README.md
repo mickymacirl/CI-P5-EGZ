@@ -557,10 +557,6 @@ Throughout the website, the *[Lato](https://fonts.google.com/specimen/Lato)* fon
 
 Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
 
-Used Abode Photoshop to create the main hero image with the logo.
-
-![Index Page Logo](./docs/readme/logomainrm.jpg)
-
 # Technology
 
 ## HTML
