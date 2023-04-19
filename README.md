@@ -99,11 +99,15 @@ Ethical Gearz will utilize Facebook and LinkedIn as social media marketing platf
 
 #### Email Marketing
 
-Ethical Gearz will utilize Mailchimp as our email marketing platform to reach our audience with relevant content, promotions, and updates. With Mailchimp's robust features, we will be able to target specific segments of our audience, personalize our messages, and track the success of our campaigns. This will allow us to build strong relationships with our customers and keep them engaged with our brand. We catpture the Newsletter email information through the Newsletter Sign Up Page.
+Ethical Gearz will utilize Mailchimp as our email marketing platform to reach our audience with relevant content, promotions, and updates. With Mailchimp's robust features, we will be able to target specific segments of our audience, personalize our messages, and track the success of our campaigns. This will allow us to build strong relationships with our customers and keep them engaged with our brand. We catpture the Newsletter email information through the Newsletter Sign Up Page and use Mailchimp as a platform to create a campaign that will send product updates, store news and request for product reviews.
 
-Newsletter Signup Information
+Newsletter Sign Up Information
 
 ![Newsletter Sign Up](./docs/readme/nlsprm.jpg)
+
+Mail Chimp Campaign
+
+![Mail Chimp](./docs/readme/mailchimprm.png)
 
 ## Agile Planning
 
