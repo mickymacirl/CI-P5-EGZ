@@ -353,13 +353,8 @@ Defensive Application programming techniques were utilized in the development of
 
 ### 404 Error Page
 
-### 403 Error Page
-
-### 500 Error Page
 
 ### GDPR Policy Page
-
-### Terms and Conditions Page
 
 ### Privacy Policy Page
 
@@ -367,7 +362,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ### Ethical Behavior Policy Page
 
-### Administor Website Management Page
+### Administor Post Management Page
 
 ### Administor Product Admin Page
 
