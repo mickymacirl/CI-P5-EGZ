@@ -11,16 +11,6 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
 from .models import Post
 
-# Create your views here.
-
-
-# def blog(request):
-#    """ A view to return the index page """
-#
-#    return render(request, 'blog/index.html')
-# This is a class-based view for displaying a list of posts in descending order of creation time on a
-# blog index page.
-
 
 class BlogView(ListView):
     model = Post
@@ -28,28 +18,13 @@ class BlogView(ListView):
     context_object_name = "posts"
     ordering = ["-created_on"]
 
-    # def get_context_data(self, **kwargs):
-    #    context = super().get_context_data(**kwargs)
-    #    context['like_post_url'] = reverse('like_post', kwargs={'pk': 1})  # replace `1` with a valid Post pk value
-    #    print('like_post_url:', context['like_post_url'])
-    #    return context
+# This is a Django class-based view for displaying the details of a blog post
+# using a specific template.
 
 
-# This is a Django class-based view for displaying the details of a blog post using a specific
-# template.
 class BlogDetailView(DetailView):
     model = Post
     template_name = "blog/post_details.html"
-
-
-# @login_required
-# def like_post(request, pk):
-#    print('pk:', pk)
-#    post = Post.objects.get(pk=pk)
-#    post.likes += 1
-#    post.save()
-#    messages.success(request, f"You liked {post.title}!")
-#    return redirect('post_details', pk=post.pk)
 
 
 @csrf_exempt
@@ -67,20 +42,19 @@ def get_context_data(self, **kwargs):
     context["like_post_url"] = reverse("like_post", kwargs={"pk": 1})
     return context
 
-class AddPostView(UserPassesTestMixin,CreateView):
+
+class AddPostView(UserPassesTestMixin, CreateView):
     model = Post
-    # form_class = PostForm
     template_name = "blog/add_post.html"
     fields = '__all__'
 
     def test_func(self):
         return self.request.user.is_superuser
 
-class UpdatePostView(UserPassesTestMixin,UpdateView):
+
+class UpdatePostView(UserPassesTestMixin, UpdateView):
     model = Post
-    # form_class = PostForm
     template_name = "blog/update_post.html"
-    #fields = ['title', 'body']
     fields = '__all__'
 
     def test_func(self):
@@ -89,9 +63,7 @@ class UpdatePostView(UserPassesTestMixin,UpdateView):
 
 class DeletePostView(UserPassesTestMixin, DeleteView):
     model = Post
-    # form_class = PostForm
     template_name = "blog/delete_post.html"
-    #fields = ['title', 'body']
     success_url = reverse_lazy('blog')
 
     def test_func(self):

@@ -474,8 +474,57 @@ The store was tested on the following screen sizes using Chrome Dev tools, Media
     Nest Hub
     Nest Hub Max
 
+<hr>
+
+## Accessibility
+
+The store was designed to provide optimal viewing experience across different screen sizes and resolutions.
+
+During the development process, the *[WAVE Evaluation Website](https://wave.webaim.org/report#/https://icsblogp4.herokuapp.com/)*  tool was used to ensure the highest level of accessibility in accordance with the Web Content Accessibility Guidelines (WCAG).
+
+![WAVE](/docs/testing/testing-wave.jpg)
+
+## Validator Testing
+
+All pages were run through the *[CI Pep8 Validator](https://pep8ci.herokuapp.com/)* to ensure that all code was Pep8 compliant. Used Black Python Code Validator to fix issues.
+
+Errors were displayed as a result of blank spacing and overly long lines.
+
+All of these errors were corrected, with the exception of the some of the variables in python files.
+
+![CI Pep8 Result](./docs/readme/pythonrm.jpg)
+
+## HTML
+
+On all pages, the *[w3 HTML Validator](https://validator.w3.org/)* was used. Initially, there were a few errors due to stray script tags,
+incorrect use of headings inside spans, and some indentation elements such as div tags.
+
+All of these issues were resolved, and all pages passed validation.
+Because of the django structure - directing language code used in the HTML files, which cannot be easily copy and pasted into the validator, pages with login required or a secured view could be validated by direct URI.
+
+To test the file validation, open the page to be checked, right-click, and select View Page Source from the menu that appears.
+Because of validator will only accept HTML rendered code, paste the raw HTML code into it.
+
+![HTML Validator](/docs/testing/testing-html.jpg)
+
+## Lighthouse Testing
+
+### Desktop Testing
+
+Desktop Lighthouse testing is showing a perfect score of 96, with SEO of 100 seo.
+
+![Desktop Lighthouse Result](./docs/readme/lhdesktoprm.jpg)
+
+### Mobile Testing
+
+Mobile Lighthouse Testing is showing a score of 72 due to image sizes, with SEO of 100.
+
+![Mobile Lighthouse Result](/docs/testing/testing_lh_mobile.jpg)
+
 ## Bugs
 
 * Used *[StackOverFlow](https://stackoverflow.com/questions/70466886/typeerror-init-got-an-unexpected-keyword-argument-providing-args)* to fix allauth version error, which required an upgrade to allauth 0.51.0
 
 * Used *[StackOverFlow](https://stackoverflow.com/questions/70285834/forbidden-403-csrf-verification-failed-request-aborted-reason-given-for-fail/70326426#70326426)* to fix csrf verification error to login to django admin site, which required adding CSRF_TRUSTED_ORIGINS in settings.py file.
+
+* Bug with AWS S3, when uploading an image in the Product Admin section, and after the static migration, S3 requires modification of the ACL to public to allow the image to be displayed and the static files to show, added cloudinary link to static base.css as a short term fix for the stores styling.

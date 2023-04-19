@@ -56,14 +56,18 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """
-    This is a view function that retrieves and displays the details of a specific product.
-
-    :param request: The HTTP request object that contains information about the current request, such as
+    This is a view function that retrieves and displays the details of a 
+    specific product.
+    :param request: The HTTP request object that contains information about
+    the current request, such as
     the user agent, the requested URL, and any data submitted in the request
-    :param product_id: The ID of the specific product that the user wants to view the details of. It is
-    passed as a parameter in the URL and used to retrieve the corresponding product object from the
+    :param product_id: The ID of the specific product that the user wants to
+    view the details of. It is
+    passed as a parameter in the URL and used to retrieve the corresponding
+    product object from the
     database using the `get_object_or_404` function
-    :return: an HTTP response that renders the 'product_detail.html' template with the context
+    :return: an HTTP response that renders the 'product_detail.html' template
+    with the context
     dictionary containing the product object.
     """
 
