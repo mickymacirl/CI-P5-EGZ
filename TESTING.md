@@ -80,11 +80,11 @@ Actual:
 
 User is successfully logged in and redirected to the home page
 
+<hr>
+
 ## Navigation Links
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
-
-<hr>
 
 Description:
 
@@ -102,8 +102,13 @@ Actual:
 
 The user was directed to the relevant page, redirecting to the login page for protected pages and displayed a 403 error.
 
+<hr>
+
+## Product Purchase
+
 Testing was performed to ensure a user can successfully buy a product from the store. The steps include logging in, selecting a product, customizing the order, clicking checkout, entering in details, entering credit card information, and receiving an order confirmation email.
-Description
+
+Description:
 
 Ensure a user can buy a product from the store and receive an order confirmation email.
 
@@ -141,6 +146,7 @@ Actual:
 8. User received an order confirmation email.
 
 <hr>
+
 ## Bugs
 
 * Used *[StackOverFlow](https://stackoverflow.com/questions/70466886/typeerror-init-got-an-unexpected-keyword-argument-providing-args)* to fix allauth version error, which required an upgrade to allauth 0.51.0
