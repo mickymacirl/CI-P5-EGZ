@@ -529,7 +529,7 @@ A total of 4 custom models were created for the Blog App, Newsletter App, Review
 
 ### Create, Read, Update and Delete
 
-The CRUD principle was used not only for the approval process of the blog, but also for other functionalities in the project. In the product section, following the CI Boutique, admins can create, read, update, and delete products. In the reviews section, admins can create, read, update, and delete reviews, and also approve or disapprove them in django admin. In the contact us section, admins can create, read, update, and delete contact details in the django admin. The blog section follows the CRUD principle, where staff can create, read, update, and delete posts, while superusers can approve comments for administration in the posts admin comment section.
+The CRUD principle was used not only for the approval process of the blog, but also for other functionalities in the project. In the product section, following the CI Boutique Ado, admins can create, read, update, and delete products. In the reviews section, admins can create, read, update, and delete reviews, and also approve or disapprove them in django admin. In the Contact Us section, admins can create, read, update, and delete contact details in the django admin. The blog section follows the CRUD principle, where staff can create, read, update, and delete posts, while superusers can approve comments for administration in the posts admin comment section.
 
 In summary, the CRUD principle has been implemented throughout the project, with the posts admin being the custom CRUD functionality, allowing users with the appropriate permissions to create, read, update, and delete various data entities within the system.
 
@@ -723,6 +723,10 @@ Testing Readme found here: *[Testing Readme](/TESTING.md)*.
 ## Credit Card Testing
 
 * Used *[Stripe Testing Cards](https://stripe.com/docs/testing)* to simulate payments and test integration.
+
+## Walkthroughs Used
+
+* Used *[Code Institute Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/*) for E-Commerce elements.
 
 # Acknowledgements
 
