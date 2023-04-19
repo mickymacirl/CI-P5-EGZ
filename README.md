@@ -79,9 +79,13 @@ Picture of Content Marketing
 
 Ethical Gearz will utilize Facebook and LinkedIn as social media marketing platforms to promote our brand and products. We will engage with our audience by sharing informative and educational content related to ethical hacking and cybersecurity, highlighting our products, and encouraging discussion and feedback. Through these platforms, we aim to build a strong community of individuals and organizations interested in ethical hacking and cybersecurity.
 
+##### Facebook Page
+
 ![Facebook](./docs/readme/fbrm.png)
 
-Picture of LinkedIn Page
+##### LinkedIn Page
+
+![LinkedIn](./docs/readme/linkedinrm.png)
 
 #### Email Marketing
 
