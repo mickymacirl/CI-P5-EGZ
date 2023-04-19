@@ -499,13 +499,12 @@ All of these errors were corrected, with the exception of the some of the variab
 On all pages, the *[w3 HTML Validator](https://validator.w3.org/)* was used. Initially, there were a few errors due to stray script tags,
 incorrect use of headings inside spans, and some indentation elements such as div tags which were mostly fixed.
 
-All of these issues were resolved, and all pages passed validation.
 Because of the django structure - directing language code used in the HTML files, which cannot be easily copy and pasted into the validator, pages with login required or a secured view could be validated by direct URI.
 
 To test the file validation, open the page to be checked, right-click, and select View Page Source from the menu that appears.
 Because of validator will only accept HTML rendered code, paste the raw HTML code into it.
 
-![HTML Validator](./docs/readme/htmlrm.jpg)
+![HTML Validator](./docs/readme/htmlrm.png)
 
 ## Lighthouse Testing
 
