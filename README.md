@@ -34,7 +34,11 @@ To accomplish this, we will employ a combination of digital marketing tactics an
 
 **Educational content:** Create and publish content that educates the audience about the importance of ethical hacking and cybersecurity. This can include blog posts, social media posts, and videos that provide information about the latest security threats and ethical hacking techniques.
 
-**Social media:** Utilize social media platforms such as Twitter, LinkedIn, and Facebook to connect with the cybersecurity community and promote Ethical Gearz as a reliable source for ethical hacking tools and resources.
+![Educational Content](./docs/readme/edrm.jpg)
+
+**Social media:** Utilize social media platforms such as LinkedIn, and Facebook to connect with the cybersecurity community and promote Ethical Gearz as a reliable source for ethical hacking tools and resources.
+
+![Social Media](./docs/readme/smrm.jpg)
 
 **Referral program:** Offer a referral program to incentivize customers to share their positive experiences with Ethical Gearz with their friends and colleagues. This can help to expand the customer base and build trust in the brand.
 
