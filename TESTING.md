@@ -153,14 +153,14 @@ Testing was performed to ensure the blog section of the site functions as intend
 
 Description:
 
-Ensure users can read blogs and the admin can manage posts using the product management section.
+Ensure users can read blogs and the admin can manage posts using the post management section.
 
 Steps:
 
 1. Navigate to the blog section of the site
 2. Read a blog post
 3. Log in as an admin
-4. Navigate to the product management section
+4. Navigate to the post management section
 5. Create a new blog post
 6. Read a blog post
 7. Update a blog post
@@ -171,7 +171,7 @@ Expected:
 1. User can navigate to the blog section of the site
 2. User can read a blog post
 3. Admin can log in to the site
-4. Admin can navigate to the product management section
+4. Admin can navigate to the post management section
 5. Admin can create a new blog post
 6. User can read a blog post
 7. Admin can update a blog post
@@ -182,7 +182,7 @@ Actual:
 1. User was able to navigate to the blog section of the site
 2. User was able to read a blog post
 3. Admin was able to log in to the site
-4. Admin was able to navigate to the product management section
+4. Admin was able to navigate to the post management section
 5. Admin was able to create a new blog post
 6. User was able to read a blog post
 7. Admin was able to update a blog post
@@ -397,6 +397,82 @@ Actual:
 9. Admin was able to delete a message.
 
 <hr>
+
+## Protected Pages
+
+Testing was performed to ensure coded restriction are functional.
+
+Description:
+
+Ensure coded restriction is functional.
+
+Steps:
+
+1. Open the website and navigate to the login page.
+2. Attempt to access a view protected by coded restriction, such as the product creation page in the product admin section.
+3. Verify that the user is redirected to the login page and cannot access the protected view.
+4. Log in as a non-staff user and attempt to access the protected view again.
+5. Verify that the user can still not access the protected view.
+6. Log in as a staff user and attempt to access the protected view again.
+7. Verify that the user can now access the protected view.
+8. Log in as a superuser and attempt to access the protected view again.
+9. Verify that the superuser can access the protected view as well.
+10. Test that the user can perform the expected CRUD operations on posts and likes in the posts admin section.
+11. Test that the user can view the posts and comments if authenticated only in the posts admin section.
+12. Test that only staff and superusers can perform the CRUD operations on posts and comments in the posts admin section.
+13. Repeat steps 2-12 for the review and product admin sections.
+
+Expected:
+
+The coded restriction protects views from unauthorized access, allowing only staff and superusers to access particular views in the admin sections. Users can perform CRUD operations on likes if they are authenticated, while only staff and superusers have CRUD permissions in the admin sections.
+
+Actual:
+
+The coded restriction is functional, protecting views from unauthorized access and allowing only authorized users to access particular views in the admin sections. Users can perform CRUD operations on likes if they are authenticated, while only staff and superusers have CRUD permissions in the admin sections.
+
+## Responsiveness
+
+Pages were tested on various screen sizes from 320px on a Samsung fold 2, Samsung Galaxy Tab, Nexus 7 and a wide screen Windows machine.
+
+Pages were tested on most modern browsers, including Microsoft Edge, Chrome, Firefox, Opera and Brave.
+
+Test Steps:
+
+1. Open the corresponding browser and open the Ethical Gearz website.
+2. Open the browser development tools by hitting the corresponding dev tools shortcut.
+3. Resize to the desired width.
+4. Click and drag the browser window to lower or larger window size.
+
+Expected:
+
+The store is responsive on all sizes, and no pixelation is accruing. No overlap of text or images.
+
+Actual:
+
+The store behaved as expected, with an some issues with the size of the product store images on smaller screens.
+
+The store was tested on the following physical devices, with no resizing issues seen:
+
+    Samsung fold 2
+    Samsung Galaxy Tab
+    Nexus 7 with Kali Linux
+    Widescreen 4k monitor
+
+The store was tested on the following screen sizes using Chrome Dev tools, Media Genius and Unicorn Revealer:
+
+    iPhone SE
+    iPhone XR
+    iPhone 12 PRO
+    Pixel 5
+    Samsung Galaxy S8+
+    Samsung Galaxy S20 Ultra
+    iPad Air
+    iPad Mini
+    Surface Pro 7
+    Surface Duo
+    Samsung Galaxy A51/71
+    Nest Hub
+    Nest Hub Max
 
 ## Bugs
 
