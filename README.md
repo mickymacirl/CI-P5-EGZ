@@ -77,7 +77,7 @@ domain name
 
 A key strategy for improving the visibility of Ethical Gearz in search engine results pages is search engine optimization (SEO). One important step in this process was creating a dedicated domain for the website, which is ethicalgearz.com, to improve indexing by search engines. By using ethicalgearz.com as our domain, we will increase the chances of our site appearing higher in search results when users search for keywords related to ethical hacking and cybersecurity. This will help us reach a wider audience and ultimately drive more traffic to the site.
 
-Picture of SEO
+![SEO](./docs/readme/seord.jpg)
 
 #### Content Marketing
 
