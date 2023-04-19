@@ -385,6 +385,24 @@ Defensive Application programming techniques were utilized in the development of
 
 ### Change Password Success Page
 
+## Future Features
+
+Here are some potential future features for Ethical Gearz online store:
+
+    Personalized product recommendations: Use machine learning algorithms to offer personalized product recommendations to users based on their behavior and preferences.
+
+    Customer rewards program: Implement a rewards program that incentivizes customers to make repeat purchases and refer friends.
+
+    User-generated content: Allow customers to share photos and reviews of their purchases, creating a sense of community and social proof.
+
+    AI-powered chatbot: Develop a chatbot that can answer common customer questions and provide assistance with purchases.
+
+    Subscription services: Offer subscription services for products such as software, digital courses, or other regularly-updated products.
+
+    In-store pickup: Allow customers to order products online and pick them up in-store, providing a convenient option for local customers.
+
+    Collaborations with ethical brands: Partner with other ethical and sustainable brands to create exclusive products and collections.
+
 ## Skeleton Plane
 
 ### Wireframes
