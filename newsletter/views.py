@@ -20,7 +20,5 @@ def subscribe(request):
     return render(request, "newsletter/subscribe.html", {"form": form})
 
 
-# def subscribe_success(request):
-#    return render(request, 'success.html')
 def already_subscribed(request):
     return render(request, "newsletter/already_subscribed.html", {})
