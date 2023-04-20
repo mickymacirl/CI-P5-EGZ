@@ -605,9 +605,9 @@ Defensive Application programming techniques were utilized in the development of
 
 ### Milestone 1
 
-Overall, Milestone 1 of the Ethical Gearz website development project was a success with all tasks completed except for 1.4, which involved creating a footer with social media links and contact information. While some may argue that a footer is an essential part of a website, the team decided that it was not necessary for this project.
+Overall, Milestone 1 of the Ethical Gearz website development project was a success with all tasks completed except for 1.4, which involved creating a footer with social media links and contact information. While some may argue that a footer is an essential part of a website, it was not necessary for this project.
 
-In conclusion, Milestone 1 was a success, with the team completing all essential tasks except for 1.4.
+In conclusion, Milestone 1 was a success, completing all essential tasks except for 1.4.
 
 ### Milestone 2
 
@@ -1058,7 +1058,7 @@ Testing Readme found here: *[Testing Readme](/TESTING.md)*.
 
 ## Walkthroughs Used
 
-- Used *[Code Institute Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/*) for E-Commerce elements.
+- Used *[Code Institute Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/)* for E-Commerce elements.
 
 # Acknowledgements
 
