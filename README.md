@@ -375,6 +375,10 @@ Defensive Application programming techniques were utilized in the development of
 
 ### 404 Error Page
 
+![404 1](./docs/readme/404rm.jpg)
+
+![404 2](./docs/readme/4041rm.jpg)
+
 ### GDPR Policy Page
 
 ![GDPR 1](./docs/readme/gdpr1rm.jpg)
