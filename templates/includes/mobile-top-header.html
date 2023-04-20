@@ -1,3 +1,4 @@
+<!-- Mobile Nav Bar -->
 <li class="list-inline-item">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown"
         aria-haspopup="true" aria-expanded="false">
@@ -30,12 +31,18 @@
             <p class="my-0">My Account</p>
         </div>
     </a>
-    <div class="dropdown-menu border-0" aria-labelledby="user-options">{% if request.user.is_authenticated %}{% if request.user.is_superuser %}
-        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>{% endif %}
-        <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+    <div class="dropdown-menu border-1" aria-labelledby="user-options">
+        {% if request.user.is_authenticated %}
+        <p class="dropdown-item mb-0"><strong>Username:</strong> {{ request.user.username }}</p>
+        <p class="dropdown-item mb-0"><strong>Access
+                Level:</strong>{% if request.user.is_superuser %}Admin{% else %}User{% endif %}</p>
+        {% if request.user.is_superuser %}
+        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+        <a href="{% url 'add_post' %}" class="dropdown-item">Post Management</a>{% endif %}
+        <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
         <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>{% else %}
         <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>        {% endif %}
+        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>{% endif %}
     </div>
 </li>
 <li class="list-inline-item">
@@ -48,3 +55,4 @@
         </div>
     </a>
 </li>
+<!-- End of Mobile Nav Bar -->
