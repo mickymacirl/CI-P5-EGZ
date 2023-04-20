@@ -637,6 +637,8 @@ As per the user stories, Milestone 7 aimed to complete all testing and documenta
 
 Milestones 1, 2, 4, and 5 were completed successfully, while Milestones 3 and 7 were also completed but without certain optional user stories. Milestone 6, on the other hand, had three incomplete user stories due to time constraints or partial implementation.
 
+![Final](./docs/readme/finalbrm.jpg)
+
 ## Future Features
 
 Here are some potential future features for Ethical Gearz online store:

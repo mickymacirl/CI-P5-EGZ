@@ -149,7 +149,7 @@ Actual:
 
 ## Blog Section
 
-Testing was performed to ensure the blog section of the site functions as intended. The tests include user and admin actions such as reading blogs, creating, reading, updating, and deleting posts using the product management section.
+Testing was performed to ensure the blog section of the site functions as intended. The tests include user and admin actions such as reading blogs, creating, reading, updating, and deleting posts using the post management section.
 
 Description:
 
