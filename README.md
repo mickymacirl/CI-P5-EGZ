@@ -19,20 +19,20 @@ This was my fifth project for the Code Institute's [Full Stack Software Developm
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
 - [User Experience](#user-experience)
-  * [Strategy Plane](#strategy-plane)
-    + [Site Goals](#site-goals)
-    + [Marketing Strategies](#marketing-strategies)
+  - [Strategy Plane](#strategy-plane)
+    - [Site Goals](#site-goals)
+    - [Marketing Strategies](#marketing-strategies)
       - [Brand Awareness](#brand-awareness)
       - [Brand Recognition](#brand-recognition)
       - [Search Engine Optimization](#search-engine-optimization)
       - [Content Marketing](#content-marketing)
       - [Social Media Marketing](#social-media-marketing)
-        * [Facebook Page](#facebook-page)
-        * [LinkedIn Page](#linkedin-page)
+        - [Facebook Page](#facebook-page)
+        - [LinkedIn Page](#linkedin-page)
       - [Email Marketing](#email-marketing)
-  * [Agile Planning](#agile-planning)
-    + [Milestones](#milestones)
-    + [User Stories](#user-stories)
+  - [Agile Planning](#agile-planning)
+    - [Milestones](#milestones)
+    - [User Stories](#user-stories)
       - [Milestone 1 - Basic Setup](#milestone-1---basic-setup)
       - [Milestone 2 - Stand Alone Pages Setup](#milestone-2---stand-alone-pages-setup)
       - [Milestone 3 - Authentication Setup](#milestone-3---authentication-setup)
@@ -40,45 +40,45 @@ This was my fifth project for the Code Institute's [Full Stack Software Developm
       - [Milestone 5 - Stripe](#milestone-5---stripe)
       - [Milestone 6 - Additional Features](#milestone-6---additional-features)
       - [Milestone 7 - Documentation](#milestone-7---documentation)
-  * [Scope Plane](#scope-plane)
-  * [Structure Plane](#structure-plane)
-  * [Features of the website](#features-of-the-website)
-    + [Navbar](#navbar)
-    + [Defensive Application](#defensive-application)
-    + [Home Page](#home-page)
-    + [Products Page](#products-page)
-    + [Product Detail Page](#product-detail-page)
-    + [Shopping Basket Page](#shopping-basket-page)
-    + [Check Out Page](#check-out-page)
-    + [Check Out Success Page](#check-out-success-page)
-    + [User Profile Page](#user-profile-page)
-    + [Contact Us Page](#contact-us-page)
-    + [404 Error Page](#404-error-page)
-    + [GDPR Policy Page](#gdpr-policy-page)
-    + [Privacy Policy Page](#privacy-policy-page)
-    + [Delivery Policy Page](#delivery-policy-page)
-    + [Ethical Behavior Policy Page](#ethical-behavior-policy-page)
-    + [Administor Post Management Page](#administor-post-management-page)
-    + [Administor Product Admin Page](#administor-product-admin-page)
-    + [Register Page](#register-page)
-    + [Login Page](#login-page)
-    + [Verify Email Page](#verify-email-page)
-    + [Logout Page](#logout-page)
-    + [Forgot Password Page](#forgot-password-page)
-    + [Change Password Page](#change-password-page)
-    + [Change Password Success Page](#change-password-success-page)
-  * [End of Project Review and Kanban Board](#end-of-project-review-and-kanban-board)
-    + [Milestone 1](#milestone-1)
-    + [Milestone 2](#milestone-2)
-    + [Milestone 3](#milestone-3)
-    + [Milestone 4](#milestone-4)
-    + [Milestone 5](#milestone-5)
-    + [Milestone 6](#milestone-6)
-    + [Milestone 7](#milestone-7)
-    + [End of Project Comments](#end-of-project-comments)
-  * [Future Features](#future-features)
-  * [Skeleton Plane](#skeleton-plane)
-    + [Wireframes](#wireframes)
+  - [Scope Plane](#scope-plane)
+  - [Structure Plane](#structure-plane)
+  - [Features of the website](#features-of-the-website)
+    - [Navbar](#navbar)
+    - [Defensive Application](#defensive-application)
+    - [Home Page](#home-page)
+    - [Products Page](#products-page)
+    - [Product Detail Page](#product-detail-page)
+    - [Shopping Basket Page](#shopping-basket-page)
+    - [Check Out Page](#check-out-page)
+    - [Check Out Success Page](#check-out-success-page)
+    - [User Profile Page](#user-profile-page)
+    - [Contact Us Page](#contact-us-page)
+    - [404 Error Page](#404-error-page)
+    - [GDPR Policy Page](#gdpr-policy-page)
+    - [Privacy Policy Page](#privacy-policy-page)
+    - [Delivery Policy Page](#delivery-policy-page)
+    - [Ethical Behavior Policy Page](#ethical-behavior-policy-page)
+    - [Administor Post Management Page](#administor-post-management-page)
+    - [Administor Product Admin Page](#administor-product-admin-page)
+    - [Register Page](#register-page)
+    - [Login Page](#login-page)
+    - [Verify Email Page](#verify-email-page)
+    - [Logout Page](#logout-page)
+    - [Forgot Password Page](#forgot-password-page)
+    - [Change Password Page](#change-password-page)
+    - [Change Password Success Page](#change-password-success-page)
+  - [End of Project Review and Kanban Board](#end-of-project-review-and-kanban-board)
+    - [Milestone 1](#milestone-1)
+    - [Milestone 2](#milestone-2)
+    - [Milestone 3](#milestone-3)
+    - [Milestone 4](#milestone-4)
+    - [Milestone 5](#milestone-5)
+    - [Milestone 6](#milestone-6)
+    - [Milestone 7](#milestone-7)
+    - [End of Project Comments](#end-of-project-comments)
+  - [Future Features](#future-features)
+  - [Skeleton Plane](#skeleton-plane)
+    - [Wireframes](#wireframes)
       - [Home Page Wireframe](#home-page-wireframe)
       - [Products Page Wireframe](#products-page-wireframe)
       - [Product Detail Page Wireframe](#product-detail-page-wireframe)
@@ -104,55 +104,55 @@ This was my fifth project for the Code Institute's [Full Stack Software Developm
       - [Forgot Password Page Wireframe](#forgot-password-page-wireframe)
       - [Change Password Page Wireframe](#change-password-page-wireframe)
       - [Change Password Success Page Wireframe](#change-password-success-page-wireframe)
-  * [Database Design](#database-design)
-    + [Database Model](#database-model)
-    + [Custom Models](#custom-models)
-    + [Create, Read, Update and Delete](#create-read-update-and-delete)
-  * [Surface Plane](#surface-plane)
-  * [Design](#design)
-    + [Logo](#logo)
-    + [Color Scheme](#color-scheme)
-    + [Typography](#typography)
-    + [Imagery](#imagery)
+  - [Database Design](#database-design)
+    - [Database Model](#database-model)
+    - [Custom Models](#custom-models)
+    - [Create, Read, Update and Delete](#create-read-update-and-delete)
+  - [Surface Plane](#surface-plane)
+  - [Design](#design)
+    - [Logo](#logo)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
 - [Technology](#technology)
-  * [HTML](#html)
-  * [CSS](#css)
-  * [Python](#python)
-  * [Adobe Photoshop](#adobe-photoshop)
-  * [Adobe Dreamweaver](#adobe-dreamweaver)
-  * [PyCharm](#pycharm)
-  * [GitHub](#github)
-  * [Git](#git)
-  * [Font Awesome](#font-awesome)
-  * [Balsamiq](#balsamiq)
-  * [TinyPNG](#tinypng)
-  * [Python Libraries](#python-libraries)
-    + [Python Modules](#python-modules)
-    + [External Python Modules](#external-python-modules)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [Python](#python)
+  - [Adobe Photoshop](#adobe-photoshop)
+  - [Adobe Dreamweaver](#adobe-dreamweaver)
+  - [PyCharm](#pycharm)
+  - [GitHub](#github)
+  - [Git](#git)
+  - [Font Awesome](#font-awesome)
+  - [Balsamiq](#balsamiq)
+  - [TinyPNG](#tinypng)
+  - [Python Libraries](#python-libraries)
+    - [Python Modules](#python-modules)
+    - [External Python Modules](#external-python-modules)
 - [Deployment](#deployment)
-  * [Template](#template)
-  * [Version Control](#version-control)
-  * [Forking the Repository](#forking-the-repository)
-  * [Clone the 'CI-P5-EGZ' GitHub Code Repository locally](#clone-the-ci-p5-egz-github-code-repository-locally)
-  * [Stripe Setup](#stripe-setup)
-  * [AWS Setup](#aws-setup)
-  * [Gmail Setup](#gmail-setup)
-  * [Heroku Setup](#heroku-setup)
+  - [Template](#template)
+  - [Version Control](#version-control)
+  - [Forking the Repository](#forking-the-repository)
+  - [Clone the 'CI-P5-EGZ' GitHub Code Repository locally](#clone-the-ci-p5-egz-github-code-repository-locally)
+  - [Stripe Setup](#stripe-setup)
+  - [AWS Setup](#aws-setup)
+  - [Gmail Setup](#gmail-setup)
+  - [Heroku Setup](#heroku-setup)
 - [Testing](#testing)
 - [Credits](#credits)
-  * [Design Website](#design-website)
-  * [Facebook Mockup Template](#facebook-mockup-template)
-  * [LinkedIn Mockup Template](#linkedin-mockup-template)
-  * [Brand Recognition vs Brand Awareness](#brand-recognition-vs-brand-awareness)
-  * [GDPR Policy](#gdpr-policy)
-  * [Privacy Policy](#privacy-policy)
-  * [Hak5.org](#hak5org)
-  * [Ethical Behavior Policy](#ethical-behavior-policy)
-  * [Terms and Conditions Policy](#terms-and-conditions-policy)
-  * [Shopify Marketing Blog](#shopify-marketing-blog)
-  * [Template Tags](#template-tags)
-  * [Credit Card Testing](#credit-card-testing)
-  * [Walkthroughs Used](#walkthroughs-used)
+  - [Design Website](#design-website)
+  - [Facebook Mockup Template](#facebook-mockup-template)
+  - [LinkedIn Mockup Template](#linkedin-mockup-template)
+  - [Brand Recognition vs Brand Awareness](#brand-recognition-vs-brand-awareness)
+  - [GDPR Policy](#gdpr-policy)
+  - [Privacy Policy](#privacy-policy)
+  - [Hak5.org](#hak5org)
+  - [Ethical Behavior Policy](#ethical-behavior-policy)
+  - [Terms and Conditions Policy](#terms-and-conditions-policy)
+  - [Shopify Marketing Blog](#shopify-marketing-blog)
+  - [Template Tags](#template-tags)
+  - [Credit Card Testing](#credit-card-testing)
+  - [Walkthroughs Used](#walkthroughs-used)
 - [Acknowledgements](#acknowledgements)
 
 <!-- TOC end -->
@@ -220,6 +220,7 @@ Brand awareness is a key component of our marketing strategy at Ethical Gearz. W
 For our marketing strategy, we will focus on building brand recognition by using a professional logo and slogan and a branded domain name, ethicalgearz.com. This will help to establish our brand identity and make it easier for customers to remember us. We will also ensure that our branding is consistent across all marketing channels to increase recognition and make our brand more memorable.
 
 ![Domain](./docs/readme/forwardrm.jpg)
+
 #### Search Engine Optimization
 
 A key strategy for improving the visibility of Ethical Gearz in search engine results pages is search engine optimization (SEO). One important step in this process was creating a dedicated domain for the website, which is ethicalgearz.com, to improve indexing by search engines. By using ethicalgearz.com as our domain, we will increase the chances of our site appearing higher in search results when users search for keywords related to ethical hacking and cybersecurity. This will help us reach a wider audience and ultimately drive more traffic to the site.
@@ -441,16 +442,16 @@ Delivery
 
 ## Scope Plane
 
-* Responsive e-commerce website design with an intuitive user interface
-* Shopping cart and checkout system for customers to purchase products
-* User registration and login functionality to manage accounts and orders
-* Product catalog with categories and search functionality
-* Detailed product pages with descriptions, images, and pricing information
-* Secure payment gateway integration for online transactions
-* Admin section for website owner to manage products, orders, and customers
-* Multi-layered security measures to ensure the integrity of customer and business data
-* GDPR and privacy policy pages to ensure compliance with data protection laws
-* Ethical behavior policy page to promote responsible hacking practices and discourage unethical behavior.
+- Responsive e-commerce website design with an intuitive user interface
+- Shopping cart and checkout system for customers to purchase products
+- User registration and login functionality to manage accounts and orders
+- Product catalog with categories and search functionality
+- Detailed product pages with descriptions, images, and pricing information
+- Secure payment gateway integration for online transactions
+- Admin section for website owner to manage products, orders, and customers
+- Multi-layered security measures to ensure the integrity of customer and business data
+- GDPR and privacy policy pages to ensure compliance with data protection laws
+- Ethical behavior policy page to promote responsible hacking practices and discourage unethical behavior.
 
 ## Structure Plane
 
@@ -812,63 +813,83 @@ Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, i
 
 ## HTML
 
-* The main structure of the website was developed using HTML as the main language.
+- The main structure of the website was developed using HTML as the main language.
 
 ## CSS
 
-* The webpage was styled using bootstrap and custom css.
+- The webpage was styled using bootstrap and custom css.
 
 ## Python
 
-* Python was used with the Django framework.
+- Python was used with the Django framework.
 
 ## Adobe Photoshop
 
-* Used *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)* for image preperation including facebook and linkedin mockups.
+- Used *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)* for image preperation including facebook and linkedin mockups.
 
 ## Adobe Dreamweaver
 
-* The website tested and designed using *[Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)*.
+- The website tested and designed using *[Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)*.
 
 ## PyCharm
 
-* The website was developed using *[PyCharm](https://www.jetbrains.com/pycharm/)*.
+- The website was developed using *[PyCharm](https://www.jetbrains.com/pycharm/)*.
 
 ## GitHub
 
-* Source code is on GitHub.
+- Source code is on GitHub.
 
 ## Git
 
-* Used to commit and push code during the development of the website.
+- Used to commit and push code during the development of the website.
 
 ## Font Awesome
 
-* Used for icons and fonts.
+- Used for icons and fonts.
 
 ## Balsamiq
 
-* The wireframes were created using Balsamiq.
+- The wireframes were created using Balsamiq.
 
 ## TinyPNG
 
-* TinyPNG is was used to reduce image sizes to improve lighthouse scores.
+- TinyPNG is was used to reduce image sizes to improve lighthouse scores.
 
 ## Python Libraries
 
 ### Python Modules
 
-* Django Class based views
+- Django Class based views
 
 ### External Python Modules
 
-* asgiref==3.6.0
+- asgiref==3.6.0
+- boto3==1.26.114
+- botocore==1.29.114
+- dj-database-url==0.5.0
+- Django==3.2
+- django-allauth==0.51.0
+- django-countries==7.2.1
+- django-crispy-forms==1.14.0
+- django-storages==1.13.2
+- gunicorn==20.1.0
+- jmespath==1.0.1
+- oauthlib==3.2.2
+- Pillow==9.5.0
+- psycopg2==2.9.6
+- PyJWT==2.6.0
+- python3-openid==3.2.0
+- pytz==2023.3
+- requests-oauthlib==1.3.1
+- s3transfer==0.6.0
+- sqlparse==0.4.3
+- stripe==5.4.0
 
 # Deployment
 
 ## Template
 
-* A repository called 'CI-P5-EGZ' was created using the *[Code Institute Python Essentials Template](https://github.com/Code-Institute-Org/python-essentials-template)*.
+- A repository called 'CI-P5-EGZ' was created using the *[Code Institute Python Essentials Template](https://github.com/Code-Institute-Org/python-essentials-template)*.
 
 ## Version Control
 
@@ -947,15 +968,15 @@ Below are the steps required:
 5. Open the Settings Tab and click the Reveal Config Vars button.
 6. Add the following environment variables and their corresponding values:
 
-* AWS_ACCESS_KEY: (your AWS access key)
-* AWS_SECRET_ACCESS_KEY: (your AWS secret access key)
-* DATABASE_URL: (your database URL)
-* EMAIL_HOST_USER: (your email host user)
-* SECRET_KEY: (your secret key)
-* STRIPE_PUBLIC_KEY: (your Stripe public key)
-* STRIPE_SECRET_KEY: (your Stripe secret key)
-* STRIPE_WH_SECRET: (your Stripe webhook secret key)
-* USE_AWS: (set this to true to use AWS S3 for static files, leave blank to use local storage)
+- AWS_ACCESS_KEY: (your AWS access key)
+- AWS_SECRET_ACCESS_KEY: (your AWS secret access key)
+- DATABASE_URL: (your database URL)
+- EMAIL_HOST_USER: (your email host user)
+- SECRET_KEY: (your secret key)
+- STRIPE_PUBLIC_KEY: (your Stripe public key)
+- STRIPE_SECRET_KEY: (your Stripe secret key)
+- STRIPE_WH_SECRET: (your Stripe webhook secret key)
+- USE_AWS: (set this to true to use AWS S3 for static files, leave blank to use local storage)
 
 1. In your local environment, open the .env file and add the same environment variables with their respective values.
 2. Commit and push your code to your GitHub repository.
@@ -975,66 +996,66 @@ Testing Readme found here: *[Testing Readme](/TESTING.md)*.
 
 ## Design Website
 
-* Used *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
+- Used *[Smashing Logos](https://smashinglogo.com)* to design logo, icons and favicon.
 
-* Used *[Color Hunt](https://colorhunt.co/)* to help with color design.
+- Used *[Color Hunt](https://colorhunt.co/)* to help with color design.
 
-* Used *[Name that color](https://chir.ag/projects/name-that-color/)* for name colors.
+- Used *[Name that color](https://chir.ag/projects/name-that-color/)* for name colors.
 
-* Used *[Color Wheel](https://www.canva.com/colors/color-wheel/)* for color compatibility.
+- Used *[Color Wheel](https://www.canva.com/colors/color-wheel/)* for color compatibility.
 
-* Used *[Pexels](https://www.pexels.com/)* for product images.
+- Used *[Pexels](https://www.pexels.com/)* for product images.
 
 ## Facebook Mockup Template
 
-* Used *[Design Bolts](https://www.designbolts.com/2018/07/19/new-free-facebook-business-profile-page-mockup-psd-2018/)* to design Facebook Business Profile Page mockup.
+- Used *[Design Bolts](https://www.designbolts.com/2018/07/19/new-free-facebook-business-profile-page-mockup-psd-2018/)* to design Facebook Business Profile Page mockup.
 
 ## LinkedIn Mockup Template
 
-* Used *[Freebie SUI](https://freebiesui.com/free-psd/psd-mockups/free-linkedin-mockups/)* to design LinkedIn Business Profile Page mockup.
+- Used *[Freebie SUI](https://freebiesui.com/free-psd/psd-mockups/free-linkedin-mockups/)* to design LinkedIn Business Profile Page mockup.
 
 ## Brand Recognition vs Brand Awareness
 
-* Used *[Fabrik Brands](https://fabrikbrands.com/brand-recognition-or-brand-awareness/)* for reference to the different types of Brand Marketing.
+- Used *[Fabrik Brands](https://fabrikbrands.com/brand-recognition-or-brand-awareness/)* for reference to the different types of Brand Marketing.
 
 ## GDPR Policy
 
-* Used *[GDPR Policy Generator](https://www.gdprprivacynotice.com/)* to generate a base GDPR policy temple.
+- Used *[GDPR Policy Generator](https://www.gdprprivacynotice.com/)* to generate a base GDPR policy temple.
 
 ## Privacy Policy
 
-* Used *[Privacy Policy Generator](https://www.privacypolicygenerator.info/)* to generate a base privacy policy template.
+- Used *[Privacy Policy Generator](https://www.privacypolicygenerator.info/)* to generate a base privacy policy template.
 
 ## Hak5.org
 
-* Used *[Hak5.org Web Store](https://shop.hak5.org/)* for product ideas and help in understanding ethical marketing and marketing strategy.
+- Used *[Hak5.org Web Store](https://shop.hak5.org/)* for product ideas and help in understanding ethical marketing and marketing strategy.
 
 ## Ethical Behavior Policy
 
-* Used *[Simple Learn Ethical Hacking](https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-ethical-hacking)* for Ethical Behavior Policy outline.
+- Used *[Simple Learn Ethical Hacking](https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-ethical-hacking)* for Ethical Behavior Policy outline.
 
 ## Terms and Conditions Policy
 
-* Used *[Terms and Conditions Policy Generator](https://www.termsandconditionsgenerator.com/)* to generate a base Terms and Conditions policy temple.
+- Used *[Terms and Conditions Policy Generator](https://www.termsandconditionsgenerator.com/)* to generate a base Terms and Conditions policy temple.
 
 ## Shopify Marketing Blog
 
-* Used *[Shopify Marketing Blog](https://www.shopify.com/ie/blog/ecommerce-marketing)* as reference for ecommerce marketing strategy.
+- Used *[Shopify Marketing Blog](https://www.shopify.com/ie/blog/ecommerce-marketing)* as reference for ecommerce marketing strategy.
 
 ## Template Tags
 
-* Used *[Django Template Tags](https://docs.djangoproject.com/en/4.2/howto/custom-template-tags/)* as reference for custom template tags.
+- Used *[Django Template Tags](https://docs.djangoproject.com/en/4.2/howto/custom-template-tags/)* as reference for custom template tags.
 
 ## Credit Card Testing
 
-* Used *[Stripe Testing Cards](https://stripe.com/docs/testing)* to simulate payments and test integration.
+- Used *[Stripe Testing Cards](https://stripe.com/docs/testing)* to simulate payments and test integration.
 
 ## Walkthroughs Used
 
-* Used *[Code Institute Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/*) for E-Commerce elements.
+- Used *[Code Institute Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/*) for E-Commerce elements.
 
 # Acknowledgements
 
-* Mentor support from *[Daisy McGirr](https://github.com/Daisy-McG)*.
+- Mentor support from *[Daisy McGirr](https://github.com/Daisy-McG)*.
 
-* Daisy's brilliant YouTube Channel at *[Dee Mc Youtube Channel](https://www.youtube.com/channel/UCS9urT8R0LAgqrhzeG9qI0Q)* used for reference and project planning.
+- Daisy's brilliant YouTube Channel at *[Dee Mc Youtube Channel](https://www.youtube.com/channel/UCS9urT8R0LAgqrhzeG9qI0Q)* used for reference and project planning.
