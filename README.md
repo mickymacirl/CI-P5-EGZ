@@ -1044,10 +1044,6 @@ Testing Readme found here: *[Testing Readme](/TESTING.md)*.
 
 - Used *[Simple Learn Ethical Hacking](https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-ethical-hacking)* for Ethical Behavior Policy outline.
 
-## Terms and Conditions Policy
-
-- Used *[Terms and Conditions Policy Generator](https://www.termsandconditionsgenerator.com/)* to generate a base Terms and Conditions policy temple.
-
 ## Shopify Marketing Blog
 
 - Used *[Shopify Marketing Blog](https://www.shopify.com/ie/blog/ecommerce-marketing)* as reference for ecommerce marketing strategy.
