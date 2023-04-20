@@ -756,6 +756,74 @@ Below are the steps required:
 3. Use the git clone command along with the copied URL.
 4. git clone [https://github.com/USERNAME/REPOSITORY](https://github.com/USERNAME/REPOSITORY)
 
+## Stripe Setup
+
+1. Sign up for an account on stripe.com.
+2. Log in to your account and access the Developers section.
+3. From there, navigate to the API keys section and take note of the publishable and secret keys.
+4. Create environment variables in your local environment and on Heroku for the STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with their respective values.
+5. In the Developers section, go to Webhooks and create a webhook with the URL of your website/checkout/wh/.
+6. Choose payment_intent.payment_failed and payment_intent.succeeded as the events to send and make a note of the created webhook key.
+7. Create an environment variable for STRIPE_WH_SECRET with the secret webhook key value in your local environment and on Heroku.
+8. Test the webhook, and check for any success/fail attempts for troubleshooting purposes by reviewing the events and logs.
+
+## AWS Setup
+
+1. Create an AWS account at aws.amazon.com if you don't have one already.
+2. Navigate to the S3 application and click "Create Bucket" button. Give it a name and select a region.
+3. Uncheck the "Block All Public Access" setting and acknowledge that the bucket will be public. This will allow public access to static files.
+4. Navigate to the "Properties" tab and enable "Static Website Hosting". Set the index.html and the error.html values.
+5. Navigate to the "Permissions" tab and click "Edit" on the CORS configuration. Set the configuration.
+6. Click "Edit" on the bucket policy and generate and set the appropriate policy.
+7. Navigate to the "Access Control List" tab and set the "List objects" permission for everyone under the Public Access section.
+8. Open the IAM application to control access to the bucket and set up a user group.
+9. Click on "Policies" and create a policy. Import a pre-built Amazon policy called AmazonS3FullAccess and set the appropriate settings.
+10. Review the policy, give it a name and description, and click "Create Policy".
+11. Navigate to "Groups", then "Permissions", and under "Add Permissions", select "Attach Policy".
+12. Create a user for the group, add the user to the group created, and download the CSV file which contains the user's access credentials.
+13. Finally, note the AWS code in Settings.py. Set an environment variable called "USE_AWS".
+
+## Gmail Setup
+
+1. Create a Google account on google.com and log in.
+2. Click on the account settings in your Gmail account and navigate to Other Google Account Settings.
+3. Proceed to Accounts and Import, then click on Other account settings.
+4. Turn on 2-step verification under Signing into Google and follow the necessary steps to enable it.
+5. Once verified, select App passwords and choose Other as the app. Give the password a name such as Django.
+6. Create the password, and a 16-digit password will be generated. Copy this password.
+7. In the env.py file, create two environment variables, namely EMAIL_HOST_USER with the email address of the Gmail account and EMAIL_HOST_PASS with the 16-digit password.
+8. Confirm the following values are set in the settings.py file to successfully send emails.
+9. In the production instance, such as Heroku, you also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER.
+
+## Heroku Setup
+
+1. Create a new Heroku account or log in to an existing one.
+2. Choose to Create New App from the drop-down menu and the New button on the dashboard's upper right corner.
+3. Enter a distinct app name and select your region.
+4. Click on the Create App button.
+5. Open the Settings Tab and click the Reveal Config Vars button.
+6. Add the following environment variables and their corresponding values:
+
+* AWS_ACCESS_KEY: (your AWS access key)
+* AWS_SECRET_ACCESS_KEY: (your AWS secret access key)
+* DATABASE_URL: (your database URL)
+* EMAIL_HOST_USER: (your email host user)
+* SECRET_KEY: (your secret key)
+* STRIPE_PUBLIC_KEY: (your Stripe public key)
+* STRIPE_SECRET_KEY: (your Stripe secret key)
+* STRIPE_WH_SECRET: (your Stripe webhook secret key)
+* USE_AWS: (set this to true to use AWS S3 for static files, leave blank to use local storage)
+
+1. In your local environment, open the .env file and add the same environment variables with their respective values.
+2. Commit and push your code to your GitHub repository.
+3. On the Heroku app dashboard, navigate to the Deploy tab.
+4. Select GitHub as your deployment method.
+5. Search for your repository name and choose the connect button.
+6. Select the branch you wish to deploy and enable automatic deploys if desired.
+7. Click the Deploy Branch button to deploy your app to Heroku.
+8. Once deployed, navigate to the Resources tab and ensure your Heroku dynos are running.
+9. Your app is now successfully deployed to Heroku with the configured environment variables.
+
 # Testing
 
 Testing Readme found here: *[Testing Readme](/TESTING.md)*.
