@@ -325,7 +325,7 @@ Defensive Application programming techniques were utilized in the development of
 
 ![Home 1](./docs/readme/home1rm.jpg)
 
-![Home 2](./docs/readme/home2rm.jpg)
+![Home 2](./docs/readme/home2.jpg)
 
 ### Products Page
 
@@ -353,15 +353,15 @@ Defensive Application programming techniques were utilized in the development of
 
 ### Check Out Success Page
 
-![Check Out 3](./docs/readme/checkoutsuccess1rm.jpg)
+![Check Out 3](./docs/readme/checksuccess1rm.jpg)
 
-![Check Out 4](./docs/readme/checkoutsuccess1rm.jpg)
+![Check Out 4](./docs/readme/checksuccess1rm.jpg)
 
 ### User Profile Page
 
-![Profile](./docs/readme/checkoutsuccess1rm.jpg)
+![Profile](./docs/readme/profilerm.jpg)
 
-![Profile](./docs/readme/checkoutsuccess1rm.jpg)
+![Profile](./docs/readme/profile1rm.jpg)
 
 ### Contact Us Page
 
