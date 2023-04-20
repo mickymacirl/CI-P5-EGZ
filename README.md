@@ -859,7 +859,17 @@ Logo created from *[Smashing Logos](https://smashinglogo.com)* to design logo, i
 
 ### Python Modules
 
-- Django Class based views
+- `models.Model`: A base class for defining database models in Django.
+- `forms.ModelForm`: A class for creating forms based on database models in Django.
+- `views.View`: A base class for defining views in Django.
+- `views.TemplateView`: A class for rendering templates in Django.
+- `views.ListView`: A class displaying a list of objects in Django.
+- `views.DetailView`: A class for displaying details of a single object in Django.
+- `views.CreateView`: A class for creating new objects in Django.
+- `views.UpdateView`: A class for updating existing objects in Django.
+- `views.DeleteView`: A class for deleting existing objects in Django.
+- `mixins.LoginRequiredMixin`: A mixin class requiring a login to access views in Django.
+- `mixins.UserPassesTestMixin`: A mixin class for testing if a user is authorized to access views in Django.
 
 ### External Python Modules
 
