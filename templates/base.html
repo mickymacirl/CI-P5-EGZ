@@ -71,7 +71,7 @@
                             {% if request.user.is_authenticated %}
                             <p class="dropdown-item mb-0"><strong>Username:</strong> {{ request.user.username }}</p>
                             <p class="dropdown-item mb-0"><strong>Access
-                                    Level:</strong>{% if request.user.is_superuser %}Admin{% else %}User{% endif %}</p>
+                                    Level: </strong>{% if request.user.is_superuser %}Admin{% else %}User{% endif %}</p>
                             {% if request.user.is_superuser %}
                             <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                             <a href="{% url 'add_post' %}" class="dropdown-item">Post Management</a>{% endif %}
