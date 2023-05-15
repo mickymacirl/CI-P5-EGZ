@@ -34,6 +34,11 @@ body {
     min-height: 100vh;
   }
 
+  .center-container {
+    display: flex;
+    justify-content: center;
+}
+
 /* drop down menu shadow */
 .dropdown-menu {
     animation: slide-down 0.3s ease;
