@@ -63,6 +63,7 @@ This was my fifth project for the Code Institute's [Full Stack Software Developm
     - [Register Page](#register-page)
     - [Login Page](#login-page)
     - [Verify Email Page](#verify-email-page)
+    - [Confirm Email Page](#confirm-email-page)
     - [Logout Page](#logout-page)
     - [Forgot Password Page](#forgot-password-page)
     - [Change Password Page](#change-password-page)
@@ -576,6 +577,14 @@ Defensive Application programming techniques were utilized in the development of
 ![Ver 1](./docs/readme/verrm.jpg)
 
 ![Ver 2](./docs/readme/ver1rm.jpg)
+
+### Confirm Email Page
+
+![Confirm 1](./docs/readme/confirmrm.jpg)
+
+![Confirm 2](./docs/readme/confirm1rm.jpg)
+
+![Confirm 3](./docs/readme/confirm2rm.jpg)
 
 ### Logout Page
 
