@@ -1,6 +1,8 @@
 from django.db import models
 
 
+# This is a Django model class for creating categories with a name and
+# optional friendly name.
 class Category(models.Model):
     class Meta:
         verbose_name_plural = "Categories"
@@ -15,6 +17,9 @@ class Category(models.Model):
         return self.friendly_name
 
 
+# This is a Product model class with various fields such as category,
+# sku, name, description, size_options, price, rating,
+# image_url, and image.
 class Product(models.Model):
     category = models.ForeignKey(
         "Category", null=True, blank=True, on_delete=models.SET_NULL
