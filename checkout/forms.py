@@ -22,7 +22,8 @@ class OrderForm(forms.ModelForm):
         Add placeholders and classes, remove auto-generated
         labels and set autofocus on first field
         """
-        # This is the `__init__` method of the `OrderForm` class, which is a subclass of `forms.ModelForm`.
+        # This is the `__init__` method of the `OrderForm` class, which is a 
+        # subclass of `forms.ModelForm`.
         super().__init__(*args, **kwargs)
         placeholders = {
             "full_name": "Full Name",
@@ -36,8 +37,8 @@ class OrderForm(forms.ModelForm):
             "county": "County",
         }
 
-        # This code block is customizing the appearance and behavior of the form fields in the `OrderForm`
-        # class.
+        # This code block is customizing the appearance and behavior of the 
+        # form fields in the `OrderForm` class.
         self.fields["full_name"].widget.attrs["autofocus"] = True
         for field in self.fields:
             if self.fields[field].required:
