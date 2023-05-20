@@ -27,12 +27,16 @@ class UserProfile(models.Model):
 @receiver(post_save, sender=User)
 def create_or_update_user_profile(sender, instance, created, **kwargs):
     """
-    This is a function that creates or updates a user profile when a user is created or updated.
+    This is a function that creates or updates a user profile
+    when a user is created or updated.
     :param sender: The model class that triggered the signal
-    :param instance: The instance parameter refers to the instance of the model that triggered the
-    signal. In this case, it refers to the user profile model instance that was created or updated
-    :param created: The "created" parameter is a boolean value that indicates whether a new instance of
-    the model was created or an existing instance was updated. It is set to True if a new instance was
+    :param instance: The instance parameter refers to the instance of the
+    model that triggered the signal. In this case, it refers to the user
+    profile model instance that was created or updated
+    :param created: The "created" parameter is a boolean value that indicates
+    whether a new instance of
+    the model was created or an existing instance was updated. It is set to
+    True if a new instance was
     created and False if an existing instance was updated
     """
     """

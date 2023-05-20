@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-ALLOWED_HOSTS = ['ci-p5-egz.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-mickymacirl-cip5egz-kcqbptsz352.ws-eu97.gitpod.io', 'ci-p5-egz.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -206,6 +206,7 @@ if 'USE_AWS' in os.environ:
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
 # Stripe
+# These are settings for the Django project.
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
