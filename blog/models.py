@@ -4,7 +4,8 @@ from django.db import models
 from django.urls import reverse
 
 
-# This is a Django model class for a blog post with fields for title, author, body, and creation date.
+# This is a Django model class for a blog post with fields for title, author, 
+# body, and creation date.
 class Post(models.Model):
     title = models.CharField(max_length=255)
     author = models.ForeignKey(User, on_delete=models.CASCADE)

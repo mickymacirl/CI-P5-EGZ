@@ -19,7 +19,9 @@ def subscribe(request):
             email = form.cleaned_data["email"]
             if Subscriber.objects.filter(email=email).exists():
                 # email already exists, do something
-                return render(request, "newsletter/already_subscribed.html", {})
+                return render(
+                    request, "newsletter/already_subscribed.html", {}
+                    )
             else:
                 subscriber = Subscriber.objects.create(email=email)
                 subscriber.save()

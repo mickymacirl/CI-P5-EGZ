@@ -50,13 +50,15 @@ class Order(models.Model):
         max_digits=10, decimal_places=2, null=False, default=0
     )
     original_cart = models.TextField(null=False, blank=False, default="")
-    stripe_pid = models.CharField(max_length=254, null=False, blank=False, default="")
+    stripe_pid = models.CharField(
+        max_length=254, null=False, blank=False, default=""
+        )
 
     def _generate_order_number(self):
         """
-        return uuid.uuid4().hex.upper()` is generating a random, unique 
+        return uuid.uuid4().hex.upper()` is generating a random, unique
         order number using UUID
-        (Universally Unique Identifier) and converting it to a hexadecimal 
+        (Universally Unique Identifier) and converting it to a hexadecimal
         string in uppercase format.
         """
         return uuid.uuid4().hex.upper()
@@ -123,7 +125,7 @@ class OrderLineItem(models.Model):
 
     def save(self, *args, **kwargs):
         """
-        This function overrides the original save method to set the lineitem 
+        This function overrides the original save method to set the lineitem
         total and update the order total.
         """
         self.lineitem_total = self.product.price * self.quantity
@@ -131,10 +133,10 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         """
-        This function returns a string representation of an order with its 
+        This function returns a string representation of an order with its
         associated product SKU.
-        :return: The `__str__` method is returning a string that includes the 
-        SKU of a product and the order number it is associated with. The 
+        :return: The `__str__` method is returning a string that includes the
+        SKU of a product and the order number it is associated with. The
         format of the string is "SKU {product_sku} on order
         {order_number}".
         """

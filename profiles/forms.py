@@ -2,6 +2,8 @@ from django import forms
 from .models import UserProfile
 
 
+# This is a form class for user profile with customized placeholders, classes,
+# and labels.
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile

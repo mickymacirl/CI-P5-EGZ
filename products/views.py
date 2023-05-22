@@ -40,9 +40,11 @@ def all_products(request):
         if "q" in request.GET:
             query = request.GET["q"]
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request, "You didn't enter search criteria!")
                 return redirect(reverse("products"))
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | Q(
+                description__icontains=query
+                )
             products = products.filter(queries)
 
     current_sorting = f"{sort}_{direction}"
@@ -56,7 +58,7 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """
-    This is a view function that retrieves and displays the details of a 
+    This is a view function that retrieves and displays the details of a
     specific product.
     :param request: The HTTP request object that contains information about
     the current request, such as
@@ -94,7 +96,7 @@ def add_product(request):
             return redirect(reverse("product_detail", args=[product.id]))
         else:
             messages.error(
-                request, "Failed to add product. Please ensure the form is valid."
+                request, "Failed to add product. Ensure the form is valid."
             )
     else:
         form = ProductForm()
@@ -123,7 +125,7 @@ def edit_product(request, product_id):
         else:
             messages.error(
                 request,
-                "Failed product update. Please make sure the form is filled in.",
+                "Failed product update. Make sure the form is filled in.",
             )
     else:
         form = ProductForm(instance=product)
@@ -142,7 +144,9 @@ def edit_product(request, product_id):
 def delete_product(request, product_id):
     """Delete a product from the store"""
     if not request.user.is_superuser:
-        messages.error(request, "Error, username is restricted to that action.")
+        messages.error(
+            request, "Error, username is restricted to that action."
+            )
         return redirect(reverse("home"))
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
