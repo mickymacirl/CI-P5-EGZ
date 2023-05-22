@@ -6,7 +6,7 @@ def contact(request):
     """
     This function handles a contact form submission and saves
     the data if it is valid, then renders a thank you page
-    or the contact page with the form.  
+    or the contact page with the form.
     :param request: The request object represents the HTTP request
     that the user made to access the view. It contains information
     about the request, such as the HTTP method used (GET, POST, etc.),
