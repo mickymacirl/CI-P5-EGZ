@@ -524,6 +524,7 @@ Check Out Page
 ![HTML Validator Checkout](./docs/readme/html3rm.png)
 
 Blog Page
+
 ![HTML Validator Blog](./docs/readme/html4rm.png)
 
 Reviews Page
