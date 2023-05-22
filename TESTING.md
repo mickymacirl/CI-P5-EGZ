@@ -507,13 +507,35 @@ Because of the django structure - directing language code used in the HTML files
 To test the file validation, open the page to be checked, right-click, and select View Page Source from the menu that appears.
 Because of validator will only accept HTML rendered code, paste the raw HTML code into it.
 
+Index Page
+
 ![HTML Validator Index](./docs/readme/htmlrm.png)
+
+Products Page
+
 ![HTML Validator Products](./docs/readme/html1rm.png)
+
+Shopping Cart Page
+
 ![HTML Validator Cart](./docs/readme/html2rm.png)
+
+Check Out Page
+
 ![HTML Validator Checkout](./docs/readme/html3rm.png)
+
+Blog Page
 ![HTML Validator Blog](./docs/readme/html4rm.png)
+
+Reviews Page
+
 ![HTML Validator Reviews](./docs/readme/html5rm.png)
+
+Newsletter Page
+
 ![HTML Validator Newsletter](./docs/readme/html6rm.png)
+
+Delivery Page
+
 ![HTML Validator Delivery](./docs/readme/html7rm.png)
 
 ## Lighthouse Testing
