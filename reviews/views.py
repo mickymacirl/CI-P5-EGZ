@@ -45,4 +45,6 @@ def approved_reviews(request):
     such as the HTTP method used (GET, POST, etc.), the
     """
     reviews = Review.objects.filter(approved=True)
-    return render(request, 'reviews/approved_reviews.html', {'reviews': reviews})
+    return render(
+        request, 'reviews/approved_reviews.html', {'reviews': reviews}
+        )
