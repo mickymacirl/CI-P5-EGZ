@@ -490,9 +490,12 @@ All pages were run through the *[CI Pep8 Validator](https://pep8ci.herokuapp.com
 
 Errors were displayed as a result of blank spacing and overly long lines.
 
-All of these errors were corrected, with the exception of the some of the variables in python files.
+All of these errors were corrected, with the exception of a few of the settings file.
 
 ![CI Pep8 Result](./docs/readme/pythonrm.jpg)
+![CI Pep8 Result1](./docs/readme/python1rm.jpg)
+![CI Pep8 Result2](./docs/readme/python2rm.jpg)
+![CI Pep8 Result3](./docs/readme/python3rm.jpg)
 
 ## HTML
 
@@ -504,7 +507,14 @@ Because of the django structure - directing language code used in the HTML files
 To test the file validation, open the page to be checked, right-click, and select View Page Source from the menu that appears.
 Because of validator will only accept HTML rendered code, paste the raw HTML code into it.
 
-![HTML Validator](./docs/readme/htmlrm.png)
+![HTML Validator Index](./docs/readme/htmlrm.png)
+![HTML Validator Products](./docs/readme/html1rm.png)
+![HTML Validator Cart](./docs/readme/html2rm.png)
+![HTML Validator Checkout](./docs/readme/html3rm.png)
+![HTML Validator Blog](./docs/readme/html4rm.png)
+![HTML Validator Reviews](./docs/readme/html5rm.png)
+![HTML Validator Newsletter](./docs/readme/html6rm.png)
+![HTML Validator Delivery](./docs/readme/html7rm.png)
 
 ## Lighthouse Testing
 
